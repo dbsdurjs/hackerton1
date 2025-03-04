@@ -1,0 +1,27 @@
+1. Dreambooth 모델 학습
+- Real Dataset에서 추출(camouflate_soldier_dataset/train/images)
+    - class_dir_exp : 200장 이미지(prior preservation loss)
+    - data_dir : 각각 서로 다른 5개씩 이미지를 가진 총 6개의 모델을 학습
+    - saved_results_exp : 모델의 학습 결과 저장
+
+- sampling_camouflage_soldier_exp : 학습 후 sampling 된 생성 이미지(1800장 이미지)
+
+2. 적록색맹 이미지 변환(sampling_exp)
+    - rg_blindness_camouflage_soldier : 적록색맹 이미지 (900장 이미지)
+    - camouflage_soldier : 생성 이미지 (900장 이미지)
+
+3. 위장 군인이 아닌 데이터 셋 생성
+- Landscape Classification에서 추출(Landscape Classification/Training Data/Forest)
+    - 2000장 이미지
+
+4. 학습 데이터 셋 생성
+- train_dataset
+    - camouflage_soldier : 실제 이미지(700장) + 생성 이미지(1800장)
+    - non_soldier : 3번 이미지(2000장)
+
+5. ensemble 모델 학습
+- 학습 데이터로 ensemble 모델 학습
+
+6. 모델 테스트
+
+7. CORS 알고리즘 실행 및 테스트
