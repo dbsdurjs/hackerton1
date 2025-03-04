@@ -50,6 +50,5 @@ class EarlyStopping:
         if self.verbose:
             self.trace_func(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
         os.makedirs(self.path, exist_ok=True)
-        for i, model in enumerate(models):
-            torch.save(model.state_dict(), f'{self.path}/model_{i+1}.pt')
+        torch.save(models.state_dict(), f'{self.path}/model.pt')
         self.val_loss_min = val_loss

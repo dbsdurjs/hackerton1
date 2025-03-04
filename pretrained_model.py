@@ -102,7 +102,7 @@ def generate_model():
     densenet121 = models.densenet121(weights=models.DenseNet121_Weights.DEFAULT)
     convnext_tiny = models.convnext_tiny(weights=models.ConvNeXt_Tiny_Weights.DEFAULT)
 
-    ensemble_model_list = [resnet50, vgg16, mobilenet_v2, densenet121, convnext_tiny]
-    ensemble_model = [get_pretrained_model(model) for model in ensemble_model_list]
+    ensemble_model_list = resnet50
+    ensemble_model = get_pretrained_model(ensemble_model_list)
 
     return ensemble_model

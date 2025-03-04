@@ -19,16 +19,16 @@ s_target_path = '../test_dataset/camouflage_soldier'
 path = [test_root_path, non_soldier_path, real_soldier_path, n_target_path, s_target_path]
 test_loader, _ = make_dataset(path, method="test")
 
-checkpoint_dir = 'loss_and_accuracy/main result'
+checkpoint_dir = '../loss_and_accuracy'
 detect_model = YOLO("../yolov8x.pt")
 
 #모델 로드
 def load_ensemble_models(ensemble_model, device):
     models = ensemble_model
-    for i, model in enumerate(models):
-        model.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'model_{i+1}.pt')))
-        model.to(device)
-        model.eval()
+    models.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'model.pt')))
+    models.to(device)
+    models.eval()
+
     return models
 
 def f1_score_cal(tp, fp, fn):
@@ -210,13 +210,12 @@ def predict_image(models, device):
                 
                 norm = torchvision.transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # yolo모델은 normalize 입력을 받지 않음, 따로 normalize 해주기
                 ensemble_input = norm(inputs)
-                ensemble_output = torch.stack([model(ensemble_input) for model in models], dim=0)   # torch.Size([5, 16, 1])
-                ensemble_output = torch.mean(ensemble_output, dim=0)    # torch.Size([16, 1])
+                output = models(ensemble_input)   # torch.Size([5, 16, 1])
                 
-                loss = criterion(ensemble_output, targets)
+                loss = criterion(output, targets)
                 c_test_loss += loss.item()
 
-                prob = torch.sigmoid(ensemble_output)
+                prob = torch.sigmoid(output)
                 predicted = prob > classification_threshold   # 군인인지 아닌지
                 
                 classification_measurement = cls_measure(predicted, targets.item(), classification_measurement)  # classification vs classification + object detection
@@ -394,11 +393,10 @@ def CORS(inputs, models, detect_model, case, threshold):
             
             with torch.no_grad():
                 norm = torchvision.transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # yolo모델은 normalize 입력을 받지 않음, 따로 normalize 해주기
-                ensemble_input = norm(inputs)
+                input = norm(inputs)
                 
-                ensemble_output = torch.stack([model(ensemble_input) for model in models], dim=0)
-                ensemble_output = torch.mean(ensemble_output, dim=0)
-                prob = torch.sigmoid(ensemble_output)
+                output = models(input)
+                prob = torch.sigmoid(output)
                 predicted = prob > threshold
                 
                 if predicted.item():
