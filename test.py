@@ -8,18 +8,22 @@ from dataset import make_dataset
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, f1_score
 from ultralytics import YOLO
+from yolo_utils import *
+import json
 
 non_soldier_path = "../Landscape Classification/Landscape Classification/Validation Data"
 real_soldier_path = "../camouflage_soldier_dataset/Testing"
 test_root_path = "../test_dataset"
 
-n_target_path = '../test_dataset/non_soldier'
-s_target_path = '../test_dataset/camouflage_soldier'
+n_target_path = '../bbox_dataset/test/non_soldier'
+s_target_path = '../bbox_dataset/test/camouflage_soldier'
+
+labels_folder = '../bbox_dataset/test/labels'
 
 path = [test_root_path, non_soldier_path, real_soldier_path, n_target_path, s_target_path]
 test_loader, _ = make_dataset(path, method="test")
 
-checkpoint_dir = 'loss_and_accuracy/main result'
+checkpoint_dir = '../loss_and_accuracy/main result'
 detect_model = YOLO("../yolov8x.pt")
 
 #모델 로드
@@ -96,8 +100,8 @@ def plot_f1_threshold(tp_list_before, fp_list_before, fn_list_before, tn_list_be
     plt.figure(figsize=(12, 8))
     
     # F1 스코어 그래프
-    plt.plot(thresholds, f1_scores_before, marker='o', label='Before cors', color='blue', linewidth=2)
-    plt.plot(thresholds, f1_scores_after, marker='o', label='After cors', color='red', linewidth=2)
+    plt.plot(thresholds, f1_scores_before, marker='o', label='Before cora', color='blue', linewidth=2)
+    plt.plot(thresholds, f1_scores_after, marker='o', label='After cora', color='red', linewidth=2)
     
     plt.xlabel('Threshold', fontweight='bold')
     plt.ylabel('F1 Score', fontweight='bold')
@@ -111,10 +115,10 @@ def plot_f1_threshold(tp_list_before, fp_list_before, fn_list_before, tn_list_be
     
     # # Precision과 Recall 그래프 (같은 그래프에 표시)
     # plt.figure(figsize=(10, 6))
-    # plt.plot(thresholds, precision_before, marker='o', label='Precision Before cors', color='blue', linestyle='--')
-    # plt.plot(thresholds, recall_before, marker='o', label='Recall Before cors', color='blue', linestyle='-')
-    # plt.plot(thresholds, precision_after, marker='o', label='Precision After cors', color='red', linestyle='--')
-    # plt.plot(thresholds, recall_after, marker='o', label='Recall After cors', color='red', linestyle='-')
+    # plt.plot(thresholds, precision_before, marker='o', label='Precision Before cora', color='blue', linestyle='--')
+    # plt.plot(thresholds, recall_before, marker='o', label='Recall Before cora', color='blue', linestyle='-')
+    # plt.plot(thresholds, precision_after, marker='o', label='Precision After cora', color='red', linestyle='--')
+    # plt.plot(thresholds, recall_after, marker='o', label='Recall After cora', color='red', linestyle='-')
     
     # plt.xlabel('Threshold')
     # plt.ylabel('Score')
@@ -126,8 +130,8 @@ def plot_f1_threshold(tp_list_before, fp_list_before, fn_list_before, tn_list_be
 
     # # Accuracy 그래프
     # plt.figure(figsize=(10, 6))
-    # plt.plot(thresholds, accuracy_before, marker='o', label='Accuracy Before cors', color='blue', linestyle='-')
-    # plt.plot(thresholds, accuracy_after, marker='o', label='Accuracy After cors', color='red', linestyle='-')
+    # plt.plot(thresholds, accuracy_before, marker='o', label='Accuracy Before cora', color='blue', linestyle='-')
+    # plt.plot(thresholds, accuracy_after, marker='o', label='Accuracy After cora', color='red', linestyle='-')
     
     # plt.xlabel('Threshold')
     # plt.ylabel('Accuracy')
@@ -185,27 +189,49 @@ def predict_image(models, device):
     errors = []
     
     while True:
-        if od_threshold > 0.6:
+        
+        if od_threshold > 0.6 : 
             break
-
-        cors_before = {'r_t_cls_od_t' : 0, 'r_f_cls_od_t' : 0, 'r_t_cls_t_od_f' : 0, 'r_t_cls_f_od_t' : 0, 
+        cora_before = {'r_t_cls_od_t' : 0, 'r_f_cls_od_t' : 0, 'r_t_cls_t_od_f' : 0, 'r_t_cls_f_od_t' : 0, 
                     'r_f_cls_t_od_f' : 0, 'r_f_cls_f_od_t' : 0, 'r_t_cls_od_f' : 0, 'r_f_cls_od_f' : 0}
-        cors_after = {'r_t_cls_od_t' : 0, 'r_f_cls_od_t' : 0, 'r_t_cls_t_od_f' : 0, 'r_t_cls_f_od_t' : 0, 
+        cora_after = {'r_t_cls_od_t' : 0, 'r_f_cls_od_t' : 0, 'r_t_cls_t_od_f' : 0, 'r_t_cls_f_od_t' : 0, 
                     'r_f_cls_t_od_f' : 0, 'r_f_cls_f_od_t' : 0, 'r_t_cls_od_f' : 0, 'r_f_cls_od_f' : 0}
 
         # classification vs classification + object detection
         classification_measurement = {'r_t_cls_t' : 0, 'r_f_cls_t' : 0, 'r_t_cls_f' : 0, 'r_f_cls_f' : 0}  
         
-        tp = {'cors_before' : 0, 'cors_after' : 0}
-        fp = {'cors_before' : 0, 'cors_after' : 0}
-        fn = {'cors_before' : 0, 'cors_after' : 0}
-        tn = {'cors_before' : 0, 'cors_after' : 0}
-        
-        for idx, (inputs, labels) in enumerate(test_loader):
+        tp = {'cora_before' : 0, 'cora_after' : 0}
+        fp = {'cora_before' : 0, 'cora_after' : 0}
+        fn = {'cora_before' : 0, 'cora_after' : 0}
+        tn = {'cora_before' : 0, 'cora_after' : 0}
+
+        result_json = []
+        for idx, (inputs, labels, img_path) in enumerate(test_loader):
+            img_path = img_path[0]
+            inputs, labels = inputs.to(device), labels.to(device)
+
+            before_result_json = {
+                'before img': img_path.split('/')[-1],
+                'classification_prediction': 0,
+                'classification_conf': 0,
+                'classification_threshold': 0,
+                'detection_conf': 0,
+                'detection_threshold': 0,
+                'detection_iou': 0
+            }
+
+            after_result_json = {
+                'after img': img_path.split('/')[-1],
+                'classification_prediction': 0,
+                'classification_conf': 0,
+                'classification_threshold': 0,
+                'detection_conf': 0,
+                'detection_threshold': 0,
+                'detection_iou': 0
+            }
             improve = 0
             err = 0
             with torch.no_grad():
-                inputs, labels = inputs.to(device), labels.to(device)
                 targets = labels.float().unsqueeze(1)
                 
                 norm = torchvision.transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # yolo모델은 normalize 입력을 받지 않음, 따로 normalize 해주기
@@ -230,115 +256,183 @@ def predict_image(models, device):
                 
                 detect_result = detect_model.predict(inputs, classes=0, conf=od_threshold, verbose=False)  #nomalize 안된 이미지 입력
                 box_prob = detect_result[0].boxes.conf
+                box_coor = detect_result[0].boxes.xyxy
 
                 if box_prob.numel() == 0:   # object detection - False
+                    before_result_json['classification_prediction'] = predicted.tolist()
+                    before_result_json['classification_conf'] = prob.tolist()
+                    before_result_json['classification_threshold'] = classification_threshold
+
+                    before_result_json['detection_iou'] = 0
+                    before_result_json['detection_conf'] = box_prob.tolist()
+                    before_result_json['detection_threshold'] = od_threshold
+
                     if predicted:   #Classification - True, Object detection - False
                         if targets.item(): # 실제 true, cls_true, od_false
-                            cors_before['r_t_cls_t_od_f'] += 1
+                            cora_before['r_t_cls_t_od_f'] += 1
                             improve += 1
                         else:   # 실제 false, cls_true, od_false
-                            cors_before['r_f_cls_t_od_f'] += 1
+                            cora_before['r_f_cls_t_od_f'] += 1
                             err += 1
                             
-                        # CORS 적용
-                        box_prob = CORS(inputs, models, detect_model, case='ct_odf', threshold=od_threshold)
+                        # cora 적용
+                        box_prob, box_coor, detect_result, threshold = cora(inputs, models, detect_model, case='ct_odf', threshold=od_threshold)
 
                         if box_prob.numel() >= 1:
+                            gt_norm_box = load_gt_box(img_path, labels_folder)
+                            if not gt_norm_box:  # 리스트가 비어 있으면
+                                print(f"{img_path}: GT 파일이 없으므로 IoU 계산을 건너뜁니다.")
+                                continue
+                            gt_box = [yolo_norm_to_xyxy(gt_norm_box[0], 640, 640)]
+                            max_ious = []
+                            for pred in box_coor:
+                                ious = [compute_iou(pred, gt) for gt in gt_box]
+                                max_iou = max(ious) if ious else 0
+                                max_ious.append(max_iou.item())
+                                print(f'{img_path}, iou:{max_iou}')
+
+                            after_result_json['classification_prediction'] = predicted.tolist()
+                            after_result_json['classification_conf'] = prob.tolist()
+                            after_result_json['classification_threshold'] = classification_threshold
+
+                            after_result_json['detection_iou'] = max_ious
+                            after_result_json['detection_conf'] = box_prob.item()
+                            after_result_json['detection_threshold'] = threshold
+
+                            detect_result[0].save(filename= f'../runs/{img_path.split('/')[-1]}')
+
                             if targets.item():  # cls_true, od_true, 실제 true(개선된 경우)
-                                cors_after['r_t_cls_od_t'] += 1
+                                cora_after['r_t_cls_od_t'] += 1
                                 if improve and od_threshold == 0.6:
                                     improvments.append(test_loader.dataset.dataset.imgs[idx][0])
                             else:  # cls_true, od_true, 실제 false
-                                cors_after['r_f_cls_od_t'] += 1
+                                cora_after['r_f_cls_od_t'] += 1
                                 if err and od_threshold == 0.6:
                                     errors.append(test_loader.dataset.dataset.imgs[idx][0])
                         else:   # cls_true, od_false
                             box_prob = torch.zeros(1)
                             if targets.item():  # cls_true, od_false, 실제 true
-                                cors_after['r_t_cls_t_od_f'] += 1
+                                cora_after['r_t_cls_t_od_f'] += 1
                             else:  # cls_true, od_false, 실제 false
-                                cors_after['r_f_cls_t_od_f'] += 1
+                                cora_after['r_f_cls_t_od_f'] += 1
 
                     elif not predicted and not targets.item(): # cls_false, od_false, 실제 false
-                        cors_before['r_f_cls_od_f'] += 1
+                        cora_before['r_f_cls_od_f'] += 1
                     elif not predicted and targets.item():  # cls_false, od_false, 실제 true
-                        cors_before['r_t_cls_od_f'] += 1
+                        cora_before['r_t_cls_od_f'] += 1
                         
                 elif box_prob.numel() >= 1: # object detection - True
+                    gt_norm_box = load_gt_box(img_path, labels_folder)
+                    if not gt_norm_box:  # 리스트가 비어 있으면
+                        print(f"{img_path}: GT 파일이 없으므로 IoU 계산을 건너뜁니다.")
+                        continue
+                    gt_box = [yolo_norm_to_xyxy(gt_norm_box[0], 640, 640)]
+                    max_ious = []
+                    for pred in box_coor:
+                        ious = [compute_iou(pred, gt) for gt in gt_box]
+                        max_iou = max(ious) if ious else 0
+                        max_ious.append(max_iou.item())
+                        print(f'{img_path}, iou:{max_iou}')
+
+                    before_result_json['classification_prediction'] = predicted.tolist()
+                    before_result_json['classification_conf'] = prob.tolist()
+                    before_result_json['classification_threshold'] = classification_threshold
+
+                    before_result_json['detection_iou'] = max_ious
+                    before_result_json['detection_conf'] = box_prob.tolist()
+                    before_result_json['detection_threshold'] = od_threshold
+
+                    detect_result[0].save(filename= f'../runs/{img_path.split('/')[-1]}')
                     box_prob = torch.max(box_prob).unsqueeze(0)
+
                     if not predicted:   #Classification - False, Object detection - True
                         if targets.item():  #Classification - False, Object detection - True, 실제 true
-                            cors_before['r_t_cls_f_od_t'] += 1
+                            cora_before['r_t_cls_f_od_t'] += 1
                             improve += 1
                             # r_t_cls_f_od_t.append(test_loader.dataset.dataset.imgs[idx][0])
                         else:
-                            cors_before['r_f_cls_f_od_t'] += 1
+                            cora_before['r_f_cls_f_od_t'] += 1
                             err += 1
                             
-                        # CORS 적용
-                        is_soldier, soldier_prob = CORS(inputs, models, detect_model, case='odt_cf', threshold=classification_threshold)
+                        # cora 적용
+                        is_soldier, soldier_prob, _, threshold = cora(inputs, models, detect_model, case='odt_cf', threshold=classification_threshold)
+                        
+                        after_result_json['classification_prediction'] = is_soldier.tolist()
+                        after_result_json['classification_conf'] = soldier_prob.tolist()
+                        after_result_json['classification_threshold'] = threshold
+
+                        after_result_json['detection_iou'] = max_ious
+                        after_result_json['detection_conf'] = box_prob.tolist()
+                        after_result_json['detection_threshold'] = od_threshold
+
                         if is_soldier:
                             if targets.item() and improve:  # cls_true, od_true, 실제 true
-                                cors_after['r_t_cls_od_t'] += 1
+                                cora_after['r_t_cls_od_t'] += 1
                                 if improve and od_threshold == 0.6:
                                     improvments.append(test_loader.dataset.dataset.imgs[idx][0])
                             else:  # cls_true, od_true, 실제 false
-                                cors_after['r_f_cls_od_t'] += 1
+                                cora_after['r_f_cls_od_t'] += 1
                                 if err and od_threshold == 0.6:
                                     errors.append(test_loader.dataset.dataset.imgs[idx][0])
                         else:   # cls_false, od_true
                             if targets.item():  # cls_false, od_true, 실제 true
-                                cors_after['r_t_cls_f_od_t'] += 1
+                                cora_after['r_t_cls_f_od_t'] += 1
                             else:  # cls_false, od_true, 실제 false
-                                cors_after['r_f_cls_f_od_t'] += 1
+                                cora_after['r_f_cls_f_od_t'] += 1
                             
                     elif predicted and targets.item():  # cls_true, od_true, 실제 true
-                        cors_before['r_t_cls_od_t'] += 1
+                        cora_before['r_t_cls_od_t'] += 1
                     elif predicted and not targets.item():  # cls_true, od_true, 실제 false
-                        cors_before['r_f_cls_od_t'] += 1
+                        cora_before['r_f_cls_od_t'] += 1
                 od_predictions.extend(box_prob.cpu().numpy())
-            
-        cors_after['r_t_cls_od_f'] = cors_before['r_t_cls_od_f']
-        cors_after['r_f_cls_od_t'] += cors_before['r_f_cls_od_t']
-        cors_after['r_t_cls_od_t'] += cors_before['r_t_cls_od_t']
-        cors_after['r_f_cls_od_f'] = cors_before['r_f_cls_od_f']
+                result_json.append(before_result_json)
+                result_json.append(after_result_json)
+                print(result_json)
+
+        with open('results.json', 'w') as f:
+            json.dump(result_json, f, indent=4)
+
+        cora_after['r_t_cls_od_f'] = cora_before['r_t_cls_od_f']
+        cora_after['r_f_cls_od_t'] += cora_before['r_f_cls_od_t']
+        cora_after['r_t_cls_od_t'] += cora_before['r_t_cls_od_t']
+        cora_after['r_f_cls_od_f'] = cora_before['r_f_cls_od_f']
         
-        tp['cors_before'] = cors_before['r_t_cls_od_t']
-        fp['cors_before'] = cors_before['r_f_cls_od_t'] + cors_before['r_f_cls_t_od_f'] + cors_before['r_f_cls_f_od_t']
-        fn['cors_before'] = cors_before['r_t_cls_od_f'] + cors_before['r_t_cls_t_od_f'] + cors_before['r_t_cls_f_od_t']
-        tn['cors_before'] = cors_before['r_f_cls_od_f']
+        tp['cora_before'] = cora_before['r_t_cls_od_t']
+        fp['cora_before'] = cora_before['r_f_cls_od_t'] + cora_before['r_f_cls_t_od_f'] + cora_before['r_f_cls_f_od_t']
+        fn['cora_before'] = cora_before['r_t_cls_od_f'] + cora_before['r_t_cls_t_od_f'] + cora_before['r_t_cls_f_od_t']
+        tn['cora_before'] = cora_before['r_f_cls_od_f']
         
-        tp['cors_after'] = cors_after['r_t_cls_od_t']
-        fp['cors_after'] = cors_after['r_f_cls_od_t'] + cors_after['r_f_cls_t_od_f'] + cors_after['r_f_cls_f_od_t']
-        fn['cors_after'] = cors_after['r_t_cls_od_f'] + cors_after['r_t_cls_t_od_f'] + cors_after['r_t_cls_f_od_t']
-        tn['cors_after'] = cors_after['r_f_cls_od_f']
+        tp['cora_after'] = cora_after['r_t_cls_od_t']
+        fp['cora_after'] = cora_after['r_f_cls_od_t'] + cora_after['r_f_cls_t_od_f'] + cora_after['r_f_cls_f_od_t']
+        fn['cora_after'] = cora_after['r_t_cls_od_f'] + cora_after['r_t_cls_t_od_f'] + cora_after['r_t_cls_f_od_t']
+        tn['cora_after'] = cora_after['r_f_cls_od_f']
         
-        save_dict_to_txt('cors_before', cors_before, threshold={'cls_threshold' : classification_threshold, 'od_threshold' : od_threshold})
-        save_dict_to_txt('cors_after', cors_after, threshold={'cls_threshold' : classification_threshold, 'od_threshold' : od_threshold})
+        save_dict_to_txt('cora_before', cora_before, threshold={'cls_threshold' : classification_threshold, 'od_threshold' : od_threshold})
+        save_dict_to_txt('cora_after', cora_after, threshold={'cls_threshold' : classification_threshold, 'od_threshold' : od_threshold})
         # save_dict_to_txt('classifcation_measurement', classification_measurement, threshold={'cls_threshold' : classification_threshold, 'od_threshold' : od_threshold})
         
-        before_tp_list.append(tp['cors_before'])
-        before_fp_list.append(fp['cors_before'])
-        before_fn_list.append(fn['cors_before'])
-        before_tn_list.append(tn['cors_before'])
+        before_tp_list.append(tp['cora_before'])
+        before_fp_list.append(fp['cora_before'])
+        before_fn_list.append(fn['cora_before'])
+        before_tn_list.append(tn['cora_before'])
         
-        after_tp_list.append(tp['cors_after'])
-        after_fp_list.append(fp['cors_after'])
-        after_fn_list.append(fn['cors_after'])
-        after_tn_list.append(tn['cors_after'])
+        after_tp_list.append(tp['cora_after'])
+        after_fp_list.append(fp['cora_after'])
+        after_fn_list.append(fn['cora_after'])
+        after_tn_list.append(tn['cora_after'])
         
-        _, _, cors_before_f1_score, _ = calculate_metrics(tp['cors_before'], fp['cors_before'], fn['cors_before'], tn['cors_before'])
-        _, _, cors_after_f1_score, _ = calculate_metrics(tp['cors_after'], fp['cors_after'], fn['cors_after'], tn['cors_after'])
+        _, _, cora_before_f1_score, _ = calculate_metrics(tp['cora_before'], fp['cora_before'], fn['cora_before'], tn['cora_before'])
+        _, _, cora_after_f1_score, _ = calculate_metrics(tp['cora_after'], fp['cora_after'], fn['cora_after'], tn['cora_after'])
         _, _, cls_f1_score, _ = calculate_metrics(classification_measurement["r_t_cls_t"], classification_measurement["r_f_cls_t"], classification_measurement["r_t_cls_f"], classification_measurement["r_f_cls_f"])
 
         for key in before_f1_score_result_od.keys():
             if str(od_threshold) == key:
-                before_f1_score_result_od[key] = cors_before_f1_score
+                before_f1_score_result_od[key] = cora_before_f1_score
                 thresholds.append(key)
         
         for key in after_f1_score_result_od.keys():
             if str(od_threshold) == key:
-                after_f1_score_result_od[key] = cors_after_f1_score
+                after_f1_score_result_od[key] = cora_after_f1_score
                 
         od_threshold = round(od_threshold + 0.05, 2)
 
@@ -347,8 +441,8 @@ def predict_image(models, device):
     
     plot_f1_threshold(before_tp_list, before_fp_list, before_fn_list, before_tn_list, 
                       after_tp_list, after_fp_list, after_fn_list, after_tn_list, thresholds)
-    print(f'before cors f1 score {before_f1_score_result_od}')
-    print(f'after cors f1 score {after_f1_score_result_od}')
+    print(f'before cora f1 score {before_f1_score_result_od}')
+    print(f'after cora f1 score {after_f1_score_result_od}')
     print(f'cls f1 score {cls_f1_score}')
 
     # Classification 정확도
@@ -380,15 +474,15 @@ def testing(device):
     
     predict_image(loaded_models, device)
     
-def CORS(inputs, models, detect_model, case, threshold):
+def cora(inputs, models, detect_model, case, threshold):
 
-    # CORS 알고리즘
+    # cora 알고리즘
     while True:
         if case == 'odt_cf':  # classification False, object detection True
             if threshold > 0.1:
                 threshold = round(threshold - 0.1, 2)
             elif threshold <= 0.01:
-                return predicted.item(), prob.item()
+                return predicted, prob, _, threshold
             else:
                 threshold = round(threshold - 0.01, 2)
             
@@ -402,23 +496,28 @@ def CORS(inputs, models, detect_model, case, threshold):
                 predicted = prob > threshold
                 
                 if predicted.item():
-                    return predicted.item(), prob.item()
+                    return predicted, prob, _, threshold
 
         elif case == 'ct_odf':    # classification True, object detection False
             if threshold > 0.1:
                 threshold = round(threshold - 0.1, 2)
             elif threshold <= 0.01:
-                return box_prob
+                return box_prob, box_coor, detect_result, threshold
             else:
                 threshold = round(threshold - 0.01, 2)
 
             detect_result = detect_model.predict(inputs, classes=0, conf=threshold, verbose=False)  #nomalize 안된 이미지 입력
             box_prob = detect_result[0].boxes.conf
-            
+            box_coor = detect_result[0].boxes.xyxy
+
+            if box_coor.numel == 0:
+                box_coor = None
+
             if box_prob.numel() == 1: # object detection 1명 탐지
                 box_prob = box_prob
-                return box_prob
+                return box_prob, box_coor, detect_result, threshold
             
             elif box_prob.numel() >= 1:   # object detection 여러 명 탐지(max 값 적용)
                 box_prob = torch.max(box_prob).unsqueeze(0)
-                return box_prob
+                return box_prob, box_coor, detect_result, threshold
+        

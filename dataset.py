@@ -18,8 +18,9 @@ class BinaryClassificationDataset(Dataset):
         image, label = self.dataset[idx]
         # 위장 군인 클래스의 인덱스를 1로, 나머지는 0으로 변환
         binary_label = 1 if self.dataset.classes[label] == 'camouflage_soldier' else 0
+        image_path = self.dataset.samples[idx][0]
 
-        return image, binary_label
+        return image, binary_label, image_path
 
 def create_bagging_datasets(dataset, num_subsets=5, subset_size=None):
     if subset_size is None:

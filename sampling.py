@@ -12,13 +12,13 @@ def sampling_func():
         pipeline = StableDiffusionPipeline.from_pretrained(f"yoon6173/result_soldier{k+1}", torch_dtype=torch.float16).to("cuda")
         unique_identifier = unique_identifiers[k]
         
-        prompt_list = [ f"photo of camouflaged {unique_identifier} soldier hiding the large tree in forest",
+        prompt_list = [ f"photo of camouflaged {unique_identifier} soldier hiding the large tree in forest", # 1
                         f"Photo of camouflaged {unique_identifier} soldier sitting quietly, almost indistinguishable from the surroundings in a dense forest scene.",
                         f"Photo of camouflaged {unique_identifier} soldier crouched subtly among dense undergrowth and tall trees in an expansive woodland setting.",
                         f"Photo of camouflaged {unique_identifier} soldier lying low, viewed from above for a bird’s-eye perspective, naturally blending into the environment.",
-                        f"Photo of realistic camouflaged {unique_identifier} soldier behind the brown bushes with wide distance viewpoint, blending naturally with the background.",
-                        f"Photo of realistic camouflaged {unique_identifier} soldier hiding motionless with wide distance viewpoint in a dense, shadowy forest, blending seamlessly and naturally into the environment, shot from a slightly elevated angle.",
-                        f"Photo of camouflaged {unique_identifier} soldier crouching low within various textures of leaves, branches, and shadows, naturally concealed, with wide distance viewpoint",
+                        f"Photo of camouflaged {unique_identifier} soldier behind the brown bushes with wide distance viewpoint, blending naturally with the background.", # 2
+                        f"Photo of  camouflaged {unique_identifier} soldier hiding motionless with wide distance viewpoint in a dense, shadowy forest, blending seamlessly and naturally into the environment, shot from a slightly elevated angle.",
+                        f"Photo of camouflaged {unique_identifier} soldier crouching low within various textures of leaves, branches, and shadows, naturally concealed, with wide distance viewpoint", # 3
                         f"Photo of camouflaged {unique_identifier} soldier lying prone in a serene woodland, blending naturally into the background, captured from a distant side angle with wide distance viewpoint.",
                         f"Photo of camouflaged {unique_identifier} soldier hidden filled with trees, bushes, and natural elements, nearly undetectable while lying flat, blending naturally with the surroundings and wide distance viewpoint.",
                         f"Photo of camouflaged {unique_identifier} soldier in a forest environment filled with intricate natural details, viewed from a wide perspective.",
