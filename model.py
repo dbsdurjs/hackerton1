@@ -4,12 +4,6 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 from early_stopping import *
 from pretrained_model import *
 
-def init_weights(m):
-    if isinstance(m, nn.Conv2d) or isinstance(m, nn.Linear):
-        nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
-        if m.bias is not None:
-            nn.init.constant_(m.bias, 0)
-
 def train_ensemble(train_loader, val_loader, device):
     # 모든 모델 인스턴스화
     models = generate_model()
@@ -21,17 +15,13 @@ def train_ensemble(train_loader, val_loader, device):
     ensemble_val_losses = []
     ensemble_val_accuracy = []
 
-    # 가중치 초기화 적용
-    for model in models:
-        model.apply(init_weights)
-
     # 각 모델에 대한 옵티마이저 생성
     optimizers = [optim.Adam(model.parameters(), lr=1e-4) for model in models]  #1e-4
     schedulers = [ReduceLROnPlateau(opt, 'min', patience=5, factor=0.5) for opt in optimizers]  # 학습률 스케줄러 추가
 
     # 손실 함수
     criterion = nn.BCEWithLogitsLoss().to(device)
-    es = EarlyStopping(patience=7, verbose=True, delta=0.001, path='./loss_and_accuracy')
+    es = EarlyStopping(patience=5, verbose=True, delta=0.001, path='../loss_and_accuracy')
 
     # 학습 루프
     num_epochs = 100
@@ -49,7 +39,7 @@ def train_ensemble(train_loader, val_loader, device):
             bag_loss = 0.0
             bag_total = 0
             bag_correct = 0
-            for inputs, labels in bag_loader:
+            for inputs, labels, _ in bag_loader:
                 inputs = inputs.to(device)
                 labels = labels.to(device)
                 targets = labels.float().unsqueeze(1)
@@ -77,8 +67,8 @@ def train_ensemble(train_loader, val_loader, device):
             train_accuracy = 100 * train_correct / train_total
             train_loss /= len(bag_loader)  # 평균 손실 계산
 
-        for scheduler in schedulers:
-            scheduler.step(train_loss)
+        # for scheduler in schedulers:
+        #     scheduler.step(train_loss)
 
         ensemble_train_losses.append(train_loss)
         ensemble_train_accuracy.append(train_accuracy)
@@ -91,7 +81,7 @@ def train_ensemble(train_loader, val_loader, device):
             for model in models:
                 model.eval()
 
-            for inputs, labels in val_loader:
+            for inputs, labels, _ in val_loader:
                 inputs = inputs.to(device)
                 labels = labels.to(device)
                 targets = labels.float().unsqueeze(1)

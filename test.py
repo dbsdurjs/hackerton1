@@ -23,7 +23,7 @@ labels_folder = '../bbox_dataset/test/labels'
 path = [test_root_path, non_soldier_path, real_soldier_path, n_target_path, s_target_path]
 test_loader, _ = make_dataset(path, method="test")
 
-checkpoint_dir = '../loss_and_accuracy/main result'
+checkpoint_dir = '../loss_and_accuracy'
 detect_model = YOLO("../yolov8x.pt")
 
 #모델 로드
@@ -387,7 +387,6 @@ def predict_image(models, device):
                 od_predictions.extend(box_prob.cpu().numpy())
                 result_json.append(before_result_json)
                 result_json.append(after_result_json)
-                print(result_json)
 
         with open('results.json', 'w') as f:
             json.dump(result_json, f, indent=4)
