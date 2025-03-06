@@ -29,10 +29,9 @@ detect_model = YOLO("../yolov8x.pt")
 #모델 로드
 def load_ensemble_models(ensemble_model, device):
     models = ensemble_model
-    for i, model in enumerate(models):
-        model.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'model_{i+1}.pt')))
-        model.to(device)
-        model.eval()
+    models.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'models.pt')))
+    models.to(device)
+    models.eval()
     return models
 
 def f1_score_cal(tp, fp, fn):
@@ -235,14 +234,13 @@ def predict_image(models, device):
                 targets = labels.float().unsqueeze(1)
                 
                 norm = torchvision.transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # yolo모델은 normalize 입력을 받지 않음, 따로 normalize 해주기
-                ensemble_input = norm(inputs)
-                ensemble_output = torch.stack([model(ensemble_input) for model in models], dim=0)   # torch.Size([5, 16, 1])
-                ensemble_output = torch.mean(ensemble_output, dim=0)    # torch.Size([16, 1])
+                input = norm(inputs)
+                output = models(input)
                 
-                loss = criterion(ensemble_output, targets)
+                loss = criterion(output, targets)
                 c_test_loss += loss.item()
 
-                prob = torch.sigmoid(ensemble_output)
+                prob = torch.sigmoid(output)
                 predicted = prob > classification_threshold   # 군인인지 아닌지
                 
                 classification_measurement = cls_measure(predicted, targets.item(), classification_measurement)  # classification vs classification + object detection
@@ -489,9 +487,8 @@ def cora(inputs, models, detect_model, case, threshold):
                 norm = torchvision.transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # yolo모델은 normalize 입력을 받지 않음, 따로 normalize 해주기
                 ensemble_input = norm(inputs)
                 
-                ensemble_output = torch.stack([model(ensemble_input) for model in models], dim=0)
-                ensemble_output = torch.mean(ensemble_output, dim=0)
-                prob = torch.sigmoid(ensemble_output)
+                output = models(ensemble_input)
+                prob = torch.sigmoid(output)
                 predicted = prob > threshold
                 
                 if predicted.item():

@@ -7,7 +7,7 @@ from pretrained_model import *
 def train_ensemble(train_loader, val_loader, device):
     # 모든 모델 인스턴스화
     models = generate_model()
-    models = [model.to(device) for model in models]
+    models = models.to(device)
 
     # 손실을 저장할 리스트
     ensemble_train_losses = []
@@ -16,8 +16,8 @@ def train_ensemble(train_loader, val_loader, device):
     ensemble_val_accuracy = []
 
     # 각 모델에 대한 옵티마이저 생성
-    optimizers = [optim.Adam(model.parameters(), lr=1e-4) for model in models]  #1e-4
-    schedulers = [ReduceLROnPlateau(opt, 'min', patience=5, factor=0.5) for opt in optimizers]  # 학습률 스케줄러 추가
+    optimizers = optim.Adam(models.parameters(), lr=1e-4)
+    schedulers = ReduceLROnPlateau(optimizers, 'min', patience=5, factor=0.5)
 
     # 손실 함수
     criterion = nn.BCEWithLogitsLoss().to(device)
@@ -28,8 +28,7 @@ def train_ensemble(train_loader, val_loader, device):
     print('use bagging')
 
     for epoch in range(num_epochs):
-        for model in models:
-            model.train()
+        models.train()
 
         train_loss = 0.0
         train_total = 0
@@ -45,8 +44,8 @@ def train_ensemble(train_loader, val_loader, device):
                 targets = labels.float().unsqueeze(1)
 
                 # i번째 모델로 예측
-                optimizers[i].zero_grad()
-                outputs = models[i](inputs)
+                optimizers.zero_grad()
+                outputs = models(inputs)
                 loss = criterion(outputs, targets)
                 bag_loss += loss.item()
 
@@ -57,7 +56,7 @@ def train_ensemble(train_loader, val_loader, device):
 
                 # 역전파 및 최적화
                 loss.backward()
-                optimizers[i].step()
+                optimizers.step()
 
             # 각 bag의 loss와 정확도를 전체에 더함
             train_loss += bag_loss
@@ -78,21 +77,19 @@ def train_ensemble(train_loader, val_loader, device):
         val_total = 0
 
         with torch.no_grad():
-            for model in models:
-                model.eval()
+            models.eval()
 
             for inputs, labels, _ in val_loader:
                 inputs = inputs.to(device)
                 labels = labels.to(device)
                 targets = labels.float().unsqueeze(1)
 
-                outputs = [model(inputs) for model in models]
-                ensemble_output = torch.mean(torch.stack(outputs), dim=0)
+                outputs = models(inputs)
 
-                loss = criterion(ensemble_output, targets)
+                loss = criterion(outputs, targets)
                 val_loss += loss.item()
 
-                predicted = (torch.sigmoid(ensemble_output) > 0.5).float()
+                predicted = (torch.sigmoid(outputs) > 0.5).float()
                 val_total += len(targets)   #targets.size(0)
                 val_correct += (predicted == targets).float().sum().item()
 
@@ -103,8 +100,7 @@ def train_ensemble(train_loader, val_loader, device):
         ensemble_val_accuracy.append(val_accuracy)
 
         # 학습률 조정
-        for scheduler in schedulers:
-            scheduler.step(val_loss)
+        schedulers.step(val_loss)
 
         es.__call__(val_loss, models)
         if es.early_stop:

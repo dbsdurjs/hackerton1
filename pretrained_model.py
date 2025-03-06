@@ -115,13 +115,13 @@ def get_pretrained_model(model_name, num_classes=1):
 
 def generate_model():
     # 사전 학습된 모델 불러오기
-    resnet50 = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
+    resnet18 = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
     vgg16 = models.vgg16(weights=models.VGG16_Weights.DEFAULT)
     mobilenet_v2 = models.mobilenet_v2(weights=models.MobileNet_V2_Weights.DEFAULT)
     densenet121 = models.densenet121(weights=models.DenseNet121_Weights.DEFAULT)
     convnext_tiny = models.convnext_tiny(weights=models.ConvNeXt_Tiny_Weights.DEFAULT)
 
-    ensemble_model_list = [resnet50, vgg16, mobilenet_v2, densenet121, convnext_tiny]
-    ensemble_model = [get_pretrained_model(model) for model in ensemble_model_list]
+    ensemble_model_list = resnet18
+    ensemble_model = get_pretrained_model(ensemble_model_list)
 
     return ensemble_model

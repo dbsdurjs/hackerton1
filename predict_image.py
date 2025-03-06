@@ -22,9 +22,8 @@ def predict_image(image_path, models, transform, device, threshold):
     image = transform(image).unsqueeze(0).to(device)
 
     with torch.no_grad():
-        outputs = [model(image) for model in models]
-        ensemble_output = torch.mean(torch.stack(outputs), dim=0)
-        probability = torch.sigmoid(ensemble_output)
+        outputs = models(image)
+        probability = torch.sigmoid(outputs)
         predicted = probability > threshold
 
     return predicted.item(), probability.item()
