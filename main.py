@@ -26,8 +26,8 @@ if __name__ == "__main__":
         device = torch.device('cpu')
 
     # 데이터 셋 생성 및 모델 훈련, 평가
-    # num_epochs = training(device)
+    num_epochs = training(device)
 
     # 테스트
-    testing(device)
+    # testing(device)
     
