@@ -29,11 +29,14 @@ detect_model = YOLO("../yolov8x.pt")
 #모델 로드
 def load_ensemble_models(ensemble_model, device):
     models = ensemble_model
-    for i, model in enumerate(models):
-        model.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'model_{i+1}.pt')))
+    # 모델 순서에 맞춰 불러올 파일명을 지정합니다.
+    file_names = ['Resnet_models.pt', 'Dense_models.pt']
+    for model, file_name in zip(models, file_names):
+        model.load_state_dict(torch.load(os.path.join(checkpoint_dir, file_name)))
         model.to(device)
         model.eval()
     return models
+
 
 def f1_score_cal(tp, fp, fn):
     # Precision과 Recall 계산
