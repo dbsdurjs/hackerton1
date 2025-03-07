@@ -3,7 +3,8 @@ from dataset import *
 from sampling import *
 from convert_rg_blindness import *
 from model import *
-from pretrained_model import *
+# from pretrained_model import *
+from ensemble_model import *
 from show_graph import show_graphs
 import sys
 
@@ -14,8 +15,8 @@ synthesis_soldier_path = "../sampling_exp"   # 적록색맹 적용
 
 # train_root_path = "./train_dataset_wo_rg(exp)" # 최종 데이터 셋 저장 경로, 적록색맹 데이터 미포함(test1)
 # train_root_path = "./train_dataset_wo_real(exp)" # 최종 데이터 셋 저장 경로, 실제 데이터 미포함(test2)
-# train_root_path = "./train_dataset_wo_syn(exp)" # 최종 데이터 셋 저장 경로, 생성 데이터 미포함
-train_root_path = "../train_dataset_refine-tuning" # 최종 데이터 셋 저장 경로, 재 생성(dreambooth)
+train_root_path = "../train_dataset_wo_syn(exp)" # 최종 데이터 셋 저장 경로, 생성 데이터 미포함
+# train_root_path = "../train_dataset_refine-tuning" # 최종 데이터 셋 저장 경로, 재 생성(dreambooth)
 
 non_soldier_target_path = os.path.join(train_root_path, 'non_soldier')  # 최종 데이터 셋 저장 경로
 soldier_target_path = os.path.join(train_root_path, 'camouflage_soldier')    # 최종 데이터 셋 저장 경로

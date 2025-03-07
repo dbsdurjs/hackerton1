@@ -2,6 +2,14 @@ import torch
 import torch.nn as nn
 import torchvision.models as models
 
+
+# 가중치 초기화 함수 (nn.Conv2d와 nn.Linear에 대해 적용)
+def init_weights(m):
+    if isinstance(m, nn.Conv2d) or isinstance(m, nn.Linear):
+        nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+        if m.bias is not None:
+            nn.init.constant_(m.bias, 0)
+
 # 기본 모델 생성 클래스
 def get_pretrained_model(model_name, num_classes=1):
     if isinstance(model_name, models.ResNet):
@@ -21,6 +29,7 @@ def get_pretrained_model(model_name, num_classes=1):
             nn.Linear(64, num_classes)
 
         )
+
     elif isinstance(model_name, models.VGG):
         model_name.classifier[6] = nn.Sequential(
             nn.Linear(model_name.classifier[6].in_features, 512),

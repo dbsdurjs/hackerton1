@@ -1,6 +1,6 @@
 from model import *
 from convert_rg_blindness import *
-from pretrained_model import *
+from ensemble_model import *
 import csv, cv2, torchvision
 import pandas as pd
 from show_graph import show_graphs
@@ -23,7 +23,7 @@ labels_folder = '../bbox_dataset/test/labels'
 path = [test_root_path, non_soldier_path, real_soldier_path, n_target_path, s_target_path]
 test_loader, _ = make_dataset(path, method="test")
 
-checkpoint_dir = '../loss_and_accuracy/main result'
+checkpoint_dir = '../loss_and_accuracy'
 detect_model = YOLO("../yolov8x.pt")
 
 #모델 로드
@@ -387,7 +387,6 @@ def predict_image(models, device):
                 od_predictions.extend(box_prob.cpu().numpy())
                 result_json.append(before_result_json)
                 result_json.append(after_result_json)
-                print(result_json)
 
         with open('results.json', 'w') as f:
             json.dump(result_json, f, indent=4)
@@ -475,7 +474,6 @@ def testing(device):
     predict_image(loaded_models, device)
     
 def cora(inputs, models, detect_model, case, threshold):
-
     # cora 알고리즘
     while True:
         if case == 'odt_cf':  # classification False, object detection True
@@ -487,9 +485,10 @@ def cora(inputs, models, detect_model, case, threshold):
                 threshold = round(threshold - 0.01, 2)
             
             with torch.no_grad():
+                resize = torchvision.transforms.Resize(size=(224, 224)) # 적정 이미지 사이즈로 변환
                 norm = torchvision.transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])   # yolo모델은 normalize 입력을 받지 않음, 따로 normalize 해주기
+                inputs = resize(inputs)
                 ensemble_input = norm(inputs)
-                
                 ensemble_output = torch.stack([model(ensemble_input) for model in models], dim=0)
                 ensemble_output = torch.mean(ensemble_output, dim=0)
                 prob = torch.sigmoid(ensemble_output)

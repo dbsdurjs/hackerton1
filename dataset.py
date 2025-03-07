@@ -113,9 +113,9 @@ def make_dataset(path, method="train"):
         train_data, val_data = random_split(dataset, [train_ratio, val_ratio])
 
         train_subsets = create_bagging_datasets(train_data, num_subsets=5)
-        data_loader = [DataLoader(subset, batch_size=16, shuffle=True, num_workers=4, pin_memory=True, drop_last=True)
+        data_loader = [DataLoader(subset, batch_size=20, shuffle=True, num_workers=4, pin_memory=True, drop_last=True)
                          for subset in train_subsets]
-        val_loader = DataLoader(val_data, batch_size=16, shuffle=False, num_workers=4, pin_memory=True, drop_last=True)
+        val_loader = DataLoader(val_data, batch_size=20, shuffle=False, num_workers=4, pin_memory=True, drop_last=True)
 
     elif method == "test":
         data_loader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=4, pin_memory=True,
