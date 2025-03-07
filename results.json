@@ -17,7 +17,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.45948168635368347
+            0.45948460698127747
         ]
     },
     {
@@ -43,11 +43,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9193464517593384
+            0.9193463325500488
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.5866523385047913
+            0.5866550803184509
         ]
     },
     {
@@ -89,10 +89,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5031446814537048,
+        "detection_conf": 0.5031540989875793,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.4971434473991394
+            0.4971429109573364
         ]
     },
     {
@@ -113,7 +113,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6573269367218018
+            0.6573296189308167
         ]
     },
     {
@@ -143,7 +143,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.8041082620620728
+            0.8041071891784668
         ]
     },
     {
@@ -169,11 +169,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9398829936981201
+            0.9398831129074097
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6890332698822021
+            0.6890336275100708
         ]
     },
     {
@@ -199,11 +199,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9579184651374817
+            0.9579185843467712
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.8791362643241882
+            0.879141628742218
         ]
     },
     {
@@ -229,11 +229,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8713584542274475
+            0.8713592886924744
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.3759055435657501
+            0.3759068548679352
         ]
     },
     {
@@ -275,10 +275,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15282762050628662,
+        "detection_conf": 0.15282854437828064,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.3073749840259552
+            0.30737555027008057
         ]
     },
     {
@@ -363,10 +363,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4840529263019562,
+        "detection_conf": 0.48405247926712036,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.47632086277008057
+            0.47632601857185364
         ]
     },
     {
@@ -428,7 +428,7 @@
         "detection_conf": 0.4798175096511841,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.41567525267601013
+            0.41567373275756836
         ]
     },
     {
@@ -461,10 +461,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04559697210788727,
+        "detection_conf": 0.0455964021384716,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.6880834102630615
+            0.6880772113800049
         ]
     },
     {
@@ -575,10 +575,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.26030728220939636,
+        "detection_conf": 0.2603064477443695,
         "detection_threshold": 0.2,
         "detection_iou": [
-            0.011024978943169117
+            0.011020205914974213
         ]
     },
     {
@@ -663,11 +663,11 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.1481197327375412,
+        "detection_conf": 0.14811907708644867,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.5963767170906067,
-            0.3887682259082794
+            0.5963772535324097,
+            0.3887699246406555
         ]
     },
     {
@@ -756,10 +756,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.19314514100551605,
+        "detection_conf": 0.1931445598602295,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.5620434880256653
+            0.5620396137237549
         ]
     },
     {
@@ -792,10 +792,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.03137516230344772,
+        "detection_conf": 0.03137485682964325,
         "detection_threshold": 0.03,
         "detection_iou": [
-            0.24278567731380463
+            0.2427835464477539
         ]
     },
     {
@@ -854,10 +854,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.062000662088394165,
+        "detection_conf": 0.062001101672649384,
         "detection_threshold": 0.06,
         "detection_iou": [
-            0.7737097144126892
+            0.7737109065055847
         ]
     },
     {
@@ -916,10 +916,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.49196574091911316,
+        "detection_conf": 0.49196457862854004,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.7352686524391174
+            0.7352628111839294
         ]
     },
     {
@@ -1040,10 +1040,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.14579766988754272,
+        "detection_conf": 0.14579631388187408,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.7234419584274292
+            0.7234392166137695
         ]
     },
     {
@@ -1086,11 +1086,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7093912363052368
+            0.7093908786773682
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6474632024765015
+            0.647469162940979
         ]
     },
     {
@@ -1102,16 +1102,16 @@
         ],
         "classification_conf": [
             [
-                0.02544441446661949
+                0.025441458448767662
             ]
         ],
         "classification_threshold": 0.02,
         "detection_conf": [
-            0.7093912363052368
+            0.7093908786773682
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6474632024765015
+            0.647469162940979
         ]
     },
     {
@@ -1170,10 +1170,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.18036797642707825,
+        "detection_conf": 0.18036015331745148,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.6413564682006836
+            0.6413550972938538
         ]
     },
     {
@@ -1206,10 +1206,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.11030112951993942,
+        "detection_conf": 0.11030557006597519,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.4046633839607239
+            0.40465933084487915
         ]
     },
     {
@@ -1226,11 +1226,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.920378565788269
+            0.9203784465789795
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.8232764005661011
+            0.8232802748680115
         ]
     },
     {
@@ -1256,11 +1256,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8801690936088562
+            0.8801686763763428
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6875311732292175
+            0.6875369548797607
         ]
     },
     {
@@ -1442,11 +1442,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8630134463310242
+            0.8630157709121704
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.5638437867164612
+            0.563843846321106
         ]
     },
     {
@@ -1488,10 +1488,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.012938340194523335,
+        "detection_conf": 0.012938352301716805,
         "detection_threshold": 0.01,
         "detection_iou": [
-            0.8618460893630981
+            0.8618462681770325
         ]
     },
     {
@@ -1524,10 +1524,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.05438430607318878,
+        "detection_conf": 0.05438421294093132,
         "detection_threshold": 0.05,
         "detection_iou": [
-            0.6463372707366943
+            0.6463272571563721
         ]
     },
     {
@@ -1612,10 +1612,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.2337665855884552,
+        "detection_conf": 0.23376624286174774,
         "detection_threshold": 0.2,
         "detection_iou": [
-            0.3594297468662262
+            0.359449177980423
         ]
     },
     {
@@ -1674,12 +1674,12 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.2975900173187256,
+        "detection_conf": 0.29758983850479126,
         "detection_threshold": 0.2,
         "detection_iou": [
-            0.27820152044296265,
+            0.2781919836997986,
             0.15840673446655273,
-            0.4629913568496704
+            0.46298784017562866
         ]
     },
     {
@@ -1782,7 +1782,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6826915144920349
+            0.6826922297477722
         ]
     },
     {
@@ -1824,10 +1824,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.19979210197925568,
+        "detection_conf": 0.19979386031627655,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.8004171848297119
+            0.8004216551780701
         ]
     },
     {
@@ -1938,10 +1938,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4980428218841553,
+        "detection_conf": 0.4980429410934448,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.5995336174964905
+            0.5995252728462219
         ]
     },
     {
@@ -1977,7 +1977,7 @@
         "detection_conf": 0.15551237761974335,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.8391615152359009
+            0.8391677737236023
         ]
     },
     {
@@ -1994,7 +1994,7 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8257784843444824,
+            0.8257789015769958,
             0.8230279088020325
         ],
         "detection_threshold": 0.6,
@@ -2012,12 +2012,12 @@
         ],
         "classification_conf": [
             [
-                1.150800471805269e-06
+                1.15102545805712e-06
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.8257784843444824
+            0.8257789015769958
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -2055,10 +2055,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.13892722129821777,
+        "detection_conf": 0.1389279067516327,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.4499943256378174
+            0.44999560713768005
         ]
     },
     {
@@ -2169,10 +2169,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4906140863895416,
+        "detection_conf": 0.49061453342437744,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.4462994337081909
+            0.44628995656967163
         ]
     },
     {
@@ -2189,11 +2189,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6943185329437256
+            0.6943167448043823
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6626734733581543
+            0.6626851558685303
         ]
     },
     {
@@ -2219,11 +2219,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9206616878509521
+            0.9206615686416626
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.9093457460403442
+            0.9093493819236755
         ]
     },
     {
@@ -2275,11 +2275,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8627329468727112
+            0.8627356886863708
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7544809579849243
+            0.7544807195663452
         ]
     },
     {
@@ -2591,7 +2591,7 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.1363069862127304,
+        "detection_conf": 0.13630568981170654,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.0
@@ -2611,11 +2611,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9200603365898132
+            0.9200597405433655
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7650521397590637
+            0.7650492191314697
         ]
     },
     {
@@ -2735,10 +2735,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.20690327882766724,
+        "detection_conf": 0.20690485835075378,
         "detection_threshold": 0.2,
         "detection_iou": [
-            0.7171557545661926
+            0.7171533703804016
         ]
     },
     {
@@ -2755,11 +2755,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8291501998901367
+            0.829160213470459
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7661275267601013
+            0.7661288976669312
         ]
     },
     {
@@ -2771,16 +2771,16 @@
         ],
         "classification_conf": [
             [
-                2.6616013201419264e-05
+                2.6614721718942747e-05
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.8291501998901367
+            0.829160213470459
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7661275267601013
+            0.7661288976669312
         ]
     },
     {
@@ -3109,10 +3109,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.158590167760849,
+        "detection_conf": 0.15859028697013855,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.5582024455070496
+            0.5582046508789062
         ]
     },
     {
@@ -3223,10 +3223,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.027511034160852432,
+        "detection_conf": 0.027510996907949448,
         "detection_threshold": 0.02,
         "detection_iou": [
-            0.18254788219928741
+            0.1825486123561859
         ]
     },
     {
@@ -3311,10 +3311,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.053403787314891815,
+        "detection_conf": 0.053403906524181366,
         "detection_threshold": 0.05,
         "detection_iou": [
-            0.26291805505752563
+            0.2629132568836212
         ]
     },
     {
@@ -3347,10 +3347,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.0195311289280653,
+        "detection_conf": 0.019531071186065674,
         "detection_threshold": 0.01,
         "detection_iou": [
-            0.8995178937911987
+            0.8995109796524048
         ]
     },
     {
@@ -3461,10 +3461,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.32147592306137085,
+        "detection_conf": 0.3214769661426544,
         "detection_threshold": 0.3,
         "detection_iou": [
-            0.9061319828033447
+            0.9061354994773865
         ]
     },
     {
@@ -3523,10 +3523,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15261153876781464,
+        "detection_conf": 0.15261216461658478,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.7254551649093628
+            0.7254539132118225
         ]
     },
     {
@@ -3585,10 +3585,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.01040994469076395,
+        "detection_conf": 0.01041062269359827,
         "detection_threshold": 0.01,
         "detection_iou": [
-            0.8345115780830383
+            0.8345090746879578
         ]
     },
     {
@@ -3712,7 +3712,7 @@
         "detection_conf": 0.5940972566604614,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.6664794683456421
+            0.6664804220199585
         ]
     },
     {
@@ -3781,11 +3781,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8413713574409485
+            0.8413692712783813
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.5725306272506714
+            0.5725303888320923
         ]
     },
     {
@@ -3879,10 +3879,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.022755222395062447,
+        "detection_conf": 0.022755200043320656,
         "detection_threshold": 0.02,
         "detection_iou": [
-            0.6937451958656311
+            0.6937358975410461
         ]
     },
     {
@@ -3941,10 +3941,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.20306497812271118,
+        "detection_conf": 0.20306482911109924,
         "detection_threshold": 0.2,
         "detection_iou": [
-            0.7608466744422913
+            0.7608468532562256
         ]
     },
     {
@@ -3977,10 +3977,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04529578611254692,
+        "detection_conf": 0.04529576748609543,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.7651960849761963
+            0.76519376039505
         ]
     },
     {
@@ -4013,10 +4013,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.029109038412570953,
+        "detection_conf": 0.029107945039868355,
         "detection_threshold": 0.02,
         "detection_iou": [
-            0.8334354162216187
+            0.8334276080131531
         ]
     },
     {
@@ -4101,10 +4101,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.034220535308122635,
+        "detection_conf": 0.03422052785754204,
         "detection_threshold": 0.03,
         "detection_iou": [
-            0.5491057634353638
+            0.5491041541099548
         ]
     },
     {
@@ -4163,7 +4163,7 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.12712019681930542,
+        "detection_conf": 0.12712007761001587,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.0
@@ -4199,10 +4199,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04630072042346001,
+        "detection_conf": 0.04630047082901001,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.7746481895446777
+            0.7746648192405701
         ]
     },
     {
@@ -4323,7 +4323,7 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04547945782542229,
+        "detection_conf": 0.04547923058271408,
         "detection_threshold": 0.04,
         "detection_iou": [
             0.0
@@ -4411,10 +4411,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4507061541080475,
+        "detection_conf": 0.4507051110267639,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.7058225274085999
+            0.7058165073394775
         ]
     },
     {
@@ -4587,10 +4587,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.25617942214012146,
+        "detection_conf": 0.2561812400817871,
         "detection_threshold": 0.2,
         "detection_iou": [
-            0.05825551971793175
+            0.05825699493288994
         ]
     },
     {
@@ -4626,7 +4626,7 @@
         "detection_conf": 0.04885376989841461,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.6823970079421997
+            0.6823909878730774
         ]
     },
     {
@@ -4659,10 +4659,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.015482577495276928,
+        "detection_conf": 0.015485848300158978,
         "detection_threshold": 0.01,
         "detection_iou": [
-            0.6207563281059265,
+            0.6207634806632996,
             0.0
         ]
     },
@@ -5124,7 +5124,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7017402052879333
+            0.7017427086830139
         ]
     },
     {
@@ -5136,7 +5136,7 @@
         ],
         "classification_conf": [
             [
-                0.02309153415262699
+                0.023096363991498947
             ]
         ],
         "classification_threshold": 0.02,
@@ -5145,7 +5145,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7017402052879333
+            0.7017427086830139
         ]
     },
     {
@@ -5241,10 +5241,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.033288754522800446,
+        "detection_conf": 0.03328873962163925,
         "detection_threshold": 0.03,
         "detection_iou": [
-            0.6283169388771057
+            0.6283178329467773
         ]
     },
     {
@@ -5417,11 +5417,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6378810405731201
+            0.6378904581069946
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7494184970855713
+            0.7494184374809265
         ]
     },
     {
@@ -5544,7 +5544,7 @@
         "detection_conf": 0.43667224049568176,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.56708163022995
+            0.5670804977416992
         ]
     },
     {
@@ -5655,10 +5655,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04122215136885643,
+        "detection_conf": 0.04122215881943703,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.16388101875782013
+            0.16387924551963806
         ]
     },
     {
@@ -5821,10 +5821,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4212646782398224,
+        "detection_conf": 0.4212630093097687,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.5854865312576294
+            0.5854841470718384
         ]
     },
     {
@@ -5841,11 +5841,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8977968692779541
+            0.8977946639060974
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.3417467176914215
+            0.3417477607727051
         ]
     },
     {
@@ -6161,10 +6161,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.08655475080013275,
+        "detection_conf": 0.08655791729688644,
         "detection_threshold": 0.08,
         "detection_iou": [
-            0.6969406008720398
+            0.6969353556632996
         ]
     },
     {
@@ -6181,11 +6181,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7578368782997131
+            0.7578384876251221
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.43166157603263855
+            0.43165794014930725
         ]
     },
     {
@@ -6305,10 +6305,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.10390178859233856,
+        "detection_conf": 0.10391603410243988,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.5821928977966309
+            0.582183301448822
         ]
     },
     {
@@ -6389,11 +6389,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7538395524024963
+            0.7538370490074158
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7703120112419128
+            0.7703167200088501
         ]
     },
     {
@@ -6405,16 +6405,16 @@
         ],
         "classification_conf": [
             [
-                4.834131323150359e-05
+                4.8359659558627754e-05
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.7538395524024963
+            0.7538370490074158
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7703120112419128
+            0.7703167200088501
         ]
     },
     {
@@ -6800,10 +6800,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5162526369094849,
+        "detection_conf": 0.5162523984909058,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.7012155652046204
+            0.70122230052948
         ]
     },
     {
@@ -6914,7 +6914,7 @@
         ],
         "classification_conf": [
             [
-                0.017730941995978355
+                0.017728310078382492
             ]
         ],
         "classification_threshold": 0.01,
@@ -6958,7 +6958,7 @@
         ],
         "classification_conf": [
             [
-                0.014526708982884884
+                0.014526210725307465
             ]
         ],
         "classification_threshold": 0.01,
@@ -7053,10 +7053,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.1285812258720398,
+        "detection_conf": 0.1285809576511383,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.3880515992641449
+            0.3880484104156494
         ]
     },
     {
@@ -7177,10 +7177,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04568657651543617,
+        "detection_conf": 0.04568677395582199,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.9569028615951538
+            0.9569073915481567
         ]
     },
     {
@@ -7216,7 +7216,7 @@
         "detection_conf": 0.42168691754341125,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.77093106508255
+            0.770933210849762
         ]
     },
     {
@@ -7301,10 +7301,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.587785542011261,
+        "detection_conf": 0.5877898931503296,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.764755368232727
+            0.7647424936294556
         ]
     },
     {
@@ -7321,11 +7321,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6066155433654785
+            0.6066381931304932
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7599098086357117
+            0.7599111795425415
         ]
     },
     {
@@ -7902,7 +7902,7 @@
         "detection_conf": 0.33074939250946045,
         "detection_threshold": 0.3,
         "detection_iou": [
-            0.7564278244972229
+            0.7564287781715393
         ]
     },
     {
@@ -7982,11 +7982,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8898029923439026
+            0.8898033499717712
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6801024079322815
+            0.6801019310951233
         ]
     },
     {
@@ -7998,16 +7998,16 @@
         ],
         "classification_conf": [
             [
-                2.4140210230089165e-12
+                2.4106712719768053e-12
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.8898029923439026
+            0.8898033499717712
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6801024079322815
+            0.6801019310951233
         ]
     },
     {
@@ -8155,7 +8155,7 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.3502142131328583,
+        "detection_conf": 0.35019707679748535,
         "detection_threshold": 0.3,
         "detection_iou": [
             0.0
@@ -8191,7 +8191,7 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.14624804258346558,
+        "detection_conf": 0.14623957872390747,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.0
@@ -8237,11 +8237,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6533050537109375
+            0.653298020362854
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7368378639221191
+            0.7368360161781311
         ]
     },
     {
@@ -8293,11 +8293,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.640076220035553
+            0.6400768756866455
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6934747695922852
+            0.6934807300567627
         ]
     },
     {
@@ -8446,7 +8446,7 @@
         "detection_conf": 0.09156034886837006,
         "detection_threshold": 0.09,
         "detection_iou": [
-            0.32580411434173584
+            0.325804203748703
         ]
     },
     {
@@ -8489,11 +8489,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8537770509719849
+            0.8537766933441162
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7042188048362732
+            0.7042168378829956
         ]
     },
     {
@@ -8682,7 +8682,7 @@
         "detection_conf": 0.4915280342102051,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.4122428596019745
+            0.412244975566864
         ]
     },
     {
@@ -8818,10 +8818,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5853374004364014,
+        "detection_conf": 0.5853397250175476,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.5060892701148987
+            0.5060920715332031
         ]
     },
     {
@@ -9090,11 +9090,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9148035049438477
+            0.9148041009902954
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7093710899353027
+            0.7093781232833862
         ]
     },
     {
@@ -9120,11 +9120,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7209572196006775
+            0.7209572792053223
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7532545924186707
+            0.753251850605011
         ]
     },
     {
@@ -9150,11 +9150,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9436899423599243
+            0.9436894059181213
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.8989608287811279
+            0.8989576697349548
         ]
     },
     {
@@ -9180,11 +9180,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9130452871322632
+            0.9130589962005615
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.38611358404159546
+            0.38611480593681335
         ]
     },
     {
@@ -9210,11 +9210,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8988839387893677
+            0.898883581161499
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6957443356513977
+            0.6957448720932007
         ]
     },
     {
@@ -9256,10 +9256,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.07381657510995865,
+        "detection_conf": 0.0738150104880333,
         "detection_threshold": 0.07,
         "detection_iou": [
-            0.7171327471733093
+            0.7171388268470764
         ]
     },
     {
@@ -9280,7 +9280,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6814888119697571
+            0.6814930438995361
         ]
     },
     {
@@ -9306,11 +9306,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8884661793708801
+            0.8884660601615906
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7692121863365173
+            0.7692009210586548
         ]
     },
     {
@@ -9336,11 +9336,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6772966980934143
+            0.6773000955581665
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7223494648933411
+            0.722350001335144
         ]
     },
     {
@@ -9366,11 +9366,11 @@
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8626195192337036
+            0.862619936466217
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7104893326759338
+            0.7104824185371399
         ]
     },
     {
@@ -9400,7 +9400,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.715894341468811
+            0.7158933877944946
         ]
     },
     {
@@ -9442,10 +9442,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.08988049626350403,
+        "detection_conf": 0.0898805782198906,
         "detection_threshold": 0.08,
         "detection_iou": [
-            0.8306710124015808
+            0.8306665420532227
         ]
     },
     {
@@ -9507,7 +9507,7 @@
         "detection_conf": 0.5971658825874329,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.7142259478569031
+            0.7142229676246643
         ]
     },
     {
@@ -9784,10 +9784,10 @@
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15814483165740967,
+        "detection_conf": 0.15814685821533203,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.05328081175684929
+            0.05328156426548958
         ]
     },
     {
