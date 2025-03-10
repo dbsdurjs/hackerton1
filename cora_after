@@ -610,3 +610,12 @@ r_f_cls_t_od_f: 1
 r_f_cls_f_od_t: 0
 r_t_cls_od_f: 241
 r_f_cls_od_f: 278
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 138
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 123
+r_t_cls_f_od_t: 13
+r_f_cls_t_od_f: 12
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 56
+r_f_cls_od_f: 262
