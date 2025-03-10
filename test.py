@@ -30,7 +30,7 @@ detect_model = YOLO("../yolov8x.pt")
 def load_ensemble_models(ensemble_model, device):
     models = ensemble_model
     # 모델 순서에 맞춰 불러올 파일명을 지정합니다.
-    file_names = ['Resnet_models.pt', 'Dense_models.pt']
+    file_names = ['Resnet_models.pt', 'Dense_models.pt', 'VGG_models.pt', 'Mobilenet_models.pt', 'Convnext_models.pt']
     for model, file_name in zip(models, file_names):
         model.load_state_dict(torch.load(os.path.join(checkpoint_dir, file_name)))
         model.to(device)

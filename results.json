@@ -8,12 +8,12 @@
         ],
         "classification_conf": [
             [
-                0.9932059049606323
+                0.9940138459205627
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8528857231140137
+            0.8528883457183838
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -38,12 +38,12 @@
         ],
         "classification_conf": [
             [
-                0.8509495854377747
+                0.5011014938354492
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9193443655967712
+            0.9193464517593384
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -68,7 +68,7 @@
         ],
         "classification_conf": [
             [
-                0.9662013053894043
+                0.9193692207336426
             ]
         ],
         "classification_threshold": 0.5,
@@ -85,11 +85,11 @@
         ],
         "classification_conf": [
             [
-                0.9662013053894043
+                0.9193692207336426
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5031506419181824,
+        "detection_conf": 0.5031446814537048,
         "detection_threshold": 0.5,
         "detection_iou": [
             0.4971434473991394
@@ -104,12 +104,12 @@
         ],
         "classification_conf": [
             [
-                0.9929297566413879
+                0.972758948802948
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9010422825813293
+            0.9010447859764099
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -134,12 +134,12 @@
         ],
         "classification_conf": [
             [
-                0.999600350856781
+                0.9871636629104614
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8696838617324829
+            0.8696855902671814
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -164,16 +164,16 @@
         ],
         "classification_conf": [
             [
-                0.9875805377960205
+                0.9220502972602844
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9398821592330933
+            0.9398829936981201
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6890333890914917
+            0.6890332698822021
         ]
     },
     {
@@ -194,12 +194,12 @@
         ],
         "classification_conf": [
             [
-                0.9994896650314331
+                0.9931930899620056
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9579175114631653
+            0.9579184651374817
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -224,12 +224,12 @@
         ],
         "classification_conf": [
             [
-                0.9989782571792603
+                0.9867673516273499
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8713565468788147
+            0.8713584542274475
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -254,7 +254,7 @@
         ],
         "classification_conf": [
             [
-                0.9999837875366211
+                0.998723566532135
             ]
         ],
         "classification_threshold": 0.5,
@@ -271,11 +271,11 @@
         ],
         "classification_conf": [
             [
-                0.9999837875366211
+                0.998723566532135
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15282738208770752,
+        "detection_conf": 0.15282762050628662,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.3073749840259552
@@ -290,7 +290,7 @@
         ],
         "classification_conf": [
             [
-                7.105834811227396e-05
+                0.0012390834745019674
             ]
         ],
         "classification_threshold": 0.5,
@@ -316,7 +316,7 @@
         ],
         "classification_conf": [
             [
-                0.9976158142089844
+                0.9717831611633301
             ]
         ],
         "classification_threshold": 0.5,
@@ -342,7 +342,7 @@
         ],
         "classification_conf": [
             [
-                0.9999985694885254
+                0.9999959468841553
             ]
         ],
         "classification_threshold": 0.5,
@@ -359,11 +359,11 @@
         ],
         "classification_conf": [
             [
-                0.9999985694885254
+                0.9999959468841553
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.48404815793037415,
+        "detection_conf": 0.4840529263019562,
         "detection_threshold": 0.4,
         "detection_iou": [
             0.47632086277008057
@@ -378,7 +378,7 @@
         ],
         "classification_conf": [
             [
-                0.8493576645851135
+                0.8448165059089661
             ]
         ],
         "classification_threshold": 0.5,
@@ -404,7 +404,7 @@
         ],
         "classification_conf": [
             [
-                0.9980818033218384
+                0.9220681190490723
             ]
         ],
         "classification_threshold": 0.5,
@@ -421,11 +421,11 @@
         ],
         "classification_conf": [
             [
-                0.9980818033218384
+                0.9220681190490723
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4798142611980438,
+        "detection_conf": 0.4798175096511841,
         "detection_threshold": 0.4,
         "detection_iou": [
             0.41567525267601013
@@ -440,7 +440,7 @@
         ],
         "classification_conf": [
             [
-                0.928898274898529
+                0.9647547602653503
             ]
         ],
         "classification_threshold": 0.5,
@@ -457,14 +457,14 @@
         ],
         "classification_conf": [
             [
-                0.928898274898529
+                0.9647547602653503
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.0455961637198925,
+        "detection_conf": 0.04559697210788727,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.6880832314491272
+            0.6880834102630615
         ]
     },
     {
@@ -476,7 +476,7 @@
         ],
         "classification_conf": [
             [
-                0.9991220831871033
+                0.9889805316925049
             ]
         ],
         "classification_threshold": 0.5,
@@ -502,7 +502,7 @@
         ],
         "classification_conf": [
             [
-                0.021795867010951042
+                0.17548976838588715
             ]
         ],
         "classification_threshold": 0.5,
@@ -528,7 +528,7 @@
         ],
         "classification_conf": [
             [
-                0.9999998807907104
+                0.9991088509559631
             ]
         ],
         "classification_threshold": 0.5,
@@ -554,7 +554,7 @@
         ],
         "classification_conf": [
             [
-                0.998883068561554
+                0.9974215030670166
             ]
         ],
         "classification_threshold": 0.5,
@@ -571,11 +571,11 @@
         ],
         "classification_conf": [
             [
-                0.998883068561554
+                0.9974215030670166
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.2603048086166382,
+        "detection_conf": 0.26030728220939636,
         "detection_threshold": 0.2,
         "detection_iou": [
             0.011024978943169117
@@ -590,7 +590,7 @@
         ],
         "classification_conf": [
             [
-                0.9999874830245972
+                0.9970914125442505
             ]
         ],
         "classification_threshold": 0.5,
@@ -616,7 +616,7 @@
         ],
         "classification_conf": [
             [
-                0.9999996423721313
+                0.9995636343955994
             ]
         ],
         "classification_threshold": 0.5,
@@ -637,12 +637,12 @@
         "before img": "image513.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.8407408595085144
+                0.4754795432090759
             ]
         ],
         "classification_threshold": 0.5,
@@ -652,23 +652,12 @@
     },
     {
         "after img": "image513.jpg",
-        "classification_prediction": [
-            [
-                true
-            ]
-        ],
-        "classification_conf": [
-            [
-                0.8407408595085144
-            ]
-        ],
-        "classification_threshold": 0.5,
-        "detection_conf": 0.14811787009239197,
-        "detection_threshold": 0.1,
-        "detection_iou": [
-            0.5963767170906067,
-            0.3887683153152466
-        ]
+        "classification_prediction": 0,
+        "classification_conf": 0,
+        "classification_threshold": 0,
+        "detection_conf": 0,
+        "detection_threshold": 0,
+        "detection_iou": 0
     },
     {
         "before img": "image514.jpg",
@@ -679,7 +668,7 @@
         ],
         "classification_conf": [
             [
-                0.9998764991760254
+                0.999001681804657
             ]
         ],
         "classification_threshold": 0.5,
@@ -709,7 +698,7 @@
         ],
         "classification_conf": [
             [
-                0.04610928148031235
+                0.2912769317626953
             ]
         ],
         "classification_threshold": 0.5,
@@ -735,7 +724,7 @@
         ],
         "classification_conf": [
             [
-                0.9999680519104004
+                0.9994935989379883
             ]
         ],
         "classification_threshold": 0.5,
@@ -752,11 +741,11 @@
         ],
         "classification_conf": [
             [
-                0.9999680519104004
+                0.9994935989379883
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.19314312934875488,
+        "detection_conf": 0.19314514100551605,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.5620434880256653
@@ -771,7 +760,7 @@
         ],
         "classification_conf": [
             [
-                0.9999991655349731
+                0.9996784925460815
             ]
         ],
         "classification_threshold": 0.5,
@@ -788,11 +777,11 @@
         ],
         "classification_conf": [
             [
-                0.9999991655349731
+                0.9996784925460815
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.031374696642160416,
+        "detection_conf": 0.03137516230344772,
         "detection_threshold": 0.03,
         "detection_iou": [
             0.24278567731380463
@@ -807,7 +796,7 @@
         ],
         "classification_conf": [
             [
-                0.9998948574066162
+                0.9949984550476074
             ]
         ],
         "classification_threshold": 0.5,
@@ -833,7 +822,7 @@
         ],
         "classification_conf": [
             [
-                0.9999994039535522
+                0.9999337196350098
             ]
         ],
         "classification_threshold": 0.5,
@@ -850,11 +839,11 @@
         ],
         "classification_conf": [
             [
-                0.9999994039535522
+                0.9999337196350098
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.062000822275877,
+        "detection_conf": 0.062000662088394165,
         "detection_threshold": 0.06,
         "detection_iou": [
             0.7737097144126892
@@ -869,7 +858,7 @@
         ],
         "classification_conf": [
             [
-                0.9999151229858398
+                0.9987278580665588
             ]
         ],
         "classification_threshold": 0.5,
@@ -895,7 +884,7 @@
         ],
         "classification_conf": [
             [
-                0.9999773502349854
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
@@ -912,14 +901,14 @@
         ],
         "classification_conf": [
             [
-                0.9999773502349854
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4919612407684326,
+        "detection_conf": 0.49196574091911316,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.7352684736251831
+            0.7352686524391174
         ]
     },
     {
@@ -931,7 +920,7 @@
         ],
         "classification_conf": [
             [
-                0.9797900915145874
+                0.9586108326911926
             ]
         ],
         "classification_threshold": 0.5,
@@ -957,7 +946,7 @@
         ],
         "classification_conf": [
             [
-                0.8809798359870911
+                0.7368054389953613
             ]
         ],
         "classification_threshold": 0.5,
@@ -974,7 +963,7 @@
         ],
         "classification_conf": [
             [
-                0.8809798359870911
+                0.7368054389953613
             ]
         ],
         "classification_threshold": 0.5,
@@ -993,7 +982,7 @@
         ],
         "classification_conf": [
             [
-                0.7178859710693359
+                0.7539638876914978
             ]
         ],
         "classification_threshold": 0.5,
@@ -1019,7 +1008,7 @@
         ],
         "classification_conf": [
             [
-                0.9999653100967407
+                0.9999985694885254
             ]
         ],
         "classification_threshold": 0.5,
@@ -1036,14 +1025,14 @@
         ],
         "classification_conf": [
             [
-                0.9999653100967407
+                0.9999985694885254
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.14579518139362335,
+        "detection_conf": 0.14579766988754272,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.7234418988227844
+            0.7234419584274292
         ]
     },
     {
@@ -1055,7 +1044,7 @@
         ],
         "classification_conf": [
             [
-                0.9997655749320984
+                0.9937728047370911
             ]
         ],
         "classification_threshold": 0.5,
@@ -1081,16 +1070,16 @@
         ],
         "classification_conf": [
             [
-                0.1786186695098877
+                0.3120444118976593
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7093868255615234
+            0.7093912363052368
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6474631428718567
+            0.6474632024765015
         ]
     },
     {
@@ -1102,16 +1091,16 @@
         ],
         "classification_conf": [
             [
-                0.021473783999681473
+                0.014556022360920906
             ]
         ],
-        "classification_threshold": 0.02,
+        "classification_threshold": 0.01,
         "detection_conf": [
-            0.7093868255615234
+            0.7093912363052368
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6474631428718567
+            0.6474632024765015
         ]
     },
     {
@@ -1123,7 +1112,7 @@
         ],
         "classification_conf": [
             [
-                0.7236323356628418
+                0.7886843085289001
             ]
         ],
         "classification_threshold": 0.5,
@@ -1149,7 +1138,7 @@
         ],
         "classification_conf": [
             [
-                1.0
+                0.9999985694885254
             ]
         ],
         "classification_threshold": 0.5,
@@ -1166,14 +1155,14 @@
         ],
         "classification_conf": [
             [
-                1.0
+                0.9999985694885254
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.18035881221294403,
+        "detection_conf": 0.18036797642707825,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.6413567066192627
+            0.6413564682006836
         ]
     },
     {
@@ -1185,7 +1174,7 @@
         ],
         "classification_conf": [
             [
-                0.9998764991760254
+                0.9944086670875549
             ]
         ],
         "classification_threshold": 0.5,
@@ -1202,11 +1191,11 @@
         ],
         "classification_conf": [
             [
-                0.9998764991760254
+                0.9944086670875549
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.1103048175573349,
+        "detection_conf": 0.11030112951993942,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.4046633839607239
@@ -1221,12 +1210,12 @@
         ],
         "classification_conf": [
             [
-                0.9999990463256836
+                0.9997896552085876
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9203765392303467
+            0.920378565788269
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -1251,12 +1240,12 @@
         ],
         "classification_conf": [
             [
-                0.9148979783058167
+                0.5417025685310364
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8801662921905518
+            0.8801690936088562
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -1281,7 +1270,7 @@
         ],
         "classification_conf": [
             [
-                0.03264213353395462
+                0.061998285353183746
             ]
         ],
         "classification_threshold": 0.5,
@@ -1302,12 +1291,12 @@
         "before img": "image534.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.5828004479408264
+                0.21056436002254486
             ]
         ],
         "classification_threshold": 0.5,
@@ -1333,7 +1322,7 @@
         ],
         "classification_conf": [
             [
-                0.11249787360429764
+                0.08144459873437881
             ]
         ],
         "classification_threshold": 0.5,
@@ -1359,7 +1348,7 @@
         ],
         "classification_conf": [
             [
-                0.9319395422935486
+                0.7195318937301636
             ]
         ],
         "classification_threshold": 0.5,
@@ -1385,7 +1374,7 @@
         ],
         "classification_conf": [
             [
-                0.9999884366989136
+                0.9988025426864624
             ]
         ],
         "classification_threshold": 0.5,
@@ -1411,7 +1400,7 @@
         ],
         "classification_conf": [
             [
-                0.014475485309958458
+                0.009745212271809578
             ]
         ],
         "classification_threshold": 0.5,
@@ -1437,12 +1426,12 @@
         ],
         "classification_conf": [
             [
-                0.996239185333252
+                0.900508463382721
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8630127906799316
+            0.8630134463310242
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -1467,7 +1456,7 @@
         ],
         "classification_conf": [
             [
-                0.9873303174972534
+                0.9112577438354492
             ]
         ],
         "classification_threshold": 0.5,
@@ -1484,11 +1473,11 @@
         ],
         "classification_conf": [
             [
-                0.9873303174972534
+                0.9112577438354492
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.012938297353684902,
+        "detection_conf": 0.012938340194523335,
         "detection_threshold": 0.01,
         "detection_iou": [
             0.8618460893630981
@@ -1503,7 +1492,7 @@
         ],
         "classification_conf": [
             [
-                0.9999990463256836
+                0.9997512698173523
             ]
         ],
         "classification_threshold": 0.5,
@@ -1520,11 +1509,11 @@
         ],
         "classification_conf": [
             [
-                0.9999990463256836
+                0.9997512698173523
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.054383888840675354,
+        "detection_conf": 0.05438430607318878,
         "detection_threshold": 0.05,
         "detection_iou": [
             0.6463372707366943
@@ -1539,7 +1528,7 @@
         ],
         "classification_conf": [
             [
-                0.08980005979537964
+                0.06460897624492645
             ]
         ],
         "classification_threshold": 0.5,
@@ -1565,7 +1554,7 @@
         ],
         "classification_conf": [
             [
-                0.9909378290176392
+                0.5254623293876648
             ]
         ],
         "classification_threshold": 0.5,
@@ -1591,7 +1580,7 @@
         ],
         "classification_conf": [
             [
-                0.9999368190765381
+                0.9951489567756653
             ]
         ],
         "classification_threshold": 0.5,
@@ -1608,11 +1597,11 @@
         ],
         "classification_conf": [
             [
-                0.9999368190765381
+                0.9951489567756653
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.2337646186351776,
+        "detection_conf": 0.2337665855884552,
         "detection_threshold": 0.2,
         "detection_iou": [
             0.3594297468662262
@@ -1627,7 +1616,7 @@
         ],
         "classification_conf": [
             [
-                0.017936570569872856
+                0.05779170244932175
             ]
         ],
         "classification_threshold": 0.5,
@@ -1653,7 +1642,7 @@
         ],
         "classification_conf": [
             [
-                0.9997013211250305
+                0.9911279678344727
             ]
         ],
         "classification_threshold": 0.5,
@@ -1670,11 +1659,11 @@
         ],
         "classification_conf": [
             [
-                0.9997013211250305
+                0.9911279678344727
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.2975877523422241,
+        "detection_conf": 0.2975900173187256,
         "detection_threshold": 0.2,
         "detection_iou": [
             0.27820152044296265,
@@ -1691,7 +1680,7 @@
         ],
         "classification_conf": [
             [
-                0.9999980926513672
+                0.9999595880508423
             ]
         ],
         "classification_threshold": 0.5,
@@ -1717,12 +1706,12 @@
         ],
         "classification_conf": [
             [
-                0.9992538094520569
+                0.9881978631019592
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6765114665031433
+            0.6765150427818298
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -1747,7 +1736,7 @@
         ],
         "classification_conf": [
             [
-                0.9999517202377319
+                0.9924606680870056
             ]
         ],
         "classification_threshold": 0.5,
@@ -1773,12 +1762,12 @@
         ],
         "classification_conf": [
             [
-                0.9948516488075256
+                0.9450263977050781
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8683995604515076
+            0.8684024810791016
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -1803,7 +1792,7 @@
         ],
         "classification_conf": [
             [
-                0.5872206091880798
+                0.6782554388046265
             ]
         ],
         "classification_threshold": 0.5,
@@ -1820,11 +1809,11 @@
         ],
         "classification_conf": [
             [
-                0.5872206091880798
+                0.6782554388046265
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.19979263842105865,
+        "detection_conf": 0.19979210197925568,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.8004171848297119
@@ -1839,7 +1828,7 @@
         ],
         "classification_conf": [
             [
-                0.9991912245750427
+                0.9843936562538147
             ]
         ],
         "classification_threshold": 0.5,
@@ -1865,7 +1854,7 @@
         ],
         "classification_conf": [
             [
-                0.99858558177948
+                0.9764482378959656
             ]
         ],
         "classification_threshold": 0.5,
@@ -1891,7 +1880,7 @@
         ],
         "classification_conf": [
             [
-                0.8699660897254944
+                0.6763210296630859
             ]
         ],
         "classification_threshold": 0.5,
@@ -1917,7 +1906,7 @@
         ],
         "classification_conf": [
             [
-                0.8523876667022705
+                0.6980264186859131
             ]
         ],
         "classification_threshold": 0.5,
@@ -1934,11 +1923,11 @@
         ],
         "classification_conf": [
             [
-                0.8523876667022705
+                0.6980264186859131
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.4980393350124359,
+        "detection_conf": 0.4980428218841553,
         "detection_threshold": 0.4,
         "detection_iou": [
             0.5995336174964905
@@ -1953,7 +1942,7 @@
         ],
         "classification_conf": [
             [
-                0.8773193359375
+                0.7477051615715027
             ]
         ],
         "classification_threshold": 0.5,
@@ -1970,11 +1959,11 @@
         ],
         "classification_conf": [
             [
-                0.8773193359375
+                0.7477051615715027
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15551139414310455,
+        "detection_conf": 0.15551237761974335,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.8391615152359009
@@ -1989,18 +1978,18 @@
         ],
         "classification_conf": [
             [
-                0.12480478733778
+                0.2206212431192398
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8257761001586914,
+            0.8257784843444824,
             0.8230279088020325
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
             0.0,
-            0.3076428472995758
+            0.30764299631118774
         ]
     },
     {
@@ -2012,17 +2001,17 @@
         ],
         "classification_conf": [
             [
-                6.979261115702684e-07
+                0.0016869826940819621
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.8257761001586914
+            0.8257784843444824
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
             0.0,
-            0.3076428472995758
+            0.30764299631118774
         ]
     },
     {
@@ -2034,7 +2023,7 @@
         ],
         "classification_conf": [
             [
-                0.9881681799888611
+                0.7415867447853088
             ]
         ],
         "classification_threshold": 0.5,
@@ -2051,11 +2040,11 @@
         ],
         "classification_conf": [
             [
-                0.9881681799888611
+                0.7415867447853088
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.13892671465873718,
+        "detection_conf": 0.13892722129821777,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.4499943256378174
@@ -2070,7 +2059,7 @@
         ],
         "classification_conf": [
             [
-                0.0028138207271695137
+                0.016950663179159164
             ]
         ],
         "classification_threshold": 0.5,
@@ -2096,7 +2085,7 @@
         ],
         "classification_conf": [
             [
-                0.9999986886978149
+                0.9996122717857361
             ]
         ],
         "classification_threshold": 0.5,
@@ -2122,7 +2111,7 @@
         ],
         "classification_conf": [
             [
-                0.9998125433921814
+                0.984526515007019
             ]
         ],
         "classification_threshold": 0.5,
@@ -2148,7 +2137,7 @@
         ],
         "classification_conf": [
             [
-                0.9999521970748901
+                0.9923037886619568
             ]
         ],
         "classification_threshold": 0.5,
@@ -2165,11 +2154,11 @@
         ],
         "classification_conf": [
             [
-                0.9999521970748901
+                0.9923037886619568
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.49061065912246704,
+        "detection_conf": 0.4906140863895416,
         "detection_threshold": 0.4,
         "detection_iou": [
             0.4462994337081909
@@ -2184,16 +2173,16 @@
         ],
         "classification_conf": [
             [
-                0.9984927177429199
+                0.9410197138786316
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6943134665489197
+            0.6943185329437256
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6626732349395752
+            0.6626734733581543
         ]
     },
     {
@@ -2214,16 +2203,16 @@
         ],
         "classification_conf": [
             [
-                0.9999524354934692
+                0.9976715445518494
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9206598401069641
+            0.9206616878509521
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.9093454480171204
+            0.9093457460403442
         ]
     },
     {
@@ -2244,7 +2233,7 @@
         ],
         "classification_conf": [
             [
-                0.997825562953949
+                0.9689505696296692
             ]
         ],
         "classification_threshold": 0.5,
@@ -2270,7 +2259,7 @@
         ],
         "classification_conf": [
             [
-                0.9922029972076416
+                0.8664805889129639
             ]
         ],
         "classification_threshold": 0.5,
@@ -2300,7 +2289,7 @@
         ],
         "classification_conf": [
             [
-                0.9528846740722656
+                0.6684010624885559
             ]
         ],
         "classification_threshold": 0.5,
@@ -2326,7 +2315,7 @@
         ],
         "classification_conf": [
             [
-                0.9999585151672363
+                0.9962033629417419
             ]
         ],
         "classification_threshold": 0.5,
@@ -2352,7 +2341,7 @@
         ],
         "classification_conf": [
             [
-                0.994684636592865
+                0.9186007380485535
             ]
         ],
         "classification_threshold": 0.5,
@@ -2378,7 +2367,7 @@
         ],
         "classification_conf": [
             [
-                0.999984622001648
+                0.9831551313400269
             ]
         ],
         "classification_threshold": 0.5,
@@ -2404,7 +2393,7 @@
         ],
         "classification_conf": [
             [
-                0.6009583473205566
+                0.7932448387145996
             ]
         ],
         "classification_threshold": 0.5,
@@ -2430,7 +2419,7 @@
         ],
         "classification_conf": [
             [
-                0.005958396475762129
+                0.016336824744939804
             ]
         ],
         "classification_threshold": 0.5,
@@ -2456,7 +2445,7 @@
         ],
         "classification_conf": [
             [
-                0.040945082902908325
+                0.038008496165275574
             ]
         ],
         "classification_threshold": 0.5,
@@ -2482,7 +2471,7 @@
         ],
         "classification_conf": [
             [
-                0.9974641799926758
+                0.9630113840103149
             ]
         ],
         "classification_threshold": 0.5,
@@ -2508,7 +2497,7 @@
         ],
         "classification_conf": [
             [
-                0.9995337724685669
+                0.9329243898391724
             ]
         ],
         "classification_threshold": 0.5,
@@ -2525,7 +2514,7 @@
         ],
         "classification_conf": [
             [
-                0.9995337724685669
+                0.9329243898391724
             ]
         ],
         "classification_threshold": 0.5,
@@ -2544,7 +2533,7 @@
         ],
         "classification_conf": [
             [
-                0.9971352815628052
+                0.8772994875907898
             ]
         ],
         "classification_threshold": 0.5,
@@ -2570,7 +2559,7 @@
         ],
         "classification_conf": [
             [
-                0.3854635953903198
+                0.162980854511261
             ]
         ],
         "classification_threshold": 0.5,
@@ -2591,31 +2580,43 @@
         "before img": "image608.jpg",
         "classification_prediction": [
             [
+                false
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.4064437747001648
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": [
+            0.9200603365898132
+        ],
+        "detection_threshold": 0.6,
+        "detection_iou": [
+            0.7650521397590637
+        ]
+    },
+    {
+        "after img": "image608.jpg",
+        "classification_prediction": [
+            [
                 true
             ]
         ],
         "classification_conf": [
             [
-                0.9648762345314026
+                0.011455764062702656
             ]
         ],
-        "classification_threshold": 0.5,
+        "classification_threshold": 0.01,
         "detection_conf": [
-            0.9200581312179565
+            0.9200603365898132
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7650520205497742
+            0.7650521397590637
         ]
-    },
-    {
-        "after img": "image608.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
     },
     {
         "before img": "image609.jpg",
@@ -2626,7 +2627,7 @@
         ],
         "classification_conf": [
             [
-                0.9923680424690247
+                0.9027767777442932
             ]
         ],
         "classification_threshold": 0.5,
@@ -2652,7 +2653,7 @@
         ],
         "classification_conf": [
             [
-                0.9999532699584961
+                0.9961571097373962
             ]
         ],
         "classification_threshold": 0.5,
@@ -2673,12 +2674,12 @@
         "before img": "image611.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.9205419421195984
+                0.4529227614402771
             ]
         ],
         "classification_threshold": 0.5,
@@ -2704,7 +2705,7 @@
         ],
         "classification_conf": [
             [
-                0.9924837946891785
+                0.9910667538642883
             ]
         ],
         "classification_threshold": 0.5,
@@ -2721,11 +2722,11 @@
         ],
         "classification_conf": [
             [
-                0.9924837946891785
+                0.9910667538642883
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.20690342783927917,
+        "detection_conf": 0.20690327882766724,
         "detection_threshold": 0.2,
         "detection_iou": [
             0.7171557545661926
@@ -2740,16 +2741,16 @@
         ],
         "classification_conf": [
             [
-                0.0022992196027189493
+                0.022473923861980438
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8291573524475098
+            0.8291501998901367
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7661274671554565
+            0.7661275267601013
         ]
     },
     {
@@ -2761,16 +2762,16 @@
         ],
         "classification_conf": [
             [
-                7.771501259412616e-06
+                0.0030524954199790955
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.8291573524475098
+            0.8291501998901367
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7661274671554565
+            0.7661275267601013
         ]
     },
     {
@@ -2782,7 +2783,7 @@
         ],
         "classification_conf": [
             [
-                0.9999048709869385
+                0.9984669089317322
             ]
         ],
         "classification_threshold": 0.5,
@@ -2803,12 +2804,12 @@
         "before img": "image615.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.5412306785583496
+                0.22779056429862976
             ]
         ],
         "classification_threshold": 0.5,
@@ -2834,7 +2835,7 @@
         ],
         "classification_conf": [
             [
-                0.998795747756958
+                0.9803372025489807
             ]
         ],
         "classification_threshold": 0.5,
@@ -2860,7 +2861,7 @@
         ],
         "classification_conf": [
             [
-                0.054518889635801315
+                0.04045558720827103
             ]
         ],
         "classification_threshold": 0.5,
@@ -2886,7 +2887,7 @@
         ],
         "classification_conf": [
             [
-                0.9999996423721313
+                0.9987310767173767
             ]
         ],
         "classification_threshold": 0.5,
@@ -2912,7 +2913,7 @@
         ],
         "classification_conf": [
             [
-                0.008346261456608772
+                0.031132804229855537
             ]
         ],
         "classification_threshold": 0.5,
@@ -2933,12 +2934,12 @@
         "before img": "image620.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.8998126983642578
+                0.24128903448581696
             ]
         ],
         "classification_threshold": 0.5,
@@ -2948,22 +2949,12 @@
     },
     {
         "after img": "image620.jpg",
-        "classification_prediction": [
-            [
-                true
-            ]
-        ],
-        "classification_conf": [
-            [
-                0.8998126983642578
-            ]
-        ],
-        "classification_threshold": 0.5,
-        "detection_conf": 0.08188187330961227,
-        "detection_threshold": 0.08,
-        "detection_iou": [
-            0.0
-        ]
+        "classification_prediction": 0,
+        "classification_conf": 0,
+        "classification_threshold": 0,
+        "detection_conf": 0,
+        "detection_threshold": 0,
+        "detection_iou": 0
     },
     {
         "before img": "image621.jpg",
@@ -2974,7 +2965,7 @@
         ],
         "classification_conf": [
             [
-                0.9909716844558716
+                0.7893347144126892
             ]
         ],
         "classification_threshold": 0.5,
@@ -3000,7 +2991,7 @@
         ],
         "classification_conf": [
             [
-                0.9167948961257935
+                0.5603002309799194
             ]
         ],
         "classification_threshold": 0.5,
@@ -3026,7 +3017,7 @@
         ],
         "classification_conf": [
             [
-                0.999984622001648
+                0.9959934949874878
             ]
         ],
         "classification_threshold": 0.5,
@@ -3052,7 +3043,7 @@
         ],
         "classification_conf": [
             [
-                0.958935022354126
+                0.8244607448577881
             ]
         ],
         "classification_threshold": 0.5,
@@ -3078,7 +3069,7 @@
         ],
         "classification_conf": [
             [
-                0.9866744875907898
+                0.9275811314582825
             ]
         ],
         "classification_threshold": 0.5,
@@ -3095,11 +3086,11 @@
         ],
         "classification_conf": [
             [
-                0.9866744875907898
+                0.9275811314582825
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15858903527259827,
+        "detection_conf": 0.158590167760849,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.5582024455070496
@@ -3114,7 +3105,7 @@
         ],
         "classification_conf": [
             [
-                0.9996737241744995
+                0.9992945194244385
             ]
         ],
         "classification_threshold": 0.5,
@@ -3140,7 +3131,7 @@
         ],
         "classification_conf": [
             [
-                0.04741236940026283
+                0.06950756907463074
             ]
         ],
         "classification_threshold": 0.5,
@@ -3166,7 +3157,7 @@
         ],
         "classification_conf": [
             [
-                0.999930739402771
+                0.9799948334693909
             ]
         ],
         "classification_threshold": 0.5,
@@ -3192,7 +3183,7 @@
         ],
         "classification_conf": [
             [
-                0.9664763808250427
+                0.7085051536560059
             ]
         ],
         "classification_threshold": 0.5,
@@ -3209,11 +3200,11 @@
         ],
         "classification_conf": [
             [
-                0.9664763808250427
+                0.7085051536560059
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.027510881423950195,
+        "detection_conf": 0.027511034160852432,
         "detection_threshold": 0.02,
         "detection_iou": [
             0.18254788219928741
@@ -3228,7 +3219,7 @@
         ],
         "classification_conf": [
             [
-                0.9849427938461304
+                0.7715314030647278
             ]
         ],
         "classification_threshold": 0.5,
@@ -3254,7 +3245,7 @@
         ],
         "classification_conf": [
             [
-                0.1991206258535385
+                0.35395950078964233
             ]
         ],
         "classification_threshold": 0.5,
@@ -3280,7 +3271,7 @@
         ],
         "classification_conf": [
             [
-                0.9999169111251831
+                0.9986677169799805
             ]
         ],
         "classification_threshold": 0.5,
@@ -3297,11 +3288,11 @@
         ],
         "classification_conf": [
             [
-                0.9999169111251831
+                0.9986677169799805
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.053403738886117935,
+        "detection_conf": 0.053403787314891815,
         "detection_threshold": 0.05,
         "detection_iou": [
             0.26291805505752563
@@ -3316,7 +3307,7 @@
         ],
         "classification_conf": [
             [
-                0.996454119682312
+                0.9733399748802185
             ]
         ],
         "classification_threshold": 0.5,
@@ -3333,14 +3324,14 @@
         ],
         "classification_conf": [
             [
-                0.996454119682312
+                0.9733399748802185
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.019530998542904854,
+        "detection_conf": 0.0195311289280653,
         "detection_threshold": 0.01,
         "detection_iou": [
-            0.8995179533958435
+            0.8995178937911987
         ]
     },
     {
@@ -3352,7 +3343,7 @@
         ],
         "classification_conf": [
             [
-                0.996711254119873
+                0.976413905620575
             ]
         ],
         "classification_threshold": 0.5,
@@ -3378,7 +3369,7 @@
         ],
         "classification_conf": [
             [
-                0.9017795920372009
+                0.7219663858413696
             ]
         ],
         "classification_threshold": 0.5,
@@ -3404,7 +3395,7 @@
         ],
         "classification_conf": [
             [
-                0.999969482421875
+                0.993168830871582
             ]
         ],
         "classification_threshold": 0.5,
@@ -3430,7 +3421,7 @@
         ],
         "classification_conf": [
             [
-                0.9998823404312134
+                0.9994847774505615
             ]
         ],
         "classification_threshold": 0.5,
@@ -3447,11 +3438,11 @@
         ],
         "classification_conf": [
             [
-                0.9998823404312134
+                0.9994847774505615
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.321474552154541,
+        "detection_conf": 0.32147592306137085,
         "detection_threshold": 0.3,
         "detection_iou": [
             0.9061319828033447
@@ -3466,7 +3457,7 @@
         ],
         "classification_conf": [
             [
-                0.9999719858169556
+                0.9989504218101501
             ]
         ],
         "classification_threshold": 0.5,
@@ -3492,7 +3483,7 @@
         ],
         "classification_conf": [
             [
-                0.9998989105224609
+                0.9982261061668396
             ]
         ],
         "classification_threshold": 0.5,
@@ -3509,14 +3500,14 @@
         ],
         "classification_conf": [
             [
-                0.9998989105224609
+                0.9982261061668396
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.1526108831167221,
+        "detection_conf": 0.15261153876781464,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.7254549264907837
+            0.7254551649093628
         ]
     },
     {
@@ -3528,7 +3519,7 @@
         ],
         "classification_conf": [
             [
-                0.9990033507347107
+                0.9423969388008118
             ]
         ],
         "classification_threshold": 0.5,
@@ -3554,7 +3545,7 @@
         ],
         "classification_conf": [
             [
-                0.9998685121536255
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
@@ -3571,11 +3562,11 @@
         ],
         "classification_conf": [
             [
-                0.9998685121536255
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.010410603135824203,
+        "detection_conf": 0.01040994469076395,
         "detection_threshold": 0.01,
         "detection_iou": [
             0.8345115780830383
@@ -3590,7 +3581,7 @@
         ],
         "classification_conf": [
             [
-                0.9996122717857361
+                0.9937950372695923
             ]
         ],
         "classification_threshold": 0.5,
@@ -3616,7 +3607,7 @@
         ],
         "classification_conf": [
             [
-                0.888963520526886
+                0.5896911025047302
             ]
         ],
         "classification_threshold": 0.5,
@@ -3633,7 +3624,7 @@
         ],
         "classification_conf": [
             [
-                0.888963520526886
+                0.5896911025047302
             ]
         ],
         "classification_threshold": 0.5,
@@ -3652,7 +3643,7 @@
         ],
         "classification_conf": [
             [
-                0.2551945149898529
+                0.32420486211776733
             ]
         ],
         "classification_threshold": 0.5,
@@ -3678,7 +3669,7 @@
         ],
         "classification_conf": [
             [
-                0.9986377358436584
+                0.987832248210907
             ]
         ],
         "classification_threshold": 0.5,
@@ -3695,14 +3686,14 @@
         ],
         "classification_conf": [
             [
-                0.9986377358436584
+                0.987832248210907
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5940937995910645,
+        "detection_conf": 0.5940972566604614,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.6664796471595764
+            0.6664794683456421
         ]
     },
     {
@@ -3714,7 +3705,7 @@
         ],
         "classification_conf": [
             [
-                0.9965254664421082
+                0.9629411697387695
             ]
         ],
         "classification_threshold": 0.5,
@@ -3740,7 +3731,7 @@
         ],
         "classification_conf": [
             [
-                0.9999988079071045
+                0.9997416138648987
             ]
         ],
         "classification_threshold": 0.5,
@@ -3766,12 +3757,12 @@
         ],
         "classification_conf": [
             [
-                0.9972144961357117
+                0.8571583032608032
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8413665294647217
+            0.8413713574409485
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -3796,7 +3787,7 @@
         ],
         "classification_conf": [
             [
-                0.9934418201446533
+                0.9594544172286987
             ]
         ],
         "classification_threshold": 0.5,
@@ -3822,7 +3813,7 @@
         ],
         "classification_conf": [
             [
-                0.9886201620101929
+                0.9719021320343018
             ]
         ],
         "classification_threshold": 0.5,
@@ -3848,7 +3839,7 @@
         ],
         "classification_conf": [
             [
-                0.9999549388885498
+                0.9999942779541016
             ]
         ],
         "classification_threshold": 0.5,
@@ -3865,11 +3856,11 @@
         ],
         "classification_conf": [
             [
-                0.9999549388885498
+                0.9999942779541016
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.02275511994957924,
+        "detection_conf": 0.022755222395062447,
         "detection_threshold": 0.02,
         "detection_iou": [
             0.6937451958656311
@@ -3884,7 +3875,7 @@
         ],
         "classification_conf": [
             [
-                0.9945231676101685
+                0.9100399613380432
             ]
         ],
         "classification_threshold": 0.5,
@@ -3910,7 +3901,7 @@
         ],
         "classification_conf": [
             [
-                0.999953031539917
+                0.9986754059791565
             ]
         ],
         "classification_threshold": 0.5,
@@ -3927,11 +3918,11 @@
         ],
         "classification_conf": [
             [
-                0.999953031539917
+                0.9986754059791565
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.20306305587291718,
+        "detection_conf": 0.20306497812271118,
         "detection_threshold": 0.2,
         "detection_iou": [
             0.7608466744422913
@@ -3946,7 +3937,7 @@
         ],
         "classification_conf": [
             [
-                0.9999973773956299
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
@@ -3963,11 +3954,11 @@
         ],
         "classification_conf": [
             [
-                0.9999973773956299
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04529556259512901,
+        "detection_conf": 0.04529578611254692,
         "detection_threshold": 0.04,
         "detection_iou": [
             0.7651960849761963
@@ -3982,7 +3973,7 @@
         ],
         "classification_conf": [
             [
-                0.9999905824661255
+                0.9984551668167114
             ]
         ],
         "classification_threshold": 0.5,
@@ -3999,11 +3990,11 @@
         ],
         "classification_conf": [
             [
-                0.9999905824661255
+                0.9984551668167114
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.029107805341482162,
+        "detection_conf": 0.029109038412570953,
         "detection_threshold": 0.02,
         "detection_iou": [
             0.8334354162216187
@@ -4018,7 +4009,7 @@
         ],
         "classification_conf": [
             [
-                0.9999988079071045
+                0.9994940757751465
             ]
         ],
         "classification_threshold": 0.5,
@@ -4044,7 +4035,7 @@
         ],
         "classification_conf": [
             [
-                0.9980384707450867
+                0.904340386390686
             ]
         ],
         "classification_threshold": 0.5,
@@ -4070,7 +4061,7 @@
         ],
         "classification_conf": [
             [
-                0.9999812841415405
+                0.9993616938591003
             ]
         ],
         "classification_threshold": 0.5,
@@ -4087,11 +4078,11 @@
         ],
         "classification_conf": [
             [
-                0.9999812841415405
+                0.9993616938591003
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.034220386296510696,
+        "detection_conf": 0.034220535308122635,
         "detection_threshold": 0.03,
         "detection_iou": [
             0.5491057634353638
@@ -4106,7 +4097,7 @@
         ],
         "classification_conf": [
             [
-                0.9999997615814209
+                0.999934196472168
             ]
         ],
         "classification_threshold": 0.5,
@@ -4132,7 +4123,7 @@
         ],
         "classification_conf": [
             [
-                0.9991820454597473
+                0.7652341723442078
             ]
         ],
         "classification_threshold": 0.5,
@@ -4149,11 +4140,11 @@
         ],
         "classification_conf": [
             [
-                0.9991820454597473
+                0.7652341723442078
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.12711907923221588,
+        "detection_conf": 0.12712019681930542,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.0
@@ -4168,7 +4159,7 @@
         ],
         "classification_conf": [
             [
-                0.9999316930770874
+                0.9953118562698364
             ]
         ],
         "classification_threshold": 0.5,
@@ -4185,14 +4176,14 @@
         ],
         "classification_conf": [
             [
-                0.9999316930770874
+                0.9953118562698364
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04630018398165703,
+        "detection_conf": 0.04630072042346001,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.7746480703353882
+            0.7746481895446777
         ]
     },
     {
@@ -4204,7 +4195,7 @@
         ],
         "classification_conf": [
             [
-                0.9989994168281555
+                0.9212735891342163
             ]
         ],
         "classification_threshold": 0.5,
@@ -4225,12 +4216,12 @@
         "before img": "image723.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.4714337885379791
+                0.9089447259902954
             ]
         ],
         "classification_threshold": 0.5,
@@ -4240,12 +4231,22 @@
     },
     {
         "after img": "image723.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.9089447259902954
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.1395048201084137,
+        "detection_threshold": 0.1,
+        "detection_iou": [
+            0.8806586861610413
+        ]
     },
     {
         "before img": "image724.jpg",
@@ -4256,7 +4257,7 @@
         ],
         "classification_conf": [
             [
-                0.9999580383300781
+                0.9955465793609619
             ]
         ],
         "classification_threshold": 0.5,
@@ -4273,7 +4274,7 @@
         ],
         "classification_conf": [
             [
-                0.9999580383300781
+                0.9955465793609619
             ]
         ],
         "classification_threshold": 0.5,
@@ -4292,7 +4293,7 @@
         ],
         "classification_conf": [
             [
-                0.9999072551727295
+                0.9999992847442627
             ]
         ],
         "classification_threshold": 0.5,
@@ -4309,11 +4310,11 @@
         ],
         "classification_conf": [
             [
-                0.9999072551727295
+                0.9999992847442627
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04547897353768349,
+        "detection_conf": 0.04547945782542229,
         "detection_threshold": 0.04,
         "detection_iou": [
             0.0
@@ -4328,7 +4329,7 @@
         ],
         "classification_conf": [
             [
-                0.9962047934532166
+                0.9901759028434753
             ]
         ],
         "classification_threshold": 0.5,
@@ -4354,7 +4355,7 @@
         ],
         "classification_conf": [
             [
-                0.9996838569641113
+                0.9889688491821289
             ]
         ],
         "classification_threshold": 0.5,
@@ -4380,7 +4381,7 @@
         ],
         "classification_conf": [
             [
-                0.8769744634628296
+                0.6816035509109497
             ]
         ],
         "classification_threshold": 0.5,
@@ -4397,14 +4398,14 @@
         ],
         "classification_conf": [
             [
-                0.8769744634628296
+                0.6816035509109497
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.450702428817749,
+        "detection_conf": 0.4507061541080475,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.7058224081993103
+            0.7058225274085999
         ]
     },
     {
@@ -4416,7 +4417,7 @@
         ],
         "classification_conf": [
             [
-                0.9877681136131287
+                0.8830416798591614
             ]
         ],
         "classification_threshold": 0.5,
@@ -4442,7 +4443,7 @@
         ],
         "classification_conf": [
             [
-                0.9999951124191284
+                0.9997966885566711
             ]
         ],
         "classification_threshold": 0.5,
@@ -4468,7 +4469,7 @@
         ],
         "classification_conf": [
             [
-                0.9934203028678894
+                0.8946259617805481
             ]
         ],
         "classification_threshold": 0.5,
@@ -4485,7 +4486,7 @@
         ],
         "classification_conf": [
             [
-                0.9934203028678894
+                0.8946259617805481
             ]
         ],
         "classification_threshold": 0.5,
@@ -4504,7 +4505,7 @@
         ],
         "classification_conf": [
             [
-                0.9995502829551697
+                0.9704655408859253
             ]
         ],
         "classification_threshold": 0.5,
@@ -4530,7 +4531,7 @@
         ],
         "classification_conf": [
             [
-                0.9966422319412231
+                0.9145057797431946
             ]
         ],
         "classification_threshold": 0.5,
@@ -4556,7 +4557,7 @@
         ],
         "classification_conf": [
             [
-                0.9999412298202515
+                0.9740970134735107
             ]
         ],
         "classification_threshold": 0.5,
@@ -4573,11 +4574,11 @@
         ],
         "classification_conf": [
             [
-                0.9999412298202515
+                0.9740970134735107
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.25617867708206177,
+        "detection_conf": 0.25617942214012146,
         "detection_threshold": 0.2,
         "detection_iou": [
             0.05825551971793175
@@ -4592,7 +4593,7 @@
         ],
         "classification_conf": [
             [
-                0.9982170462608337
+                0.5680519938468933
             ]
         ],
         "classification_threshold": 0.5,
@@ -4609,11 +4610,11 @@
         ],
         "classification_conf": [
             [
-                0.9982170462608337
+                0.5680519938468933
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04885363578796387,
+        "detection_conf": 0.04885376989841461,
         "detection_threshold": 0.04,
         "detection_iou": [
             0.6823970079421997
@@ -4623,12 +4624,12 @@
         "before img": "image736.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.999993085861206
+                0.21922136843204498
             ]
         ],
         "classification_threshold": 0.5,
@@ -4638,23 +4639,12 @@
     },
     {
         "after img": "image736.jpg",
-        "classification_prediction": [
-            [
-                true
-            ]
-        ],
-        "classification_conf": [
-            [
-                0.999993085861206
-            ]
-        ],
-        "classification_threshold": 0.5,
-        "detection_conf": 0.015485803596675396,
-        "detection_threshold": 0.01,
-        "detection_iou": [
-            0.6207563281059265,
-            0.0
-        ]
+        "classification_prediction": 0,
+        "classification_conf": 0,
+        "classification_threshold": 0,
+        "detection_conf": 0,
+        "detection_threshold": 0,
+        "detection_iou": 0
     },
     {
         "before img": "image737.jpg",
@@ -4665,7 +4655,7 @@
         ],
         "classification_conf": [
             [
-                0.9987319111824036
+                0.8777704238891602
             ]
         ],
         "classification_threshold": 0.5,
@@ -4682,7 +4672,7 @@
         ],
         "classification_conf": [
             [
-                0.9987319111824036
+                0.8777704238891602
             ]
         ],
         "classification_threshold": 0.5,
@@ -4701,7 +4691,7 @@
         ],
         "classification_conf": [
             [
-                0.9880892634391785
+                0.9681610465049744
             ]
         ],
         "classification_threshold": 0.5,
@@ -4727,7 +4717,7 @@
         ],
         "classification_conf": [
             [
-                0.9999796152114868
+                0.9962822794914246
             ]
         ],
         "classification_threshold": 0.5,
@@ -4753,7 +4743,7 @@
         ],
         "classification_conf": [
             [
-                0.9720491170883179
+                0.8653729557991028
             ]
         ],
         "classification_threshold": 0.5,
@@ -4779,7 +4769,7 @@
         ],
         "classification_conf": [
             [
-                0.9942812919616699
+                0.9970313310623169
             ]
         ],
         "classification_threshold": 0.5,
@@ -4805,7 +4795,7 @@
         ],
         "classification_conf": [
             [
-                0.9967995882034302
+                0.9922839999198914
             ]
         ],
         "classification_threshold": 0.5,
@@ -4831,7 +4821,7 @@
         ],
         "classification_conf": [
             [
-                0.9964633584022522
+                0.9983088970184326
             ]
         ],
         "classification_threshold": 0.5,
@@ -4848,7 +4838,7 @@
         ],
         "classification_conf": [
             [
-                0.9964633584022522
+                0.9983088970184326
             ]
         ],
         "classification_threshold": 0.5,
@@ -4868,7 +4858,7 @@
         ],
         "classification_conf": [
             [
-                0.9959986209869385
+                0.9405866861343384
             ]
         ],
         "classification_threshold": 0.5,
@@ -4894,7 +4884,7 @@
         ],
         "classification_conf": [
             [
-                0.9954497218132019
+                0.9986341595649719
             ]
         ],
         "classification_threshold": 0.5,
@@ -4911,7 +4901,7 @@
         ],
         "classification_conf": [
             [
-                0.9954497218132019
+                0.9986341595649719
             ]
         ],
         "classification_threshold": 0.5,
@@ -4931,7 +4921,7 @@
         ],
         "classification_conf": [
             [
-                0.992706835269928
+                0.9971767663955688
             ]
         ],
         "classification_threshold": 0.5,
@@ -4948,7 +4938,7 @@
         ],
         "classification_conf": [
             [
-                0.992706835269928
+                0.9971767663955688
             ]
         ],
         "classification_threshold": 0.5,
@@ -4968,7 +4958,7 @@
         ],
         "classification_conf": [
             [
-                0.9912731051445007
+                0.9976758360862732
             ]
         ],
         "classification_threshold": 0.5,
@@ -4985,7 +4975,7 @@
         ],
         "classification_conf": [
             [
-                0.9912731051445007
+                0.9976758360862732
             ]
         ],
         "classification_threshold": 0.5,
@@ -5005,7 +4995,7 @@
         ],
         "classification_conf": [
             [
-                0.9947106838226318
+                0.9984827637672424
             ]
         ],
         "classification_threshold": 0.5,
@@ -5022,7 +5012,7 @@
         ],
         "classification_conf": [
             [
-                0.9947106838226318
+                0.9984827637672424
             ]
         ],
         "classification_threshold": 0.5,
@@ -5042,7 +5032,7 @@
         ],
         "classification_conf": [
             [
-                0.9940449595451355
+                0.9687708616256714
             ]
         ],
         "classification_threshold": 0.5,
@@ -5068,7 +5058,7 @@
         ],
         "classification_conf": [
             [
-                0.9953346848487854
+                0.9983792304992676
             ]
         ],
         "classification_threshold": 0.5,
@@ -5085,7 +5075,7 @@
         ],
         "classification_conf": [
             [
-                0.9953346848487854
+                0.9983792304992676
             ]
         ],
         "classification_threshold": 0.5,
@@ -5105,12 +5095,12 @@
         ],
         "classification_conf": [
             [
-                0.021167155355215073
+                0.034715861082077026
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8872289657592773
+            0.8872313499450684
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -5126,12 +5116,12 @@
         ],
         "classification_conf": [
             [
-                0.002381914295256138
+                0.0012864854652434587
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.8872289657592773
+            0.8872313499450684
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -5147,7 +5137,7 @@
         ],
         "classification_conf": [
             [
-                0.9935848116874695
+                0.9984177350997925
             ]
         ],
         "classification_threshold": 0.5,
@@ -5164,7 +5154,7 @@
         ],
         "classification_conf": [
             [
-                0.9935848116874695
+                0.9984177350997925
             ]
         ],
         "classification_threshold": 0.5,
@@ -5184,7 +5174,7 @@
         ],
         "classification_conf": [
             [
-                0.9778006076812744
+                0.9631010293960571
             ]
         ],
         "classification_threshold": 0.5,
@@ -5210,7 +5200,7 @@
         ],
         "classification_conf": [
             [
-                0.9941465854644775
+                0.952268123626709
             ]
         ],
         "classification_threshold": 0.5,
@@ -5227,14 +5217,14 @@
         ],
         "classification_conf": [
             [
-                0.9941465854644775
+                0.952268123626709
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.03328857570886612,
+        "detection_conf": 0.033288754522800446,
         "detection_threshold": 0.03,
         "detection_iou": [
-            0.6283167600631714
+            0.6283169388771057
         ]
     },
     {
@@ -5246,7 +5236,7 @@
         ],
         "classification_conf": [
             [
-                0.959618866443634
+                0.9386345744132996
             ]
         ],
         "classification_threshold": 0.5,
@@ -5272,7 +5262,7 @@
         ],
         "classification_conf": [
             [
-                0.9762859344482422
+                0.9468504190444946
             ]
         ],
         "classification_threshold": 0.5,
@@ -5298,7 +5288,7 @@
         ],
         "classification_conf": [
             [
-                0.74819415807724
+                0.6871845722198486
             ]
         ],
         "classification_threshold": 0.5,
@@ -5324,7 +5314,7 @@
         ],
         "classification_conf": [
             [
-                0.9862042665481567
+                0.9062712788581848
             ]
         ],
         "classification_threshold": 0.5,
@@ -5350,7 +5340,7 @@
         ],
         "classification_conf": [
             [
-                0.9624402523040771
+                0.8499387502670288
             ]
         ],
         "classification_threshold": 0.5,
@@ -5376,7 +5366,7 @@
         ],
         "classification_conf": [
             [
-                0.9979006052017212
+                0.9637326002120972
             ]
         ],
         "classification_threshold": 0.5,
@@ -5402,16 +5392,16 @@
         ],
         "classification_conf": [
             [
-                0.9753472805023193
+                0.9474227428436279
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6378869414329529
+            0.6378810405731201
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7494183778762817
+            0.7494184970855713
         ]
     },
     {
@@ -5432,7 +5422,7 @@
         ],
         "classification_conf": [
             [
-                0.9999889135360718
+                0.9999963045120239
             ]
         ],
         "classification_threshold": 0.5,
@@ -5458,7 +5448,7 @@
         ],
         "classification_conf": [
             [
-                0.9999986886978149
+                0.9998666048049927
             ]
         ],
         "classification_threshold": 0.5,
@@ -5484,7 +5474,7 @@
         ],
         "classification_conf": [
             [
-                0.08587881177663803
+                0.1153445914387703
             ]
         ],
         "classification_threshold": 0.5,
@@ -5505,12 +5495,12 @@
         "before img": "image765.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.661572277545929
+                0.34731101989746094
             ]
         ],
         "classification_threshold": 0.5,
@@ -5520,22 +5510,12 @@
     },
     {
         "after img": "image765.jpg",
-        "classification_prediction": [
-            [
-                true
-            ]
-        ],
-        "classification_conf": [
-            [
-                0.661572277545929
-            ]
-        ],
-        "classification_threshold": 0.5,
-        "detection_conf": 0.43666940927505493,
-        "detection_threshold": 0.4,
-        "detection_iou": [
-            0.5670817494392395
-        ]
+        "classification_prediction": 0,
+        "classification_conf": 0,
+        "classification_threshold": 0,
+        "detection_conf": 0,
+        "detection_threshold": 0,
+        "detection_iou": 0
     },
     {
         "before img": "image766.jpg",
@@ -5546,7 +5526,7 @@
         ],
         "classification_conf": [
             [
-                0.9984105825424194
+                0.9849867224693298
             ]
         ],
         "classification_threshold": 0.5,
@@ -5572,7 +5552,7 @@
         ],
         "classification_conf": [
             [
-                0.9999946355819702
+                0.9961005449295044
             ]
         ],
         "classification_threshold": 0.5,
@@ -5598,7 +5578,7 @@
         ],
         "classification_conf": [
             [
-                0.9996466636657715
+                0.9939775466918945
             ]
         ],
         "classification_threshold": 0.5,
@@ -5624,7 +5604,7 @@
         ],
         "classification_conf": [
             [
-                0.9984179735183716
+                0.9534024596214294
             ]
         ],
         "classification_threshold": 0.5,
@@ -5641,14 +5621,14 @@
         ],
         "classification_conf": [
             [
-                0.9984179735183716
+                0.9534024596214294
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04122193157672882,
+        "detection_conf": 0.04122215136885643,
         "detection_threshold": 0.04,
         "detection_iou": [
-            0.1638810783624649
+            0.16388101875782013
         ]
     },
     {
@@ -5660,7 +5640,7 @@
         ],
         "classification_conf": [
             [
-                0.978179395198822
+                0.9560232758522034
             ]
         ],
         "classification_threshold": 0.5,
@@ -5686,7 +5666,7 @@
         ],
         "classification_conf": [
             [
-                0.8385184407234192
+                0.8704564571380615
             ]
         ],
         "classification_threshold": 0.5,
@@ -5712,7 +5692,7 @@
         ],
         "classification_conf": [
             [
-                0.9997172951698303
+                0.9809920191764832
             ]
         ],
         "classification_threshold": 0.5,
@@ -5738,7 +5718,7 @@
         ],
         "classification_conf": [
             [
-                0.001172344433143735
+                0.02248436026275158
             ]
         ],
         "classification_threshold": 0.5,
@@ -5764,7 +5744,7 @@
         ],
         "classification_conf": [
             [
-                0.9904961585998535
+                0.9419145584106445
             ]
         ],
         "classification_threshold": 0.5,
@@ -5790,7 +5770,7 @@
         ],
         "classification_conf": [
             [
-                0.9999974966049194
+                0.9993478655815125
             ]
         ],
         "classification_threshold": 0.5,
@@ -5807,14 +5787,14 @@
         ],
         "classification_conf": [
             [
-                0.9999974966049194
+                0.9993478655815125
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.42126035690307617,
+        "detection_conf": 0.4212646782398224,
         "detection_threshold": 0.4,
         "detection_iou": [
-            0.5854863524436951
+            0.5854865312576294
         ]
     },
     {
@@ -5826,12 +5806,12 @@
         ],
         "classification_conf": [
             [
-                0.9993777275085449
+                0.9371441602706909
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8977923393249512
+            0.8977968692779541
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -5856,7 +5836,7 @@
         ],
         "classification_conf": [
             [
-                0.9989697933197021
+                0.7534938454627991
             ]
         ],
         "classification_threshold": 0.5,
@@ -5886,7 +5866,7 @@
         ],
         "classification_conf": [
             [
-                0.99518221616745
+                0.6735642552375793
             ]
         ],
         "classification_threshold": 0.5,
@@ -5912,7 +5892,7 @@
         ],
         "classification_conf": [
             [
-                0.1150154396891594
+                0.10256928205490112
             ]
         ],
         "classification_threshold": 0.5,
@@ -5938,7 +5918,7 @@
         ],
         "classification_conf": [
             [
-                0.988940417766571
+                0.8983684778213501
             ]
         ],
         "classification_threshold": 0.5,
@@ -5964,7 +5944,7 @@
         ],
         "classification_conf": [
             [
-                0.9977315068244934
+                0.9689980149269104
             ]
         ],
         "classification_threshold": 0.5,
@@ -5990,7 +5970,7 @@
         ],
         "classification_conf": [
             [
-                0.977948009967804
+                0.996557891368866
             ]
         ],
         "classification_threshold": 0.5,
@@ -6016,7 +5996,7 @@
         ],
         "classification_conf": [
             [
-                0.9980568289756775
+                0.91713547706604
             ]
         ],
         "classification_threshold": 0.5,
@@ -6033,7 +6013,7 @@
         ],
         "classification_conf": [
             [
-                0.9980568289756775
+                0.91713547706604
             ]
         ],
         "classification_threshold": 0.5,
@@ -6052,7 +6032,7 @@
         ],
         "classification_conf": [
             [
-                0.99455726146698
+                0.9421288371086121
             ]
         ],
         "classification_threshold": 0.5,
@@ -6078,7 +6058,7 @@
         ],
         "classification_conf": [
             [
-                0.9998050332069397
+                0.9986088871955872
             ]
         ],
         "classification_threshold": 0.5,
@@ -6104,7 +6084,7 @@
         ],
         "classification_conf": [
             [
-                0.9998886585235596
+                1.0
             ]
         ],
         "classification_threshold": 0.5,
@@ -6130,7 +6110,7 @@
         ],
         "classification_conf": [
             [
-                0.973194420337677
+                0.9247592687606812
             ]
         ],
         "classification_threshold": 0.5,
@@ -6147,11 +6127,11 @@
         ],
         "classification_conf": [
             [
-                0.973194420337677
+                0.9247592687606812
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.08655720204114914,
+        "detection_conf": 0.08655475080013275,
         "detection_threshold": 0.08,
         "detection_iou": [
             0.6969406008720398
@@ -6166,12 +6146,12 @@
         ],
         "classification_conf": [
             [
-                0.9999217987060547
+                0.9997878670692444
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7578346133232117
+            0.7578368782997131
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -6196,7 +6176,7 @@
         ],
         "classification_conf": [
             [
-                0.9999648332595825
+                0.9961580634117126
             ]
         ],
         "classification_threshold": 0.5,
@@ -6222,7 +6202,7 @@
         ],
         "classification_conf": [
             [
-                0.9307628273963928
+                0.897165060043335
             ]
         ],
         "classification_threshold": 0.5,
@@ -6248,7 +6228,7 @@
         ],
         "classification_conf": [
             [
-                0.9993033409118652
+                0.9900147914886475
             ]
         ],
         "classification_threshold": 0.5,
@@ -6274,7 +6254,7 @@
         ],
         "classification_conf": [
             [
-                0.9998990297317505
+                0.9961108565330505
             ]
         ],
         "classification_threshold": 0.5,
@@ -6291,14 +6271,14 @@
         ],
         "classification_conf": [
             [
-                0.9998990297317505
+                0.9961108565330505
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.10391510277986526,
+        "detection_conf": 0.10390178859233856,
         "detection_threshold": 0.1,
         "detection_iou": [
-            0.58219313621521
+            0.5821928977966309
         ]
     },
     {
@@ -6310,7 +6290,7 @@
         ],
         "classification_conf": [
             [
-                0.9894217848777771
+                0.9918894171714783
             ]
         ],
         "classification_threshold": 0.5,
@@ -6327,7 +6307,7 @@
         ],
         "classification_conf": [
             [
-                0.9894217848777771
+                0.9918894171714783
             ]
         ],
         "classification_threshold": 0.5,
@@ -6348,7 +6328,7 @@
         ],
         "classification_conf": [
             [
-                0.9970788955688477
+                0.9251658320426941
             ]
         ],
         "classification_threshold": 0.5,
@@ -6374,37 +6354,37 @@
         ],
         "classification_conf": [
             [
-                0.3163178861141205
+                0.4579222500324249
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.753833532333374
+            0.7538395524024963
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7703118920326233
+            0.7703120112419128
         ]
     },
     {
         "after img": "image795.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.00010681755520636216
+                0.0586085319519043
             ]
         ],
-        "classification_threshold": 0.01,
+        "classification_threshold": 0.05,
         "detection_conf": [
-            0.753833532333374
+            0.7538395524024963
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7703118920326233
+            0.7703120112419128
         ]
     },
     {
@@ -6416,7 +6396,7 @@
         ],
         "classification_conf": [
             [
-                0.45265138149261475
+                0.2342747300863266
             ]
         ],
         "classification_threshold": 0.5,
@@ -6442,7 +6422,7 @@
         ],
         "classification_conf": [
             [
-                0.9804310202598572
+                0.8842857480049133
             ]
         ],
         "classification_threshold": 0.5,
@@ -6459,7 +6439,7 @@
         ],
         "classification_conf": [
             [
-                0.9804310202598572
+                0.8842857480049133
             ]
         ],
         "classification_threshold": 0.5,
@@ -6478,7 +6458,7 @@
         ],
         "classification_conf": [
             [
-                0.9677927494049072
+                0.7603399753570557
             ]
         ],
         "classification_threshold": 0.5,
@@ -6504,7 +6484,7 @@
         ],
         "classification_conf": [
             [
-                0.9982355833053589
+                0.9998366832733154
             ]
         ],
         "classification_threshold": 0.5,
@@ -6521,7 +6501,7 @@
         ],
         "classification_conf": [
             [
-                0.9982355833053589
+                0.9998366832733154
             ]
         ],
         "classification_threshold": 0.5,
@@ -6540,7 +6520,7 @@
         ],
         "classification_conf": [
             [
-                0.9983561635017395
+                0.8486320972442627
             ]
         ],
         "classification_threshold": 0.5,
@@ -6566,7 +6546,7 @@
         ],
         "classification_conf": [
             [
-                0.9939579963684082
+                0.9631861448287964
             ]
         ],
         "classification_threshold": 0.5,
@@ -6587,12 +6567,12 @@
         "before img": "image836.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.9881837964057922
+                0.17097318172454834
             ]
         ],
         "classification_threshold": 0.5,
@@ -6602,22 +6582,12 @@
     },
     {
         "after img": "image836.jpg",
-        "classification_prediction": [
-            [
-                true
-            ]
-        ],
-        "classification_conf": [
-            [
-                0.9881837964057922
-            ]
-        ],
-        "classification_threshold": 0.5,
-        "detection_conf": 0.34900158643722534,
-        "detection_threshold": 0.3,
-        "detection_iou": [
-            0.1160329207777977
-        ]
+        "classification_prediction": 0,
+        "classification_conf": 0,
+        "classification_threshold": 0,
+        "detection_conf": 0,
+        "detection_threshold": 0,
+        "detection_iou": 0
     },
     {
         "before img": "image837.jpg",
@@ -6628,7 +6598,7 @@
         ],
         "classification_conf": [
             [
-                0.9958367347717285
+                0.9152426719665527
             ]
         ],
         "classification_threshold": 0.5,
@@ -6645,7 +6615,7 @@
         ],
         "classification_conf": [
             [
-                0.9958367347717285
+                0.9152426719665527
             ]
         ],
         "classification_threshold": 0.5,
@@ -6665,7 +6635,7 @@
         ],
         "classification_conf": [
             [
-                0.9976634979248047
+                0.9758781790733337
             ]
         ],
         "classification_threshold": 0.5,
@@ -6691,7 +6661,7 @@
         ],
         "classification_conf": [
             [
-                0.04963209480047226
+                0.223153218626976
             ]
         ],
         "classification_threshold": 0.5,
@@ -6717,7 +6687,7 @@
         ],
         "classification_conf": [
             [
-                0.05457752197980881
+                0.2982146143913269
             ]
         ],
         "classification_threshold": 0.5,
@@ -6743,7 +6713,7 @@
         ],
         "classification_conf": [
             [
-                0.07014979422092438
+                0.2035539150238037
             ]
         ],
         "classification_threshold": 0.5,
@@ -6769,7 +6739,7 @@
         ],
         "classification_conf": [
             [
-                0.9535563588142395
+                0.5872601270675659
             ]
         ],
         "classification_threshold": 0.5,
@@ -6786,14 +6756,14 @@
         ],
         "classification_conf": [
             [
-                0.9535563588142395
+                0.5872601270675659
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5162495374679565,
+        "detection_conf": 0.5162526369094849,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.7012156248092651
+            0.7012155652046204
         ]
     },
     {
@@ -6805,7 +6775,7 @@
         ],
         "classification_conf": [
             [
-                0.032975438982248306
+                0.24735471606254578
             ]
         ],
         "classification_threshold": 0.5,
@@ -6831,7 +6801,7 @@
         ],
         "classification_conf": [
             [
-                0.0036637240555137396
+                0.10020124167203903
             ]
         ],
         "classification_threshold": 0.5,
@@ -6857,7 +6827,7 @@
         ],
         "classification_conf": [
             [
-                0.0016020516632124782
+                0.0930575504899025
             ]
         ],
         "classification_threshold": 0.5,
@@ -6883,7 +6853,7 @@
         ],
         "classification_conf": [
             [
-                0.001390107092447579
+                0.027409933507442474
             ]
         ],
         "classification_threshold": 0.5,
@@ -6899,12 +6869,12 @@
         "after img": "image875.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.01746547967195511
+                0.00845829863101244
             ]
         ],
         "classification_threshold": 0.01,
@@ -6925,7 +6895,7 @@
         ],
         "classification_conf": [
             [
-                0.007879047654569149
+                0.0550718754529953
             ]
         ],
         "classification_threshold": 0.5,
@@ -6948,10 +6918,10 @@
         ],
         "classification_conf": [
             [
-                0.06747236102819443
+                0.011919204145669937
             ]
         ],
-        "classification_threshold": 0.06,
+        "classification_threshold": 0.01,
         "detection_conf": [
             0.7859632968902588
         ],
@@ -6970,7 +6940,7 @@
         ],
         "classification_conf": [
             [
-                0.9919878244400024
+                0.9952707886695862
             ]
         ],
         "classification_threshold": 0.5,
@@ -6996,7 +6966,7 @@
         ],
         "classification_conf": [
             [
-                0.9987930059432983
+                0.9964660406112671
             ]
         ],
         "classification_threshold": 0.5,
@@ -7022,7 +6992,7 @@
         ],
         "classification_conf": [
             [
-                0.9973767995834351
+                0.9984336495399475
             ]
         ],
         "classification_threshold": 0.5,
@@ -7039,11 +7009,11 @@
         ],
         "classification_conf": [
             [
-                0.9973767995834351
+                0.9984336495399475
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.12857988476753235,
+        "detection_conf": 0.1285812258720398,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.3880515992641449
@@ -7058,7 +7028,7 @@
         ],
         "classification_conf": [
             [
-                0.9964720010757446
+                0.9884450435638428
             ]
         ],
         "classification_threshold": 0.5,
@@ -7084,7 +7054,7 @@
         ],
         "classification_conf": [
             [
-                0.9978533387184143
+                0.9850901365280151
             ]
         ],
         "classification_threshold": 0.5,
@@ -7101,7 +7071,7 @@
         ],
         "classification_conf": [
             [
-                0.9978533387184143
+                0.9850901365280151
             ]
         ],
         "classification_threshold": 0.5,
@@ -7120,7 +7090,7 @@
         ],
         "classification_conf": [
             [
-                0.990094006061554
+                0.9999758005142212
             ]
         ],
         "classification_threshold": 0.5,
@@ -7146,7 +7116,7 @@
         ],
         "classification_conf": [
             [
-                0.966944694519043
+                0.9999727010726929
             ]
         ],
         "classification_threshold": 0.5,
@@ -7163,11 +7133,11 @@
         ],
         "classification_conf": [
             [
-                0.966944694519043
+                0.9999727010726929
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.04568649083375931,
+        "detection_conf": 0.04568657651543617,
         "detection_threshold": 0.04,
         "detection_iou": [
             0.9569028615951538
@@ -7182,7 +7152,7 @@
         ],
         "classification_conf": [
             [
-                0.9928365349769592
+                0.8848314881324768
             ]
         ],
         "classification_threshold": 0.5,
@@ -7199,11 +7169,11 @@
         ],
         "classification_conf": [
             [
-                0.9928365349769592
+                0.8848314881324768
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.42168447375297546,
+        "detection_conf": 0.42168691754341125,
         "detection_threshold": 0.4,
         "detection_iou": [
             0.77093106508255
@@ -7218,7 +7188,7 @@
         ],
         "classification_conf": [
             [
-                0.9441125392913818
+                0.9497542977333069
             ]
         ],
         "classification_threshold": 0.5,
@@ -7244,7 +7214,7 @@
         ],
         "classification_conf": [
             [
-                0.9999769926071167
+                0.999847412109375
             ]
         ],
         "classification_threshold": 0.5,
@@ -7270,7 +7240,7 @@
         ],
         "classification_conf": [
             [
-                0.9970490336418152
+                0.9999595880508423
             ]
         ],
         "classification_threshold": 0.5,
@@ -7287,11 +7257,11 @@
         ],
         "classification_conf": [
             [
-                0.9970490336418152
+                0.9999595880508423
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5877864360809326,
+        "detection_conf": 0.587785542011261,
         "detection_threshold": 0.5,
         "detection_iou": [
             0.764755368232727
@@ -7306,12 +7276,12 @@
         ],
         "classification_conf": [
             [
-                0.9967193007469177
+                0.9995784163475037
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6066341996192932
+            0.6066155433654785
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -7336,7 +7306,7 @@
         ],
         "classification_conf": [
             [
-                0.8955948352813721
+                0.9918449521064758
             ]
         ],
         "classification_threshold": 0.5,
@@ -7353,7 +7323,7 @@
         ],
         "classification_conf": [
             [
-                0.8955948352813721
+                0.9918449521064758
             ]
         ],
         "classification_threshold": 0.5,
@@ -7372,7 +7342,7 @@
         ],
         "classification_conf": [
             [
-                0.9333202838897705
+                0.9929376244544983
             ]
         ],
         "classification_threshold": 0.5,
@@ -7389,7 +7359,7 @@
         ],
         "classification_conf": [
             [
-                0.9333202838897705
+                0.9929376244544983
             ]
         ],
         "classification_threshold": 0.5,
@@ -7408,7 +7378,7 @@
         ],
         "classification_conf": [
             [
-                0.9035017490386963
+                0.992797315120697
             ]
         ],
         "classification_threshold": 0.5,
@@ -7425,14 +7395,14 @@
         ],
         "classification_conf": [
             [
-                0.9035017490386963
+                0.992797315120697
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": 0.5591303110122681,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.3341028392314911
+            0.3341027498245239
         ]
     },
     {
@@ -7444,7 +7414,7 @@
         ],
         "classification_conf": [
             [
-                0.9999791383743286
+                0.999848484992981
             ]
         ],
         "classification_threshold": 0.5,
@@ -7470,7 +7440,7 @@
         ],
         "classification_conf": [
             [
-                0.9043892025947571
+                0.9926888346672058
             ]
         ],
         "classification_threshold": 0.5,
@@ -7487,7 +7457,7 @@
         ],
         "classification_conf": [
             [
-                0.9043892025947571
+                0.9926888346672058
             ]
         ],
         "classification_threshold": 0.5,
@@ -7506,7 +7476,7 @@
         ],
         "classification_conf": [
             [
-                0.999890923500061
+                0.9959213733673096
             ]
         ],
         "classification_threshold": 0.5,
@@ -7523,7 +7493,7 @@
         ],
         "classification_conf": [
             [
-                0.999890923500061
+                0.9959213733673096
             ]
         ],
         "classification_threshold": 0.5,
@@ -7542,7 +7512,7 @@
         ],
         "classification_conf": [
             [
-                0.9886800050735474
+                0.9461094737052917
             ]
         ],
         "classification_threshold": 0.5,
@@ -7568,7 +7538,7 @@
         ],
         "classification_conf": [
             [
-                0.9998664855957031
+                0.9953351616859436
             ]
         ],
         "classification_threshold": 0.5,
@@ -7585,7 +7555,7 @@
         ],
         "classification_conf": [
             [
-                0.9998664855957031
+                0.9953351616859436
             ]
         ],
         "classification_threshold": 0.5,
@@ -7599,12 +7569,12 @@
         "before img": "image906.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.19742092490196228
+                0.9841547012329102
             ]
         ],
         "classification_threshold": 0.5,
@@ -7614,23 +7584,33 @@
     },
     {
         "after img": "image906.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.9841547012329102
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.10777709633111954,
+        "detection_threshold": 0.1,
+        "detection_iou": [
+            0.45987367630004883
+        ]
     },
     {
         "before img": "image907.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.011284912936389446
+                0.9103515148162842
             ]
         ],
         "classification_threshold": 0.5,
@@ -7640,23 +7620,33 @@
     },
     {
         "after img": "image907.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.9103515148162842
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.1740744411945343,
+        "detection_threshold": 0.1,
+        "detection_iou": [
+            0.011094355955719948
+        ]
     },
     {
         "before img": "image908.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.02913990058004856
+                0.8075570464134216
             ]
         ],
         "classification_threshold": 0.5,
@@ -7666,23 +7656,34 @@
     },
     {
         "after img": "image908.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.8075570464134216
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.057624418288469315,
+        "detection_threshold": 0.05,
+        "detection_iou": [
+            0.0,
+            0.5389164090156555
+        ]
     },
     {
         "before img": "image909.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.04939008876681328
+                0.9718143343925476
             ]
         ],
         "classification_threshold": 0.5,
@@ -7692,23 +7693,33 @@
     },
     {
         "after img": "image909.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.9718143343925476
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.44557732343673706,
+        "detection_threshold": 0.4,
+        "detection_iou": [
+            0.0
+        ]
     },
     {
         "before img": "image910.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.06871908158063889
+                0.924479603767395
             ]
         ],
         "classification_threshold": 0.5,
@@ -7718,12 +7729,22 @@
     },
     {
         "after img": "image910.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.924479603767395
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.5108436942100525,
+        "detection_threshold": 0.5,
+        "detection_iou": [
+            0.7471696734428406
+        ]
     },
     {
         "before img": "image911.jpg",
@@ -7734,7 +7755,7 @@
         ],
         "classification_conf": [
             [
-                0.9889165163040161
+                0.9952747821807861
             ]
         ],
         "classification_threshold": 0.5,
@@ -7751,7 +7772,7 @@
         ],
         "classification_conf": [
             [
-                0.9889165163040161
+                0.9952747821807861
             ]
         ],
         "classification_threshold": 0.5,
@@ -7765,12 +7786,12 @@
         "before img": "image912.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.05966063588857651
+                0.5426931977272034
             ]
         ],
         "classification_threshold": 0.5,
@@ -7796,7 +7817,7 @@
         ],
         "classification_conf": [
             [
-                0.9903751015663147
+                0.9935451745986938
             ]
         ],
         "classification_threshold": 0.5,
@@ -7813,7 +7834,7 @@
         ],
         "classification_conf": [
             [
-                0.9903751015663147
+                0.9935451745986938
             ]
         ],
         "classification_threshold": 0.5,
@@ -7832,7 +7853,7 @@
         ],
         "classification_conf": [
             [
-                0.9914090037345886
+                0.9938094019889832
             ]
         ],
         "classification_threshold": 0.5,
@@ -7849,7 +7870,7 @@
         ],
         "classification_conf": [
             [
-                0.9914090037345886
+                0.9938094019889832
             ]
         ],
         "classification_threshold": 0.5,
@@ -7868,7 +7889,7 @@
         ],
         "classification_conf": [
             [
-                0.9997252821922302
+                0.996531069278717
             ]
         ],
         "classification_threshold": 0.5,
@@ -7885,11 +7906,11 @@
         ],
         "classification_conf": [
             [
-                0.9997252821922302
+                0.996531069278717
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.3307466506958008,
+        "detection_conf": 0.33074939250946045,
         "detection_threshold": 0.3,
         "detection_iou": [
             0.7564278244972229
@@ -7904,7 +7925,7 @@
         ],
         "classification_conf": [
             [
-                0.9661915898323059
+                0.9901239275932312
             ]
         ],
         "classification_threshold": 0.5,
@@ -7921,7 +7942,7 @@
         ],
         "classification_conf": [
             [
-                0.9661915898323059
+                0.9901239275932312
             ]
         ],
         "classification_threshold": 0.5,
@@ -7941,7 +7962,7 @@
         ],
         "classification_conf": [
             [
-                0.6946277618408203
+                0.9646718502044678
             ]
         ],
         "classification_threshold": 0.5,
@@ -7967,16 +7988,16 @@
         ],
         "classification_conf": [
             [
-                0.000977455172687769
+                0.00010389700037194416
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.889801025390625
+            0.8898029923439026
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6801023483276367
+            0.6801024079322815
         ]
     },
     {
@@ -7988,28 +8009,28 @@
         ],
         "classification_conf": [
             [
-                4.61272708918159e-09
+                7.28162433460966e-07
             ]
         ],
         "classification_threshold": 0.01,
         "detection_conf": [
-            0.889801025390625
+            0.8898029923439026
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.6801023483276367
+            0.6801024079322815
         ]
     },
     {
         "before img": "image919.jpg",
         "classification_prediction": [
             [
-                false
+                true
             ]
         ],
         "classification_conf": [
             [
-                0.3417365252971649
+                0.7744865417480469
             ]
         ],
         "classification_threshold": 0.5,
@@ -8019,12 +8040,22 @@
     },
     {
         "after img": "image919.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.7744865417480469
+            ]
+        ],
+        "classification_threshold": 0.5,
+        "detection_conf": 0.4215414822101593,
+        "detection_threshold": 0.4,
+        "detection_iou": [
+            0.6843586564064026
+        ]
     },
     {
         "before img": "image920.jpg",
@@ -8035,7 +8066,7 @@
         ],
         "classification_conf": [
             [
-                0.04118632897734642
+                0.4949796497821808
             ]
         ],
         "classification_threshold": 0.5,
@@ -8061,7 +8092,7 @@
         ],
         "classification_conf": [
             [
-                0.0043234932236373425
+                0.2635747194290161
             ]
         ],
         "classification_threshold": 0.5,
@@ -8087,7 +8118,7 @@
         ],
         "classification_conf": [
             [
-                0.9524372220039368
+                0.9984704852104187
             ]
         ],
         "classification_threshold": 0.5,
@@ -8104,7 +8135,7 @@
         ],
         "classification_conf": [
             [
-                0.9524372220039368
+                0.9984704852104187
             ]
         ],
         "classification_threshold": 0.5,
@@ -8124,7 +8155,7 @@
         ],
         "classification_conf": [
             [
-                0.9989569187164307
+                0.9977555871009827
             ]
         ],
         "classification_threshold": 0.5,
@@ -8141,11 +8172,11 @@
         ],
         "classification_conf": [
             [
-                0.9989569187164307
+                0.9977555871009827
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.3501933515071869,
+        "detection_conf": 0.3502142131328583,
         "detection_threshold": 0.3,
         "detection_iou": [
             0.0
@@ -8160,7 +8191,7 @@
         ],
         "classification_conf": [
             [
-                0.9982049465179443
+                0.9980059266090393
             ]
         ],
         "classification_threshold": 0.5,
@@ -8177,11 +8208,11 @@
         ],
         "classification_conf": [
             [
-                0.9982049465179443
+                0.9980059266090393
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.1462385207414627,
+        "detection_conf": 0.14624804258346558,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.0
@@ -8196,7 +8227,7 @@
         ],
         "classification_conf": [
             [
-                0.9999865293502808
+                0.999936580657959
             ]
         ],
         "classification_threshold": 0.5,
@@ -8222,12 +8253,12 @@
         ],
         "classification_conf": [
             [
-                0.859082043170929
+                0.7026214003562927
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6532949805259705
+            0.6533050537109375
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -8252,7 +8283,7 @@
         ],
         "classification_conf": [
             [
-                0.006927685346454382
+                0.005804320331662893
             ]
         ],
         "classification_threshold": 0.5,
@@ -8278,12 +8309,12 @@
         ],
         "classification_conf": [
             [
-                0.9879074692726135
+                0.7661272287368774
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.6400733590126038
+            0.640076220035553
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -8308,7 +8339,7 @@
         ],
         "classification_conf": [
             [
-                0.9560208916664124
+                0.9663261771202087
             ]
         ],
         "classification_threshold": 0.5,
@@ -8334,7 +8365,7 @@
         ],
         "classification_conf": [
             [
-                0.9942175149917603
+                0.9419388771057129
             ]
         ],
         "classification_threshold": 0.5,
@@ -8360,7 +8391,7 @@
         ],
         "classification_conf": [
             [
-                0.07592081278562546
+                0.09989916533231735
             ]
         ],
         "classification_threshold": 0.5,
@@ -8386,7 +8417,7 @@
         ],
         "classification_conf": [
             [
-                0.9284953474998474
+                0.8317398428916931
             ]
         ],
         "classification_threshold": 0.5,
@@ -8412,7 +8443,7 @@
         ],
         "classification_conf": [
             [
-                0.994458794593811
+                0.9109182357788086
             ]
         ],
         "classification_threshold": 0.5,
@@ -8429,11 +8460,11 @@
         ],
         "classification_conf": [
             [
-                0.994458794593811
+                0.9109182357788086
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.0915595069527626,
+        "detection_conf": 0.09156034886837006,
         "detection_threshold": 0.09,
         "detection_iou": [
             0.32580411434173584
@@ -8448,7 +8479,7 @@
         ],
         "classification_conf": [
             [
-                0.9999371767044067
+                0.9934711456298828
             ]
         ],
         "classification_threshold": 0.5,
@@ -8474,16 +8505,16 @@
         ],
         "classification_conf": [
             [
-                0.9987468719482422
+                0.9888939261436462
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8537737727165222
+            0.8537770509719849
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.7042189836502075
+            0.7042188048362732
         ]
     },
     {
@@ -8504,7 +8535,7 @@
         ],
         "classification_conf": [
             [
-                0.9991233944892883
+                0.9821504354476929
             ]
         ],
         "classification_threshold": 0.5,
@@ -8521,7 +8552,7 @@
         ],
         "classification_conf": [
             [
-                0.9991233944892883
+                0.9821504354476929
             ]
         ],
         "classification_threshold": 0.5,
@@ -8540,7 +8571,7 @@
         ],
         "classification_conf": [
             [
-                0.9999206066131592
+                0.9714870452880859
             ]
         ],
         "classification_threshold": 0.5,
@@ -8557,7 +8588,7 @@
         ],
         "classification_conf": [
             [
-                0.9999206066131592
+                0.9714870452880859
             ]
         ],
         "classification_threshold": 0.5,
@@ -8576,7 +8607,7 @@
         ],
         "classification_conf": [
             [
-                0.9999481439590454
+                0.9865151047706604
             ]
         ],
         "classification_threshold": 0.5,
@@ -8593,7 +8624,7 @@
         ],
         "classification_conf": [
             [
-                0.9999481439590454
+                0.9865151047706604
             ]
         ],
         "classification_threshold": 0.5,
@@ -8612,7 +8643,7 @@
         ],
         "classification_conf": [
             [
-                0.9999792575836182
+                0.9942994117736816
             ]
         ],
         "classification_threshold": 0.5,
@@ -8629,7 +8660,7 @@
         ],
         "classification_conf": [
             [
-                0.9999792575836182
+                0.9942994117736816
             ]
         ],
         "classification_threshold": 0.5,
@@ -8648,7 +8679,7 @@
         ],
         "classification_conf": [
             [
-                0.9999951124191284
+                0.9997711777687073
             ]
         ],
         "classification_threshold": 0.5,
@@ -8665,11 +8696,11 @@
         ],
         "classification_conf": [
             [
-                0.9999951124191284
+                0.9997711777687073
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.49152514338493347,
+        "detection_conf": 0.4915280342102051,
         "detection_threshold": 0.4,
         "detection_iou": [
             0.4122428596019745
@@ -8684,7 +8715,7 @@
         ],
         "classification_conf": [
             [
-                0.9999862909317017
+                0.9966394901275635
             ]
         ],
         "classification_threshold": 0.5,
@@ -8701,7 +8732,7 @@
         ],
         "classification_conf": [
             [
-                0.9999862909317017
+                0.9966394901275635
             ]
         ],
         "classification_threshold": 0.5,
@@ -8721,7 +8752,7 @@
         ],
         "classification_conf": [
             [
-                0.9967241883277893
+                0.8385723233222961
             ]
         ],
         "classification_threshold": 0.5,
@@ -8751,7 +8782,7 @@
         ],
         "classification_conf": [
             [
-                0.994419276714325
+                0.9785440564155579
             ]
         ],
         "classification_threshold": 0.5,
@@ -8768,7 +8799,7 @@
         ],
         "classification_conf": [
             [
-                0.994419276714325
+                0.9785440564155579
             ]
         ],
         "classification_threshold": 0.5,
@@ -8787,7 +8818,7 @@
         ],
         "classification_conf": [
             [
-                0.9999861717224121
+                0.9994314312934875
             ]
         ],
         "classification_threshold": 0.5,
@@ -8804,11 +8835,11 @@
         ],
         "classification_conf": [
             [
-                0.9999861717224121
+                0.9994314312934875
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5853362083435059,
+        "detection_conf": 0.5853374004364014,
         "detection_threshold": 0.5,
         "detection_iou": [
             0.5060892701148987
@@ -8823,7 +8854,7 @@
         ],
         "classification_conf": [
             [
-                0.9975540041923523
+                0.9015418291091919
             ]
         ],
         "classification_threshold": 0.5,
@@ -8853,7 +8884,7 @@
         ],
         "classification_conf": [
             [
-                0.9941874742507935
+                0.795859694480896
             ]
         ],
         "classification_threshold": 0.5,
@@ -8883,7 +8914,7 @@
         ],
         "classification_conf": [
             [
-                0.9999631643295288
+                0.9940104484558105
             ]
         ],
         "classification_threshold": 0.5,
@@ -8913,7 +8944,7 @@
         ],
         "classification_conf": [
             [
-                0.9999666213989258
+                0.9941133856773376
             ]
         ],
         "classification_threshold": 0.5,
@@ -8943,7 +8974,7 @@
         ],
         "classification_conf": [
             [
-                0.9999271631240845
+                0.9912480115890503
             ]
         ],
         "classification_threshold": 0.5,
@@ -8973,7 +9004,7 @@
         ],
         "classification_conf": [
             [
-                0.999945878982544
+                0.9931875467300415
             ]
         ],
         "classification_threshold": 0.5,
@@ -8990,7 +9021,7 @@
         ],
         "classification_conf": [
             [
-                0.999945878982544
+                0.9931875467300415
             ]
         ],
         "classification_threshold": 0.5,
@@ -9009,7 +9040,7 @@
         ],
         "classification_conf": [
             [
-                0.9999746084213257
+                0.9959618449211121
             ]
         ],
         "classification_threshold": 0.5,
@@ -9018,7 +9049,7 @@
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.4814528226852417
+            0.48145249485969543
         ]
     },
     {
@@ -9039,7 +9070,7 @@
         ],
         "classification_conf": [
             [
-                0.9999743700027466
+                0.998944103717804
             ]
         ],
         "classification_threshold": 0.5,
@@ -9056,7 +9087,7 @@
         ],
         "classification_conf": [
             [
-                0.9999743700027466
+                0.998944103717804
             ]
         ],
         "classification_threshold": 0.5,
@@ -9075,12 +9106,12 @@
         ],
         "classification_conf": [
             [
-                0.9696415066719055
+                0.9102485775947571
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9148020148277283
+            0.9148035049438477
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9105,12 +9136,12 @@
         ],
         "classification_conf": [
             [
-                0.9986891150474548
+                0.9879347085952759
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.7209538817405701
+            0.7209572196006775
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9135,16 +9166,16 @@
         ],
         "classification_conf": [
             [
-                0.9999949932098389
+                0.9986709356307983
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9436877965927124
+            0.9436899423599243
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
-            0.8989607691764832
+            0.8989608287811279
         ]
     },
     {
@@ -9165,12 +9196,12 @@
         ],
         "classification_conf": [
             [
-                0.9988118410110474
+                0.9906504154205322
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9130566716194153
+            0.9130452871322632
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9195,12 +9226,12 @@
         ],
         "classification_conf": [
             [
-                0.9899952411651611
+                0.9356594681739807
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8988811373710632
+            0.8988839387893677
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9225,7 +9256,7 @@
         ],
         "classification_conf": [
             [
-                0.9988232254981995
+                0.9714314937591553
             ]
         ],
         "classification_threshold": 0.5,
@@ -9242,11 +9273,11 @@
         ],
         "classification_conf": [
             [
-                0.9988232254981995
+                0.9714314937591553
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.07381461560726166,
+        "detection_conf": 0.07381657510995865,
         "detection_threshold": 0.07,
         "detection_iou": [
             0.7171327471733093
@@ -9261,12 +9292,12 @@
         ],
         "classification_conf": [
             [
-                0.9947049021720886
+                0.9497029185295105
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.9176133871078491
+            0.9176154136657715
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9291,12 +9322,12 @@
         ],
         "classification_conf": [
             [
-                0.9984672665596008
+                0.9822532534599304
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8884639143943787
+            0.8884661793708801
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9316,17 +9347,17 @@
         "before img": "image997.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.8446851372718811
+                0.05490797013044357
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.677297055721283
+            0.6772966980934143
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9335,15 +9366,6 @@
     },
     {
         "after img": "image997.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
-    },
-    {
-        "before img": "image998.jpg",
         "classification_prediction": [
             [
                 true
@@ -9351,12 +9373,33 @@
         ],
         "classification_conf": [
             [
-                0.916737973690033
+                0.046957582235336304
+            ]
+        ],
+        "classification_threshold": 0.04,
+        "detection_conf": [
+            0.6772966980934143
+        ],
+        "detection_threshold": 0.6,
+        "detection_iou": [
+            0.7223494648933411
+        ]
+    },
+    {
+        "before img": "image998.jpg",
+        "classification_prediction": [
+            [
+                false
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.11797788739204407
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8626182675361633
+            0.8626195192337036
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9365,12 +9408,24 @@
     },
     {
         "after img": "image998.jpg",
-        "classification_prediction": 0,
-        "classification_conf": 0,
-        "classification_threshold": 0,
-        "detection_conf": 0,
-        "detection_threshold": 0,
-        "detection_iou": 0
+        "classification_prediction": [
+            [
+                true
+            ]
+        ],
+        "classification_conf": [
+            [
+                0.1155872642993927
+            ]
+        ],
+        "classification_threshold": 0.1,
+        "detection_conf": [
+            0.8626195192337036
+        ],
+        "detection_threshold": 0.6,
+        "detection_iou": [
+            0.7104893326759338
+        ]
     },
     {
         "before img": "image999.jpg",
@@ -9381,12 +9436,12 @@
         ],
         "classification_conf": [
             [
-                0.9861206412315369
+                0.9068580865859985
             ]
         ],
         "classification_threshold": 0.5,
         "detection_conf": [
-            0.8979161381721497
+            0.8979185223579407
         ],
         "detection_threshold": 0.6,
         "detection_iou": [
@@ -9411,7 +9466,7 @@
         ],
         "classification_conf": [
             [
-                0.9671520590782166
+                0.6166646480560303
             ]
         ],
         "classification_threshold": 0.5,
@@ -9428,14 +9483,14 @@
         ],
         "classification_conf": [
             [
-                0.9671520590782166
+                0.6166646480560303
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.08987987041473389,
+        "detection_conf": 0.08988049626350403,
         "detection_threshold": 0.08,
         "detection_iou": [
-            0.8306708931922913
+            0.8306710124015808
         ]
     },
     {
@@ -9447,7 +9502,7 @@
         ],
         "classification_conf": [
             [
-                0.0016323646996170282
+                0.00832424871623516
             ]
         ],
         "classification_threshold": 0.5,
@@ -9473,7 +9528,7 @@
         ],
         "classification_conf": [
             [
-                0.9999799728393555
+                0.9977941513061523
             ]
         ],
         "classification_threshold": 0.5,
@@ -9490,14 +9545,14 @@
         ],
         "classification_conf": [
             [
-                0.9999799728393555
+                0.9977941513061523
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.5971625447273254,
+        "detection_conf": 0.5971658825874329,
         "detection_threshold": 0.5,
         "detection_iou": [
-            0.7142260074615479
+            0.7142259478569031
         ]
     },
     {
@@ -9509,7 +9564,7 @@
         ],
         "classification_conf": [
             [
-                0.031171482056379318
+                0.04792812094092369
             ]
         ],
         "classification_threshold": 0.5,
@@ -9535,7 +9590,7 @@
         ],
         "classification_conf": [
             [
-                0.004246372729539871
+                0.013248796574771404
             ]
         ],
         "classification_threshold": 0.5,
@@ -9561,7 +9616,7 @@
         ],
         "classification_conf": [
             [
-                0.9999938011169434
+                0.9989113807678223
             ]
         ],
         "classification_threshold": 0.5,
@@ -9578,7 +9633,7 @@
         ],
         "classification_conf": [
             [
-                0.9999938011169434
+                0.9989113807678223
             ]
         ],
         "classification_threshold": 0.5,
@@ -9592,12 +9647,12 @@
         "before img": "imgR167.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.842910647392273
+                0.49027010798454285
             ]
         ],
         "classification_threshold": 0.5,
@@ -9623,7 +9678,7 @@
         ],
         "classification_conf": [
             [
-                0.9998103976249695
+                0.9716682434082031
             ]
         ],
         "classification_threshold": 0.5,
@@ -9649,7 +9704,7 @@
         ],
         "classification_conf": [
             [
-                0.9994895458221436
+                0.9740963578224182
             ]
         ],
         "classification_threshold": 0.5,
@@ -9675,7 +9730,7 @@
         ],
         "classification_conf": [
             [
-                0.03812762349843979
+                0.01043827272951603
             ]
         ],
         "classification_threshold": 0.5,
@@ -9701,7 +9756,7 @@
         ],
         "classification_conf": [
             [
-                0.055091869086027145
+                0.10108061879873276
             ]
         ],
         "classification_threshold": 0.5,
@@ -9727,7 +9782,7 @@
         ],
         "classification_conf": [
             [
-                0.9997499585151672
+                0.9905701875686646
             ]
         ],
         "classification_threshold": 0.5,
@@ -9753,7 +9808,7 @@
         ],
         "classification_conf": [
             [
-                0.9839354753494263
+                0.956627607345581
             ]
         ],
         "classification_threshold": 0.5,
@@ -9770,11 +9825,11 @@
         ],
         "classification_conf": [
             [
-                0.9839354753494263
+                0.956627607345581
             ]
         ],
         "classification_threshold": 0.5,
-        "detection_conf": 0.15814559161663055,
+        "detection_conf": 0.15814483165740967,
         "detection_threshold": 0.1,
         "detection_iou": [
             0.05328081175684929
@@ -9789,7 +9844,7 @@
         ],
         "classification_conf": [
             [
-                7.490220741601661e-05
+                0.005814052652567625
             ]
         ],
         "classification_threshold": 0.5,
@@ -9815,7 +9870,7 @@
         ],
         "classification_conf": [
             [
-                0.9608989953994751
+                0.7115461230278015
             ]
         ],
         "classification_threshold": 0.5,
@@ -9832,7 +9887,7 @@
         ],
         "classification_conf": [
             [
-                0.9608989953994751
+                0.7115461230278015
             ]
         ],
         "classification_threshold": 0.5,
@@ -9846,12 +9901,12 @@
         "before img": "imgR176.jpg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.7467002272605896
+                0.3283606171607971
             ]
         ],
         "classification_threshold": 0.5,
@@ -9877,7 +9932,7 @@
         ],
         "classification_conf": [
             [
-                0.09173675626516342
+                0.38062620162963867
             ]
         ],
         "classification_threshold": 0.5,
@@ -9903,7 +9958,7 @@
         ],
         "classification_conf": [
             [
-                0.0016180413076654077
+                0.019144104793667793
             ]
         ],
         "classification_threshold": 0.5,
@@ -9929,7 +9984,7 @@
         ],
         "classification_conf": [
             [
-                0.00048118282575160265
+                0.008358469232916832
             ]
         ],
         "classification_threshold": 0.5,
@@ -9955,7 +10010,7 @@
         ],
         "classification_conf": [
             [
-                1.0
+                0.9999449253082275
             ]
         ],
         "classification_threshold": 0.5,
@@ -9981,7 +10036,7 @@
         ],
         "classification_conf": [
             [
-                5.4803508646728005e-06
+                1.9701278830552837e-08
             ]
         ],
         "classification_threshold": 0.5,
@@ -10007,7 +10062,7 @@
         ],
         "classification_conf": [
             [
-                8.843091200105846e-05
+                0.0007114818436093628
             ]
         ],
         "classification_threshold": 0.5,
@@ -10033,7 +10088,7 @@
         ],
         "classification_conf": [
             [
-                0.0038401135243475437
+                0.0007624994614161551
             ]
         ],
         "classification_threshold": 0.5,
@@ -10059,7 +10114,7 @@
         ],
         "classification_conf": [
             [
-                0.0003477599530015141
+                0.0043909004889428616
             ]
         ],
         "classification_threshold": 0.5,
@@ -10085,7 +10140,7 @@
         ],
         "classification_conf": [
             [
-                0.0015702283708378673
+                0.008738999255001545
             ]
         ],
         "classification_threshold": 0.5,
@@ -10111,7 +10166,7 @@
         ],
         "classification_conf": [
             [
-                0.014321641065180302
+                0.027424708008766174
             ]
         ],
         "classification_threshold": 0.5,
@@ -10137,7 +10192,7 @@
         ],
         "classification_conf": [
             [
-                2.6661427909857593e-06
+                0.00033860249095596373
             ]
         ],
         "classification_threshold": 0.5,
@@ -10163,7 +10218,7 @@
         ],
         "classification_conf": [
             [
-                0.0013444165233522654
+                0.010465243831276894
             ]
         ],
         "classification_threshold": 0.5,
@@ -10189,7 +10244,7 @@
         ],
         "classification_conf": [
             [
-                0.3000713586807251
+                0.1859118938446045
             ]
         ],
         "classification_threshold": 0.5,
@@ -10215,7 +10270,7 @@
         ],
         "classification_conf": [
             [
-                2.587208882687264e-06
+                0.000335649645421654
             ]
         ],
         "classification_threshold": 0.5,
@@ -10241,7 +10296,7 @@
         ],
         "classification_conf": [
             [
-                0.000431335560278967
+                0.0009039518190547824
             ]
         ],
         "classification_threshold": 0.5,
@@ -10267,7 +10322,7 @@
         ],
         "classification_conf": [
             [
-                0.00012875407992396504
+                0.002349318005144596
             ]
         ],
         "classification_threshold": 0.5,
@@ -10293,7 +10348,7 @@
         ],
         "classification_conf": [
             [
-                6.939268496353179e-05
+                0.0023212325759232044
             ]
         ],
         "classification_threshold": 0.5,
@@ -10319,7 +10374,7 @@
         ],
         "classification_conf": [
             [
-                0.005231632385402918
+                0.016877789050340652
             ]
         ],
         "classification_threshold": 0.5,
@@ -10345,7 +10400,7 @@
         ],
         "classification_conf": [
             [
-                0.029918648302555084
+                0.0747457966208458
             ]
         ],
         "classification_threshold": 0.5,
@@ -10371,7 +10426,7 @@
         ],
         "classification_conf": [
             [
-                0.0023342741187661886
+                2.5351473595947027e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -10397,7 +10452,7 @@
         ],
         "classification_conf": [
             [
-                3.244807038078196e-14
+                4.434767626775504e-15
             ]
         ],
         "classification_threshold": 0.5,
@@ -10423,7 +10478,7 @@
         ],
         "classification_conf": [
             [
-                0.9970943927764893
+                0.9965993762016296
             ]
         ],
         "classification_threshold": 0.5,
@@ -10449,7 +10504,7 @@
         ],
         "classification_conf": [
             [
-                9.375262948196905e-07
+                0.00011000666563631967
             ]
         ],
         "classification_threshold": 0.5,
@@ -10475,7 +10530,7 @@
         ],
         "classification_conf": [
             [
-                1.8379974875415428e-08
+                9.77035415417049e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -10501,7 +10556,7 @@
         ],
         "classification_conf": [
             [
-                0.9774585366249084
+                0.6398861408233643
             ]
         ],
         "classification_threshold": 0.5,
@@ -10522,12 +10577,12 @@
         "before img": "Forest-Valid (122).jpeg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.5137757062911987
+                0.1779707372188568
             ]
         ],
         "classification_threshold": 0.5,
@@ -10553,7 +10608,7 @@
         ],
         "classification_conf": [
             [
-                8.465622522635385e-05
+                0.002013821853324771
             ]
         ],
         "classification_threshold": 0.5,
@@ -10579,7 +10634,7 @@
         ],
         "classification_conf": [
             [
-                0.7156696319580078
+                0.7109849452972412
             ]
         ],
         "classification_threshold": 0.5,
@@ -10605,7 +10660,7 @@
         ],
         "classification_conf": [
             [
-                0.00019818817963823676
+                0.0026531678158789873
             ]
         ],
         "classification_threshold": 0.5,
@@ -10631,7 +10686,7 @@
         ],
         "classification_conf": [
             [
-                7.615761320189929e-15
+                1.6694474112922465e-16
             ]
         ],
         "classification_threshold": 0.5,
@@ -10657,7 +10712,7 @@
         ],
         "classification_conf": [
             [
-                0.1406446397304535
+                0.15401694178581238
             ]
         ],
         "classification_threshold": 0.5,
@@ -10683,7 +10738,7 @@
         ],
         "classification_conf": [
             [
-                0.011958235874772072
+                0.10797982662916183
             ]
         ],
         "classification_threshold": 0.5,
@@ -10709,7 +10764,7 @@
         ],
         "classification_conf": [
             [
-                0.0001591983891557902
+                0.009506959468126297
             ]
         ],
         "classification_threshold": 0.5,
@@ -10735,7 +10790,7 @@
         ],
         "classification_conf": [
             [
-                8.253566193161532e-06
+                0.0005062131094746292
             ]
         ],
         "classification_threshold": 0.5,
@@ -10761,7 +10816,7 @@
         ],
         "classification_conf": [
             [
-                8.136426572491473e-07
+                0.00012132072151871398
             ]
         ],
         "classification_threshold": 0.5,
@@ -10787,7 +10842,7 @@
         ],
         "classification_conf": [
             [
-                0.0006601633504033089
+                0.004983175080269575
             ]
         ],
         "classification_threshold": 0.5,
@@ -10813,7 +10868,7 @@
         ],
         "classification_conf": [
             [
-                9.571522241458297e-07
+                0.00020083652634639293
             ]
         ],
         "classification_threshold": 0.5,
@@ -10839,7 +10894,7 @@
         ],
         "classification_conf": [
             [
-                7.95882660895586e-05
+                0.0021938171703368425
             ]
         ],
         "classification_threshold": 0.5,
@@ -10865,7 +10920,7 @@
         ],
         "classification_conf": [
             [
-                3.8233972872491265e-14
+                9.081268529362419e-17
             ]
         ],
         "classification_threshold": 0.5,
@@ -10891,7 +10946,7 @@
         ],
         "classification_conf": [
             [
-                0.2689608931541443
+                0.001141264452598989
             ]
         ],
         "classification_threshold": 0.5,
@@ -10917,7 +10972,7 @@
         ],
         "classification_conf": [
             [
-                0.9900533556938171
+                0.775325357913971
             ]
         ],
         "classification_threshold": 0.5,
@@ -10943,7 +10998,7 @@
         ],
         "classification_conf": [
             [
-                0.4745001792907715
+                0.4754239320755005
             ]
         ],
         "classification_threshold": 0.5,
@@ -10969,7 +11024,7 @@
         ],
         "classification_conf": [
             [
-                1.8775384887703694e-05
+                0.0005690546240657568
             ]
         ],
         "classification_threshold": 0.5,
@@ -10995,7 +11050,7 @@
         ],
         "classification_conf": [
             [
-                7.164516091506812e-07
+                4.980633093509823e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -11021,7 +11076,7 @@
         ],
         "classification_conf": [
             [
-                6.2438912547257974e-12
+                2.955760432959455e-14
             ]
         ],
         "classification_threshold": 0.5,
@@ -11047,7 +11102,7 @@
         ],
         "classification_conf": [
             [
-                0.08525747805833817
+                0.0893435850739479
             ]
         ],
         "classification_threshold": 0.5,
@@ -11073,7 +11128,7 @@
         ],
         "classification_conf": [
             [
-                9.111689536211998e-08
+                6.509595351644748e-08
             ]
         ],
         "classification_threshold": 0.5,
@@ -11099,7 +11154,7 @@
         ],
         "classification_conf": [
             [
-                0.00019642429833766073
+                0.006090587470680475
             ]
         ],
         "classification_threshold": 0.5,
@@ -11125,7 +11180,7 @@
         ],
         "classification_conf": [
             [
-                9.542028419673443e-05
+                0.0020580021664500237
             ]
         ],
         "classification_threshold": 0.5,
@@ -11151,7 +11206,7 @@
         ],
         "classification_conf": [
             [
-                4.3062031181761995e-05
+                0.001477535697631538
             ]
         ],
         "classification_threshold": 0.5,
@@ -11177,7 +11232,7 @@
         ],
         "classification_conf": [
             [
-                0.004226559307426214
+                0.011195854283869267
             ]
         ],
         "classification_threshold": 0.5,
@@ -11203,7 +11258,7 @@
         ],
         "classification_conf": [
             [
-                0.011495213955640793
+                0.041844844818115234
             ]
         ],
         "classification_threshold": 0.5,
@@ -11229,7 +11284,7 @@
         ],
         "classification_conf": [
             [
-                0.002128800842911005
+                0.033709120005369186
             ]
         ],
         "classification_threshold": 0.5,
@@ -11255,7 +11310,7 @@
         ],
         "classification_conf": [
             [
-                0.0019661802798509598
+                0.01269893441349268
             ]
         ],
         "classification_threshold": 0.5,
@@ -11281,7 +11336,7 @@
         ],
         "classification_conf": [
             [
-                0.07197391986846924
+                0.12088273465633392
             ]
         ],
         "classification_threshold": 0.5,
@@ -11307,7 +11362,7 @@
         ],
         "classification_conf": [
             [
-                0.008817294612526894
+                0.05951794609427452
             ]
         ],
         "classification_threshold": 0.5,
@@ -11333,7 +11388,7 @@
         ],
         "classification_conf": [
             [
-                0.0001828394888434559
+                0.0006101141916587949
             ]
         ],
         "classification_threshold": 0.5,
@@ -11359,7 +11414,7 @@
         ],
         "classification_conf": [
             [
-                9.475951628701296e-06
+                0.0005392233724705875
             ]
         ],
         "classification_threshold": 0.5,
@@ -11385,7 +11440,7 @@
         ],
         "classification_conf": [
             [
-                1.1365957064413124e-09
+                4.742756187781083e-10
             ]
         ],
         "classification_threshold": 0.5,
@@ -11411,7 +11466,7 @@
         ],
         "classification_conf": [
             [
-                0.00459981570020318
+                0.019820760935544968
             ]
         ],
         "classification_threshold": 0.5,
@@ -11437,7 +11492,7 @@
         ],
         "classification_conf": [
             [
-                6.61842932458967e-06
+                0.0005081434501335025
             ]
         ],
         "classification_threshold": 0.5,
@@ -11463,7 +11518,7 @@
         ],
         "classification_conf": [
             [
-                0.040251921862363815
+                0.0825328528881073
             ]
         ],
         "classification_threshold": 0.5,
@@ -11489,7 +11544,7 @@
         ],
         "classification_conf": [
             [
-                0.0005323906661942601
+                0.0053914207965135574
             ]
         ],
         "classification_threshold": 0.5,
@@ -11515,7 +11570,7 @@
         ],
         "classification_conf": [
             [
-                0.02900315448641777
+                0.10501570999622345
             ]
         ],
         "classification_threshold": 0.5,
@@ -11541,7 +11596,7 @@
         ],
         "classification_conf": [
             [
-                0.011963233351707458
+                0.019552256911993027
             ]
         ],
         "classification_threshold": 0.5,
@@ -11567,7 +11622,7 @@
         ],
         "classification_conf": [
             [
-                7.788714356138371e-06
+                0.00044654557132162154
             ]
         ],
         "classification_threshold": 0.5,
@@ -11593,7 +11648,7 @@
         ],
         "classification_conf": [
             [
-                0.03301068767905235
+                0.04168329015374184
             ]
         ],
         "classification_threshold": 0.5,
@@ -11619,7 +11674,7 @@
         ],
         "classification_conf": [
             [
-                0.02763321064412594
+                0.042521435767412186
             ]
         ],
         "classification_threshold": 0.5,
@@ -11645,7 +11700,7 @@
         ],
         "classification_conf": [
             [
-                0.002129822038114071
+                0.018410926684737206
             ]
         ],
         "classification_threshold": 0.5,
@@ -11671,7 +11726,7 @@
         ],
         "classification_conf": [
             [
-                0.00014095738879404962
+                0.0033830516040325165
             ]
         ],
         "classification_threshold": 0.5,
@@ -11697,7 +11752,7 @@
         ],
         "classification_conf": [
             [
-                0.0012135017896071076
+                0.011704934760928154
             ]
         ],
         "classification_threshold": 0.5,
@@ -11723,7 +11778,7 @@
         ],
         "classification_conf": [
             [
-                0.042679451406002045
+                0.07880381494760513
             ]
         ],
         "classification_threshold": 0.5,
@@ -11749,7 +11804,7 @@
         ],
         "classification_conf": [
             [
-                0.03953296318650246
+                0.1389331817626953
             ]
         ],
         "classification_threshold": 0.5,
@@ -11775,7 +11830,7 @@
         ],
         "classification_conf": [
             [
-                2.4385901298273893e-08
+                1.4988155271566939e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -11801,7 +11856,7 @@
         ],
         "classification_conf": [
             [
-                0.032075926661491394
+                0.08115237951278687
             ]
         ],
         "classification_threshold": 0.5,
@@ -11827,7 +11882,7 @@
         ],
         "classification_conf": [
             [
-                1.7811609723139554e-05
+                7.158825610531494e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -11853,7 +11908,7 @@
         ],
         "classification_conf": [
             [
-                2.4073576465610813e-09
+                1.797362529032398e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -11879,7 +11934,7 @@
         ],
         "classification_conf": [
             [
-                3.7263907870510593e-06
+                0.00023209367645904422
             ]
         ],
         "classification_threshold": 0.5,
@@ -11905,7 +11960,7 @@
         ],
         "classification_conf": [
             [
-                0.029107553884387016
+                0.049897633492946625
             ]
         ],
         "classification_threshold": 0.5,
@@ -11931,7 +11986,7 @@
         ],
         "classification_conf": [
             [
-                2.0514673451543786e-05
+                0.0013169138692319393
             ]
         ],
         "classification_threshold": 0.5,
@@ -11957,7 +12012,7 @@
         ],
         "classification_conf": [
             [
-                3.411282250453951e-06
+                0.00016240219702012837
             ]
         ],
         "classification_threshold": 0.5,
@@ -11983,7 +12038,7 @@
         ],
         "classification_conf": [
             [
-                6.714191113132983e-05
+                0.0042839935049414635
             ]
         ],
         "classification_threshold": 0.5,
@@ -12009,7 +12064,7 @@
         ],
         "classification_conf": [
             [
-                0.007214629556983709
+                0.01478824857622385
             ]
         ],
         "classification_threshold": 0.5,
@@ -12035,7 +12090,7 @@
         ],
         "classification_conf": [
             [
-                0.006136186886578798
+                0.09903125464916229
             ]
         ],
         "classification_threshold": 0.5,
@@ -12061,7 +12116,7 @@
         ],
         "classification_conf": [
             [
-                0.028542935848236084
+                0.05430598929524422
             ]
         ],
         "classification_threshold": 0.5,
@@ -12087,7 +12142,7 @@
         ],
         "classification_conf": [
             [
-                0.0047951508313417435
+                0.019948255270719528
             ]
         ],
         "classification_threshold": 0.5,
@@ -12113,7 +12168,7 @@
         ],
         "classification_conf": [
             [
-                0.0016629842575639486
+                0.01279529556632042
             ]
         ],
         "classification_threshold": 0.5,
@@ -12139,7 +12194,7 @@
         ],
         "classification_conf": [
             [
-                0.0001038549016811885
+                0.002853390295058489
             ]
         ],
         "classification_threshold": 0.5,
@@ -12165,7 +12220,7 @@
         ],
         "classification_conf": [
             [
-                3.183258456829208e-08
+                7.195366197265685e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -12191,7 +12246,7 @@
         ],
         "classification_conf": [
             [
-                3.046723350053071e-06
+                0.00018350142636336386
             ]
         ],
         "classification_threshold": 0.5,
@@ -12217,7 +12272,7 @@
         ],
         "classification_conf": [
             [
-                1.8115098310289568e-10
+                7.979161864568596e-08
             ]
         ],
         "classification_threshold": 0.5,
@@ -12243,7 +12298,7 @@
         ],
         "classification_conf": [
             [
-                1.7709426174405962e-05
+                2.5658131562522613e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -12269,7 +12324,7 @@
         ],
         "classification_conf": [
             [
-                8.037332008825615e-06
+                0.00016188333393074572
             ]
         ],
         "classification_threshold": 0.5,
@@ -12295,7 +12350,7 @@
         ],
         "classification_conf": [
             [
-                0.011276611126959324
+                0.11154954880475998
             ]
         ],
         "classification_threshold": 0.5,
@@ -12321,7 +12376,7 @@
         ],
         "classification_conf": [
             [
-                7.075018402247224e-06
+                0.00022624166740570217
             ]
         ],
         "classification_threshold": 0.5,
@@ -12347,7 +12402,7 @@
         ],
         "classification_conf": [
             [
-                0.006271171383559704
+                0.019520092755556107
             ]
         ],
         "classification_threshold": 0.5,
@@ -12373,7 +12428,7 @@
         ],
         "classification_conf": [
             [
-                0.00459981570020318
+                0.019820760935544968
             ]
         ],
         "classification_threshold": 0.5,
@@ -12399,7 +12454,7 @@
         ],
         "classification_conf": [
             [
-                3.2154724749489105e-07
+                2.1886515241931193e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -12425,7 +12480,7 @@
         ],
         "classification_conf": [
             [
-                8.549531776225194e-05
+                0.000864605710376054
             ]
         ],
         "classification_threshold": 0.5,
@@ -12451,7 +12506,7 @@
         ],
         "classification_conf": [
             [
-                2.4110817321343347e-05
+                3.953390432798187e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -12477,7 +12532,7 @@
         ],
         "classification_conf": [
             [
-                0.0001210098052979447
+                0.0008532562060281634
             ]
         ],
         "classification_threshold": 0.5,
@@ -12503,7 +12558,7 @@
         ],
         "classification_conf": [
             [
-                0.008194290101528168
+                0.013950088061392307
             ]
         ],
         "classification_threshold": 0.5,
@@ -12529,7 +12584,7 @@
         ],
         "classification_conf": [
             [
-                2.4624380330351414e-06
+                0.00015154352877289057
             ]
         ],
         "classification_threshold": 0.5,
@@ -12555,7 +12610,7 @@
         ],
         "classification_conf": [
             [
-                0.008350023999810219
+                0.03974837809801102
             ]
         ],
         "classification_threshold": 0.5,
@@ -12581,7 +12636,7 @@
         ],
         "classification_conf": [
             [
-                0.0024184277281165123
+                0.005141369067132473
             ]
         ],
         "classification_threshold": 0.5,
@@ -12607,7 +12662,7 @@
         ],
         "classification_conf": [
             [
-                0.003516112919896841
+                5.677814442606177e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -12633,7 +12688,7 @@
         ],
         "classification_conf": [
             [
-                0.0001315065601374954
+                0.001088080694898963
             ]
         ],
         "classification_threshold": 0.5,
@@ -12659,7 +12714,7 @@
         ],
         "classification_conf": [
             [
-                5.259597401163774e-06
+                0.0006266941782087088
             ]
         ],
         "classification_threshold": 0.5,
@@ -12685,7 +12740,7 @@
         ],
         "classification_conf": [
             [
-                5.234621416883023e-11
+                2.5540197734486014e-10
             ]
         ],
         "classification_threshold": 0.5,
@@ -12711,7 +12766,7 @@
         ],
         "classification_conf": [
             [
-                3.253262320868089e-06
+                0.0006349170580506325
             ]
         ],
         "classification_threshold": 0.5,
@@ -12737,7 +12792,7 @@
         ],
         "classification_conf": [
             [
-                0.0001904000819195062
+                0.0022966484539210796
             ]
         ],
         "classification_threshold": 0.5,
@@ -12763,7 +12818,7 @@
         ],
         "classification_conf": [
             [
-                0.12718342244625092
+                0.1995486170053482
             ]
         ],
         "classification_threshold": 0.5,
@@ -12789,7 +12844,7 @@
         ],
         "classification_conf": [
             [
-                2.7427558961790055e-05
+                0.0003404137387406081
             ]
         ],
         "classification_threshold": 0.5,
@@ -12815,7 +12870,7 @@
         ],
         "classification_conf": [
             [
-                0.0007138776127249002
+                0.008392738178372383
             ]
         ],
         "classification_threshold": 0.5,
@@ -12841,7 +12896,7 @@
         ],
         "classification_conf": [
             [
-                4.92913976302134e-09
+                2.0093099010409787e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -12867,7 +12922,7 @@
         ],
         "classification_conf": [
             [
-                2.889575731468419e-11
+                3.6773445399873594e-11
             ]
         ],
         "classification_threshold": 0.5,
@@ -12893,7 +12948,7 @@
         ],
         "classification_conf": [
             [
-                0.03900180011987686
+                0.06299950182437897
             ]
         ],
         "classification_threshold": 0.5,
@@ -12919,7 +12974,7 @@
         ],
         "classification_conf": [
             [
-                6.314273196039721e-05
+                0.0023695763666182756
             ]
         ],
         "classification_threshold": 0.5,
@@ -12945,7 +13000,7 @@
         ],
         "classification_conf": [
             [
-                0.02763321064412594
+                0.042521435767412186
             ]
         ],
         "classification_threshold": 0.5,
@@ -12971,7 +13026,7 @@
         ],
         "classification_conf": [
             [
-                2.458795336224284e-07
+                3.972384729422629e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -12997,7 +13052,7 @@
         ],
         "classification_conf": [
             [
-                1.720180080155842e-06
+                0.0004114474286325276
             ]
         ],
         "classification_threshold": 0.5,
@@ -13023,7 +13078,7 @@
         ],
         "classification_conf": [
             [
-                8.346648883161834e-08
+                1.0384752386016771e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -13049,7 +13104,7 @@
         ],
         "classification_conf": [
             [
-                0.0002715646696742624
+                0.008769288659095764
             ]
         ],
         "classification_threshold": 0.5,
@@ -13075,7 +13130,7 @@
         ],
         "classification_conf": [
             [
-                7.392586121568456e-05
+                0.0016055721789598465
             ]
         ],
         "classification_threshold": 0.5,
@@ -13101,7 +13156,7 @@
         ],
         "classification_conf": [
             [
-                2.7267246238693588e-08
+                3.084670606767759e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -13122,12 +13177,12 @@
         "before img": "Forest-Valid (219).jpeg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.8472719192504883
+                0.17798110842704773
             ]
         ],
         "classification_threshold": 0.5,
@@ -13153,7 +13208,7 @@
         ],
         "classification_conf": [
             [
-                0.0003965130599681288
+                0.008016561158001423
             ]
         ],
         "classification_threshold": 0.5,
@@ -13179,7 +13234,7 @@
         ],
         "classification_conf": [
             [
-                6.0682822322633e-08
+                2.402146890290169e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -13205,7 +13260,7 @@
         ],
         "classification_conf": [
             [
-                2.1153100533410907e-06
+                0.00020438333740457892
             ]
         ],
         "classification_threshold": 0.5,
@@ -13231,7 +13286,7 @@
         ],
         "classification_conf": [
             [
-                0.0014477478107437491
+                0.005810090806335211
             ]
         ],
         "classification_threshold": 0.5,
@@ -13257,7 +13312,7 @@
         ],
         "classification_conf": [
             [
-                1.8309630149815348e-06
+                0.00012119816528866068
             ]
         ],
         "classification_threshold": 0.5,
@@ -13283,7 +13338,7 @@
         ],
         "classification_conf": [
             [
-                1.3558572391048074e-05
+                0.0007037547766231
             ]
         ],
         "classification_threshold": 0.5,
@@ -13309,7 +13364,7 @@
         ],
         "classification_conf": [
             [
-                0.0010292271617799997
+                0.00950642116367817
             ]
         ],
         "classification_threshold": 0.5,
@@ -13335,7 +13390,7 @@
         ],
         "classification_conf": [
             [
-                8.195642386965574e-09
+                2.0896850401186384e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -13361,7 +13416,7 @@
         ],
         "classification_conf": [
             [
-                9.314326598541811e-05
+                0.0022575377952307463
             ]
         ],
         "classification_threshold": 0.5,
@@ -13387,7 +13442,7 @@
         ],
         "classification_conf": [
             [
-                9.173941748485959e-07
+                1.5389171892365994e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -13413,7 +13468,7 @@
         ],
         "classification_conf": [
             [
-                0.00023199277347885072
+                0.00811183825135231
             ]
         ],
         "classification_threshold": 0.5,
@@ -13439,7 +13494,7 @@
         ],
         "classification_conf": [
             [
-                0.0008167564519681036
+                3.8067818763920513e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -13465,7 +13520,7 @@
         ],
         "classification_conf": [
             [
-                2.0502432107605273e-07
+                6.846534961368889e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -13491,7 +13546,7 @@
         ],
         "classification_conf": [
             [
-                8.450217865174636e-05
+                0.0017912518233060837
             ]
         ],
         "classification_threshold": 0.5,
@@ -13517,7 +13572,7 @@
         ],
         "classification_conf": [
             [
-                0.0005275669391267002
+                0.004404154606163502
             ]
         ],
         "classification_threshold": 0.5,
@@ -13543,7 +13598,7 @@
         ],
         "classification_conf": [
             [
-                1.5837532674201071e-10
+                2.2976941183028288e-10
             ]
         ],
         "classification_threshold": 0.5,
@@ -13569,7 +13624,7 @@
         ],
         "classification_conf": [
             [
-                3.404935705475509e-05
+                0.002303911605849862
             ]
         ],
         "classification_threshold": 0.5,
@@ -13595,7 +13650,7 @@
         ],
         "classification_conf": [
             [
-                9.475951628701296e-06
+                0.0005392233724705875
             ]
         ],
         "classification_threshold": 0.5,
@@ -13621,7 +13676,7 @@
         ],
         "classification_conf": [
             [
-                8.691746415934176e-07
+                2.988026426464785e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -13647,7 +13702,7 @@
         ],
         "classification_conf": [
             [
-                4.256111878930824e-06
+                1.8632226783665828e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -13673,7 +13728,7 @@
         ],
         "classification_conf": [
             [
-                4.684169834945351e-05
+                0.0016341233858838677
             ]
         ],
         "classification_threshold": 0.5,
@@ -13699,7 +13754,7 @@
         ],
         "classification_conf": [
             [
-                2.987573730073301e-11
+                2.0337499926866877e-14
             ]
         ],
         "classification_threshold": 0.5,
@@ -13725,7 +13780,7 @@
         ],
         "classification_conf": [
             [
-                1.3931321518612094e-07
+                5.056031659478322e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -13751,7 +13806,7 @@
         ],
         "classification_conf": [
             [
-                7.240282518185654e-22
+                2.852936239172589e-20
             ]
         ],
         "classification_threshold": 0.5,
@@ -13777,7 +13832,7 @@
         ],
         "classification_conf": [
             [
-                1.9078886907664128e-05
+                0.001027109450660646
             ]
         ],
         "classification_threshold": 0.5,
@@ -13803,7 +13858,7 @@
         ],
         "classification_conf": [
             [
-                0.0004407835367601365
+                0.0025352872908115387
             ]
         ],
         "classification_threshold": 0.5,
@@ -13829,7 +13884,7 @@
         ],
         "classification_conf": [
             [
-                0.005320155527442694
+                0.011696233414113522
             ]
         ],
         "classification_threshold": 0.5,
@@ -13855,7 +13910,7 @@
         ],
         "classification_conf": [
             [
-                3.0687733669765294e-05
+                0.0010846814839169383
             ]
         ],
         "classification_threshold": 0.5,
@@ -13881,7 +13936,7 @@
         ],
         "classification_conf": [
             [
-                9.201037443062887e-08
+                9.043899851235437e-09
             ]
         ],
         "classification_threshold": 0.5,
@@ -13907,7 +13962,7 @@
         ],
         "classification_conf": [
             [
-                5.360182967706351e-06
+                0.00025228678714483976
             ]
         ],
         "classification_threshold": 0.5,
@@ -13933,7 +13988,7 @@
         ],
         "classification_conf": [
             [
-                1.7059413949027658e-05
+                0.0006837769760750234
             ]
         ],
         "classification_threshold": 0.5,
@@ -13959,7 +14014,7 @@
         ],
         "classification_conf": [
             [
-                4.166848157183267e-05
+                0.0015939257573336363
             ]
         ],
         "classification_threshold": 0.5,
@@ -13985,7 +14040,7 @@
         ],
         "classification_conf": [
             [
-                0.02900315448641777
+                0.10501570999622345
             ]
         ],
         "classification_threshold": 0.5,
@@ -14011,7 +14066,7 @@
         ],
         "classification_conf": [
             [
-                2.1000208505483897e-07
+                3.3899446862051263e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -14037,7 +14092,7 @@
         ],
         "classification_conf": [
             [
-                3.364174335729331e-05
+                8.104009611997753e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -14063,7 +14118,7 @@
         ],
         "classification_conf": [
             [
-                5.0554001063574106e-05
+                0.0008423866238445044
             ]
         ],
         "classification_threshold": 0.5,
@@ -14089,7 +14144,7 @@
         ],
         "classification_conf": [
             [
-                3.578979885787703e-06
+                0.00024585233768448234
             ]
         ],
         "classification_threshold": 0.5,
@@ -14115,7 +14170,7 @@
         ],
         "classification_conf": [
             [
-                0.001350921462289989
+                0.008566109463572502
             ]
         ],
         "classification_threshold": 0.5,
@@ -14141,7 +14196,7 @@
         ],
         "classification_conf": [
             [
-                0.028542935848236084
+                0.05430598929524422
             ]
         ],
         "classification_threshold": 0.5,
@@ -14167,7 +14222,7 @@
         ],
         "classification_conf": [
             [
-                0.0019324227469041944
+                0.014745652675628662
             ]
         ],
         "classification_threshold": 0.5,
@@ -14193,7 +14248,7 @@
         ],
         "classification_conf": [
             [
-                0.0016677123494446278
+                0.004736917559057474
             ]
         ],
         "classification_threshold": 0.5,
@@ -14219,7 +14274,7 @@
         ],
         "classification_conf": [
             [
-                2.078047145914752e-05
+                0.0014168546767905354
             ]
         ],
         "classification_threshold": 0.5,
@@ -14245,7 +14300,7 @@
         ],
         "classification_conf": [
             [
-                2.620725535962265e-05
+                0.0006320468964986503
             ]
         ],
         "classification_threshold": 0.5,
@@ -14271,7 +14326,7 @@
         ],
         "classification_conf": [
             [
-                5.974324146507115e-09
+                1.0456413292558864e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -14297,7 +14352,7 @@
         ],
         "classification_conf": [
             [
-                1.1857483173116634e-07
+                1.938365841169798e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -14323,7 +14378,7 @@
         ],
         "classification_conf": [
             [
-                8.390269795199856e-05
+                5.337162747309776e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -14349,7 +14404,7 @@
         ],
         "classification_conf": [
             [
-                0.00010089240822708234
+                0.001504863379523158
             ]
         ],
         "classification_threshold": 0.5,
@@ -14375,7 +14430,7 @@
         ],
         "classification_conf": [
             [
-                2.2952548080117308e-17
+                3.835265912906054e-14
             ]
         ],
         "classification_threshold": 0.5,
@@ -14401,7 +14456,7 @@
         ],
         "classification_conf": [
             [
-                0.0030932838562875986
+                0.02208702079951763
             ]
         ],
         "classification_threshold": 0.5,
@@ -14427,7 +14482,7 @@
         ],
         "classification_conf": [
             [
-                1.175972670353076e-06
+                8.121431892504916e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -14448,12 +14503,12 @@
         "before img": "Forest-Valid (266).jpeg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.8854736089706421
+                0.22463524341583252
             ]
         ],
         "classification_threshold": 0.5,
@@ -14479,7 +14534,7 @@
         ],
         "classification_conf": [
             [
-                0.0017688601510599256
+                0.021251138299703598
             ]
         ],
         "classification_threshold": 0.5,
@@ -14505,7 +14560,7 @@
         ],
         "classification_conf": [
             [
-                0.09707378596067429
+                0.27354222536087036
             ]
         ],
         "classification_threshold": 0.5,
@@ -14531,7 +14586,7 @@
         ],
         "classification_conf": [
             [
-                2.749117811617907e-06
+                0.00015045733016449958
             ]
         ],
         "classification_threshold": 0.5,
@@ -14557,7 +14612,7 @@
         ],
         "classification_conf": [
             [
-                0.046358682215213776
+                0.06477698683738708
             ]
         ],
         "classification_threshold": 0.5,
@@ -14583,7 +14638,7 @@
         ],
         "classification_conf": [
             [
-                0.0049230242148041725
+                0.03251324221491814
             ]
         ],
         "classification_threshold": 0.5,
@@ -14609,7 +14664,7 @@
         ],
         "classification_conf": [
             [
-                0.03503952547907829
+                0.0636979192495346
             ]
         ],
         "classification_threshold": 0.5,
@@ -14635,7 +14690,7 @@
         ],
         "classification_conf": [
             [
-                2.918969232990065e-10
+                1.0601777233887333e-09
             ]
         ],
         "classification_threshold": 0.5,
@@ -14661,7 +14716,7 @@
         ],
         "classification_conf": [
             [
-                0.00011286322114756331
+                0.0021763003896921873
             ]
         ],
         "classification_threshold": 0.5,
@@ -14687,7 +14742,7 @@
         ],
         "classification_conf": [
             [
-                0.013173648156225681
+                0.02730165794491768
             ]
         ],
         "classification_threshold": 0.5,
@@ -14713,7 +14768,7 @@
         ],
         "classification_conf": [
             [
-                1.5711293599451892e-06
+                0.0004361942410469055
             ]
         ],
         "classification_threshold": 0.5,
@@ -14739,7 +14794,7 @@
         ],
         "classification_conf": [
             [
-                0.007949522696435452
+                0.03921692073345184
             ]
         ],
         "classification_threshold": 0.5,
@@ -14765,7 +14820,7 @@
         ],
         "classification_conf": [
             [
-                0.00019432633416727185
+                0.0010234558722004294
             ]
         ],
         "classification_threshold": 0.5,
@@ -14791,7 +14846,7 @@
         ],
         "classification_conf": [
             [
-                0.0010424713836982846
+                0.008772356435656548
             ]
         ],
         "classification_threshold": 0.5,
@@ -14817,7 +14872,7 @@
         ],
         "classification_conf": [
             [
-                0.00018041359726339579
+                0.0026727288495749235
             ]
         ],
         "classification_threshold": 0.5,
@@ -14843,7 +14898,7 @@
         ],
         "classification_conf": [
             [
-                0.03341454267501831
+                0.056275270879268646
             ]
         ],
         "classification_threshold": 0.5,
@@ -14869,7 +14924,7 @@
         ],
         "classification_conf": [
             [
-                8.461990364594385e-05
+                0.003468745155259967
             ]
         ],
         "classification_threshold": 0.5,
@@ -14895,7 +14950,7 @@
         ],
         "classification_conf": [
             [
-                4.52224412583746e-06
+                0.0005016479408368468
             ]
         ],
         "classification_threshold": 0.5,
@@ -14921,7 +14976,7 @@
         ],
         "classification_conf": [
             [
-                4.952852032147348e-05
+                0.00040827348129823804
             ]
         ],
         "classification_threshold": 0.5,
@@ -14947,7 +15002,7 @@
         ],
         "classification_conf": [
             [
-                0.0015776964137330651
+                0.014904606156051159
             ]
         ],
         "classification_threshold": 0.5,
@@ -14973,7 +15028,7 @@
         ],
         "classification_conf": [
             [
-                3.911522526323097e-06
+                0.00024923868477344513
             ]
         ],
         "classification_threshold": 0.5,
@@ -14999,7 +15054,7 @@
         ],
         "classification_conf": [
             [
-                0.001060859183780849
+                0.005492607597261667
             ]
         ],
         "classification_threshold": 0.5,
@@ -15025,7 +15080,7 @@
         ],
         "classification_conf": [
             [
-                1.9203014744562097e-05
+                0.0008418365614488721
             ]
         ],
         "classification_threshold": 0.5,
@@ -15051,7 +15106,7 @@
         ],
         "classification_conf": [
             [
-                0.002411983674392104
+                0.03857417404651642
             ]
         ],
         "classification_threshold": 0.5,
@@ -15077,7 +15132,7 @@
         ],
         "classification_conf": [
             [
-                6.20239952695556e-05
+                0.0016493629664182663
             ]
         ],
         "classification_threshold": 0.5,
@@ -15103,7 +15158,7 @@
         ],
         "classification_conf": [
             [
-                4.229178469236537e-25
+                7.311556213447125e-15
             ]
         ],
         "classification_threshold": 0.5,
@@ -15129,7 +15184,7 @@
         ],
         "classification_conf": [
             [
-                0.04172949492931366
+                0.024792054668068886
             ]
         ],
         "classification_threshold": 0.5,
@@ -15155,7 +15210,7 @@
         ],
         "classification_conf": [
             [
-                9.42665465686332e-08
+                1.208212324854685e-06
             ]
         ],
         "classification_threshold": 0.5,
@@ -15181,7 +15236,7 @@
         ],
         "classification_conf": [
             [
-                0.006328043062239885
+                0.02183109149336815
             ]
         ],
         "classification_threshold": 0.5,
@@ -15207,7 +15262,7 @@
         ],
         "classification_conf": [
             [
-                1.458506052556695e-19
+                3.0800860231333096e-16
             ]
         ],
         "classification_threshold": 0.5,
@@ -15233,7 +15288,7 @@
         ],
         "classification_conf": [
             [
-                6.785460526792519e-10
+                3.607522280901776e-09
             ]
         ],
         "classification_threshold": 0.5,
@@ -15259,7 +15314,7 @@
         ],
         "classification_conf": [
             [
-                0.005477172788232565
+                0.03793710097670555
             ]
         ],
         "classification_threshold": 0.5,
@@ -15285,7 +15340,7 @@
         ],
         "classification_conf": [
             [
-                1.3890205082134344e-05
+                0.00026476490893401206
             ]
         ],
         "classification_threshold": 0.5,
@@ -15311,7 +15366,7 @@
         ],
         "classification_conf": [
             [
-                0.0017784526571631432
+                0.01972026191651821
             ]
         ],
         "classification_threshold": 0.5,
@@ -15337,7 +15392,7 @@
         ],
         "classification_conf": [
             [
-                4.9165505515702534e-06
+                0.00017734883294906467
             ]
         ],
         "classification_threshold": 0.5,
@@ -15363,7 +15418,7 @@
         ],
         "classification_conf": [
             [
-                1.5488866722535022e-07
+                5.695905565517023e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -15389,7 +15444,7 @@
         ],
         "classification_conf": [
             [
-                0.000526962336152792
+                0.011575720272958279
             ]
         ],
         "classification_threshold": 0.5,
@@ -15415,7 +15470,7 @@
         ],
         "classification_conf": [
             [
-                0.0001677437248872593
+                0.0018482264131307602
             ]
         ],
         "classification_threshold": 0.5,
@@ -15441,7 +15496,7 @@
         ],
         "classification_conf": [
             [
-                1.7999405827140436e-05
+                0.0008054839563556015
             ]
         ],
         "classification_threshold": 0.5,
@@ -15467,7 +15522,7 @@
         ],
         "classification_conf": [
             [
-                5.429106469945211e-11
+                3.500896923469554e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -15493,7 +15548,7 @@
         ],
         "classification_conf": [
             [
-                0.5187660455703735
+                0.5517143607139587
             ]
         ],
         "classification_threshold": 0.5,
@@ -15519,7 +15574,7 @@
         ],
         "classification_conf": [
             [
-                1.2657663979454004e-11
+                2.4670601672660553e-10
             ]
         ],
         "classification_threshold": 0.5,
@@ -15545,7 +15600,7 @@
         ],
         "classification_conf": [
             [
-                0.010921064764261246
+                0.015882233157753944
             ]
         ],
         "classification_threshold": 0.5,
@@ -15571,7 +15626,7 @@
         ],
         "classification_conf": [
             [
-                0.0019798430148512125
+                0.007562331855297089
             ]
         ],
         "classification_threshold": 0.5,
@@ -15597,7 +15652,7 @@
         ],
         "classification_conf": [
             [
-                0.9152277708053589
+                0.5219046473503113
             ]
         ],
         "classification_threshold": 0.5,
@@ -15623,7 +15678,7 @@
         ],
         "classification_conf": [
             [
-                0.001088287914171815
+                0.006760485004633665
             ]
         ],
         "classification_threshold": 0.5,
@@ -15649,7 +15704,7 @@
         ],
         "classification_conf": [
             [
-                0.001424804562702775
+                0.0031135710887610912
             ]
         ],
         "classification_threshold": 0.5,
@@ -15675,7 +15730,7 @@
         ],
         "classification_conf": [
             [
-                2.0477810380725714e-07
+                3.213406074564773e-08
             ]
         ],
         "classification_threshold": 0.5,
@@ -15701,7 +15756,7 @@
         ],
         "classification_conf": [
             [
-                0.000541423971299082
+                0.004451649729162455
             ]
         ],
         "classification_threshold": 0.5,
@@ -15727,7 +15782,7 @@
         ],
         "classification_conf": [
             [
-                8.773092758929124e-07
+                8.594802056904882e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -15753,7 +15808,7 @@
         ],
         "classification_conf": [
             [
-                2.072345705528278e-05
+                0.0004541650414466858
             ]
         ],
         "classification_threshold": 0.5,
@@ -15779,7 +15834,7 @@
         ],
         "classification_conf": [
             [
-                0.00020517976372502744
+                0.00157101487275213
             ]
         ],
         "classification_threshold": 0.5,
@@ -15805,7 +15860,7 @@
         ],
         "classification_conf": [
             [
-                7.310532055271324e-06
+                0.0007054898887872696
             ]
         ],
         "classification_threshold": 0.5,
@@ -15831,7 +15886,7 @@
         ],
         "classification_conf": [
             [
-                9.139824396697804e-05
+                0.002180743031203747
             ]
         ],
         "classification_threshold": 0.5,
@@ -15857,7 +15912,7 @@
         ],
         "classification_conf": [
             [
-                0.0005779477069154382
+                0.005298986099660397
             ]
         ],
         "classification_threshold": 0.5,
@@ -15883,7 +15938,7 @@
         ],
         "classification_conf": [
             [
-                0.0033848704770207405
+                0.04896731674671173
             ]
         ],
         "classification_threshold": 0.5,
@@ -15909,7 +15964,7 @@
         ],
         "classification_conf": [
             [
-                0.0002746727259363979
+                0.002477621892467141
             ]
         ],
         "classification_threshold": 0.5,
@@ -15935,7 +15990,7 @@
         ],
         "classification_conf": [
             [
-                6.410846981452778e-05
+                0.0029042360838502645
             ]
         ],
         "classification_threshold": 0.5,
@@ -15956,12 +16011,12 @@
         "before img": "Forest-Valid (51).jpeg",
         "classification_prediction": [
             [
-                true
+                false
             ]
         ],
         "classification_conf": [
             [
-                0.565464973449707
+                0.4800017178058624
             ]
         ],
         "classification_threshold": 0.5,
@@ -15987,7 +16042,7 @@
         ],
         "classification_conf": [
             [
-                0.3419547975063324
+                0.4420716166496277
             ]
         ],
         "classification_threshold": 0.5,
@@ -16013,7 +16068,7 @@
         ],
         "classification_conf": [
             [
-                0.01983320154249668
+                0.09783825278282166
             ]
         ],
         "classification_threshold": 0.5,
@@ -16039,7 +16094,7 @@
         ],
         "classification_conf": [
             [
-                0.00028119474882259965
+                0.002292465418577194
             ]
         ],
         "classification_threshold": 0.5,
@@ -16065,7 +16120,7 @@
         ],
         "classification_conf": [
             [
-                9.804691671888577e-07
+                0.0003718924126587808
             ]
         ],
         "classification_threshold": 0.5,
@@ -16091,7 +16146,7 @@
         ],
         "classification_conf": [
             [
-                0.0011879982193931937
+                0.008699022233486176
             ]
         ],
         "classification_threshold": 0.5,
@@ -16117,7 +16172,7 @@
         ],
         "classification_conf": [
             [
-                1.5808670350089967e-15
+                1.6788343561451717e-17
             ]
         ],
         "classification_threshold": 0.5,
@@ -16143,7 +16198,7 @@
         ],
         "classification_conf": [
             [
-                0.012328271754086018
+                0.024507610127329826
             ]
         ],
         "classification_threshold": 0.5,
@@ -16169,7 +16224,7 @@
         ],
         "classification_conf": [
             [
-                0.014047378674149513
+                0.06970572471618652
             ]
         ],
         "classification_threshold": 0.5,
@@ -16221,7 +16276,7 @@
         ],
         "classification_conf": [
             [
-                0.000775733555201441
+                0.005590927321463823
             ]
         ],
         "classification_threshold": 0.5,
@@ -16247,7 +16302,7 @@
         ],
         "classification_conf": [
             [
-                0.005306740291416645
+                0.011316554620862007
             ]
         ],
         "classification_threshold": 0.5,
@@ -16273,7 +16328,7 @@
         ],
         "classification_conf": [
             [
-                2.5603392828088545e-07
+                2.9237335184006952e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -16299,7 +16354,7 @@
         ],
         "classification_conf": [
             [
-                0.00036497850669547915
+                0.00963685568422079
             ]
         ],
         "classification_threshold": 0.5,
@@ -16325,7 +16380,7 @@
         ],
         "classification_conf": [
             [
-                0.9994667172431946
+                0.951654314994812
             ]
         ],
         "classification_threshold": 0.5,
@@ -16351,7 +16406,7 @@
         ],
         "classification_conf": [
             [
-                0.13399240374565125
+                0.04362945258617401
             ]
         ],
         "classification_threshold": 0.5,
@@ -16377,7 +16432,7 @@
         ],
         "classification_conf": [
             [
-                0.02619917131960392
+                0.17025351524353027
             ]
         ],
         "classification_threshold": 0.5,
@@ -16403,7 +16458,7 @@
         ],
         "classification_conf": [
             [
-                4.094468328567826e-16
+                1.4392854312886283e-12
             ]
         ],
         "classification_threshold": 0.5,
@@ -16429,7 +16484,7 @@
         ],
         "classification_conf": [
             [
-                0.11283379793167114
+                0.07984177023172379
             ]
         ],
         "classification_threshold": 0.5,
@@ -16455,7 +16510,7 @@
         ],
         "classification_conf": [
             [
-                7.693100997130387e-06
+                0.00029018850182183087
             ]
         ],
         "classification_threshold": 0.5,
@@ -16481,7 +16536,7 @@
         ],
         "classification_conf": [
             [
-                0.002024234039708972
+                0.024598335847258568
             ]
         ],
         "classification_threshold": 0.5,
@@ -16507,7 +16562,7 @@
         ],
         "classification_conf": [
             [
-                0.9310391545295715
+                0.8322946429252625
             ]
         ],
         "classification_threshold": 0.5,
@@ -16533,7 +16588,7 @@
         ],
         "classification_conf": [
             [
-                0.018762975931167603
+                0.01325248833745718
             ]
         ],
         "classification_threshold": 0.5,
@@ -16559,7 +16614,7 @@
         ],
         "classification_conf": [
             [
-                0.001277762115933001
+                0.07006929069757462
             ]
         ],
         "classification_threshold": 0.5,
@@ -16585,7 +16640,7 @@
         ],
         "classification_conf": [
             [
-                1.2375838448832857e-31
+                2.0466745722621744e-24
             ]
         ],
         "classification_threshold": 0.5,
@@ -16611,7 +16666,7 @@
         ],
         "classification_conf": [
             [
-                1.5099918537764268e-10
+                4.1640253528249516e-13
             ]
         ],
         "classification_threshold": 0.5,
@@ -16637,7 +16692,7 @@
         ],
         "classification_conf": [
             [
-                0.00010887593089137226
+                0.004447368439286947
             ]
         ],
         "classification_threshold": 0.5,
@@ -16663,7 +16718,7 @@
         ],
         "classification_conf": [
             [
-                0.07861104607582092
+                0.06013666093349457
             ]
         ],
         "classification_threshold": 0.5,
@@ -16689,7 +16744,7 @@
         ],
         "classification_conf": [
             [
-                3.817606557277031e-05
+                0.0011326888343319297
             ]
         ],
         "classification_threshold": 0.5,
@@ -16715,7 +16770,7 @@
         ],
         "classification_conf": [
             [
-                0.05667714774608612
+                0.06285520642995834
             ]
         ],
         "classification_threshold": 0.5,
@@ -16741,7 +16796,7 @@
         ],
         "classification_conf": [
             [
-                0.008336054161190987
+                0.10273361206054688
             ]
         ],
         "classification_threshold": 0.5,
@@ -16767,7 +16822,7 @@
         ],
         "classification_conf": [
             [
-                0.000179465496330522
+                0.0021771567407995462
             ]
         ],
         "classification_threshold": 0.5,
@@ -16793,7 +16848,7 @@
         ],
         "classification_conf": [
             [
-                0.0006811477360315621
+                0.005848973523825407
             ]
         ],
         "classification_threshold": 0.5,
@@ -16819,7 +16874,7 @@
         ],
         "classification_conf": [
             [
-                0.04228457435965538
+                0.16198411583900452
             ]
         ],
         "classification_threshold": 0.5,
@@ -16845,7 +16900,7 @@
         ],
         "classification_conf": [
             [
-                3.7232020986266434e-05
+                0.007331517990678549
             ]
         ],
         "classification_threshold": 0.5,
@@ -16871,7 +16926,7 @@
         ],
         "classification_conf": [
             [
-                5.141126530361362e-05
+                0.0012711392482742667
             ]
         ],
         "classification_threshold": 0.5,
@@ -16897,7 +16952,7 @@
         ],
         "classification_conf": [
             [
-                6.730887402994767e-09
+                1.4245480087993201e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -16923,7 +16978,7 @@
         ],
         "classification_conf": [
             [
-                0.9978352189064026
+                0.9646485447883606
             ]
         ],
         "classification_threshold": 0.5,
@@ -16949,7 +17004,7 @@
         ],
         "classification_conf": [
             [
-                0.00042346917325630784
+                0.007928765378892422
             ]
         ],
         "classification_threshold": 0.5,
@@ -16975,7 +17030,7 @@
         ],
         "classification_conf": [
             [
-                0.00977453961968422
+                0.021322334185242653
             ]
         ],
         "classification_threshold": 0.5,
@@ -17001,7 +17056,7 @@
         ],
         "classification_conf": [
             [
-                0.0060308403335511684
+                0.0057833874598145485
             ]
         ],
         "classification_threshold": 0.5,
@@ -17027,7 +17082,7 @@
         ],
         "classification_conf": [
             [
-                6.60868920476787e-07
+                9.426105680176988e-05
             ]
         ],
         "classification_threshold": 0.5,
@@ -17053,7 +17108,7 @@
         ],
         "classification_conf": [
             [
-                3.401779622436152e-06
+                2.850626401595946e-07
             ]
         ],
         "classification_threshold": 0.5,
@@ -17079,7 +17134,7 @@
         ],
         "classification_conf": [
             [
-                0.9996110796928406
+                0.9848854541778564
             ]
         ],
         "classification_threshold": 0.5,
@@ -17105,7 +17160,7 @@
         ],
         "classification_conf": [
             [
-                0.0013322745217010379
+                0.014460112899541855
             ]
         ],
         "classification_threshold": 0.5,
