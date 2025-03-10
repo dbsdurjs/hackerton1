@@ -466,3 +466,138 @@ r_f_cls_t_od_f: 9
 r_f_cls_f_od_t: 0
 r_t_cls_od_f: 49
 r_f_cls_od_f: 267
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 146
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 121
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 7
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 54
+r_f_cls_od_f: 269
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 143
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 112
+r_t_cls_f_od_t: 8
+r_f_cls_t_od_f: 2
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 67
+r_f_cls_od_f: 275
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 145
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 115
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 2
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 61
+r_f_cls_od_f: 275
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 147
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 117
+r_t_cls_f_od_t: 6
+r_f_cls_t_od_f: 5
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 60
+r_f_cls_od_f: 273
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 149
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 122
+r_t_cls_f_od_t: 8
+r_f_cls_t_od_f: 8
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 51
+r_f_cls_od_f: 268
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 151
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 118
+r_t_cls_f_od_t: 7
+r_f_cls_t_od_f: 7
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 54
+r_f_cls_od_f: 269
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 150
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 118
+r_t_cls_f_od_t: 7
+r_f_cls_t_od_f: 6
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 55
+r_f_cls_od_f: 270
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 149
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 112
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 2
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 60
+r_f_cls_od_f: 275
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 145
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 117
+r_t_cls_f_od_t: 5
+r_f_cls_t_od_f: 4
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 63
+r_f_cls_od_f: 273
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 145
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 121
+r_t_cls_f_od_t: 8
+r_f_cls_t_od_f: 4
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 56
+r_f_cls_od_f: 274
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 150
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 119
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 7
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 52
+r_f_cls_od_f: 269
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 153
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 115
+r_t_cls_f_od_t: 5
+r_f_cls_t_od_f: 6
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 57
+r_f_cls_od_f: 270
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 149
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 120
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 6
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 52
+r_f_cls_od_f: 270
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 144
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 119
+r_t_cls_f_od_t: 8
+r_f_cls_t_od_f: 4
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 59
+r_f_cls_od_f: 272
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 152
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 118
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 6
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 51
+r_f_cls_od_f: 270
