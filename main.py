@@ -29,5 +29,5 @@ if __name__ == "__main__":
     num_epochs = training(device)
 
     # 테스트
-    testing(device)
+    # testing(device)
     
