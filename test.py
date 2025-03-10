@@ -29,7 +29,7 @@ detect_model = YOLO("../yolov8x.pt")
 #모델 로드
 def load_ensemble_models(ensemble_model, device):
     models = ensemble_model
-    models.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'VGG_models.pt')))
+    models.load_state_dict(torch.load(os.path.join(checkpoint_dir, f'Dense_models.pt')))
     models.to(device)
     models.eval()
     return models

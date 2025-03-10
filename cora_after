@@ -232,3 +232,21 @@ r_f_cls_t_od_f: 12
 r_f_cls_f_od_t: 0
 r_t_cls_od_f: 85
 r_f_cls_od_f: 265
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 155
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 127
+r_t_cls_f_od_t: 4
+r_f_cls_t_od_f: 12
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 44
+r_f_cls_od_f: 263
+cls_threshold : 0.5, od_threshold : 0.6, 
+r_t_cls_od_t: 137
+r_f_cls_od_t: 0
+r_t_cls_t_od_f: 111
+r_t_cls_f_od_t: 9
+r_f_cls_t_od_f: 5
+r_f_cls_f_od_t: 0
+r_t_cls_od_f: 73
+r_f_cls_od_f: 272
